@@ -1,0 +1,35 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {equcaption}{\numberline {1}{\ignorespaces Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias}}{51}{equcaption.caption.10}%
+\contentsline {equcaption}{\numberline {2}{\ignorespaces Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos}}{51}{equcaption.caption.12}%
+\contentsline {equcaption}{\numberline {3}{\ignorespaces Fórmula del algoritmo k-means}}{52}{equcaption.caption.15}%
+\contentsline {equcaption}{\numberline {4}{\ignorespaces Fórmula del cálculo del valor de un nodo i}}{62}{equcaption.caption.26}%
+\contentsline {equcaption}{\numberline {5}{\ignorespaces Fórmula de una función de activación g para la salida del nodo}}{62}{equcaption.caption.28}%
+\contentsline {equcaption}{\numberline {6}{\ignorespaces Fórmula de la función de activación sigmoide}}{63}{equcaption.caption.31}%
+\contentsline {equcaption}{\numberline {7}{\ignorespaces Fórmula de función de coste de una regresión logística}}{64}{equcaption.caption.34}%
+\contentsline {equcaption}{\numberline {8}{\ignorespaces Actualización de pesos W mediante gradiente descendiente}}{65}{equcaption.caption.37}%
+\contentsline {equcaption}{\numberline {9}{\ignorespaces Fórmula del algoritmo de propagación hacia atrás}}{66}{equcaption.caption.40}%
+\contentsline {equcaption}{\numberline {10}{\ignorespaces Cálculo del error cometido en una red neuronal}}{67}{equcaption.caption.44}%
+\contentsline {equcaption}{\numberline {11}{\ignorespaces Actualización de pesos mediante propagación hacia atrás}}{67}{equcaption.caption.46}%
+\contentsline {equcaption}{\numberline {12}{\ignorespaces Cálculo de errores de nodos usando pesos actualizados}}{68}{equcaption.caption.48}%
+\contentsline {equcaption}{\numberline {13}{\ignorespaces Fórmula de la función de activación tangente hiperbólica}}{68}{equcaption.caption.51}%
+\contentsline {equcaption}{\numberline {14}{\ignorespaces Fórmula de la función de activación puramente lineal}}{69}{equcaption.caption.54}%
+\contentsline {equcaption}{\numberline {15}{\ignorespaces Fórmula de la función de activación ReLU}}{69}{equcaption.caption.57}%
+\contentsline {equcaption}{\numberline {16}{\ignorespaces Fórmula matemática de la convolución}}{72}{equcaption.caption.63}%
+\contentsline {equcaption}{\numberline {17}{\ignorespaces Cálculo del volumen del mapa de activación}}{74}{equcaption.caption.70}%
+\contentsline {equcaption}{\numberline {18}{\ignorespaces Cálculo del tamaño de la imagen reducida}}{75}{equcaption.caption.73}%
+\contentsline {equcaption}{\numberline {19}{\ignorespaces Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros}}{76}{equcaption.caption.76}%
+\contentsline {equcaption}{\numberline {20}{\ignorespaces Ecuación del hiperplano para clasificar dos clases}}{79}{equcaption.caption.83}%
+\contentsline {equcaption}{\numberline {21}{\ignorespaces Fórmula para determinar un estado en una S-RNN}}{84}{equcaption.caption.90}%
+\contentsline {equcaption}{\numberline {22}{\ignorespaces Fórmula de TF-IDF}}{91}{equcaption.caption.101}%
+\addvspace {10\p@ }
+\contentsline {equcaption}{\numberline {1}{\ignorespaces Fórmula para calcular la exactitud}}{102}{equcaption.caption.106}%
+\contentsline {equcaption}{\numberline {2}{\ignorespaces Fórmula para calcular la precisión}}{102}{equcaption.caption.108}%
+\contentsline {equcaption}{\numberline {3}{\ignorespaces Fórmula para calcular la sensibilidad}}{104}{equcaption.caption.112}%
+\contentsline {equcaption}{\numberline {4}{\ignorespaces Fórmula para calcular el puntaje F1}}{104}{equcaption.caption.114}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

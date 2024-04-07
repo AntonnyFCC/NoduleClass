@@ -1,0 +1,27 @@
+=>PYTHONTEX#py#default#defaultverb#0#verbatim####desarrollo.tex#460#
+train_test_split(X, Y, test_size = 0.20, stratify = Y, random_state=0)
+=>PYTHONTEX:SETTINGS#
+version=0.17
+outputdir=pythontex-files-tesis
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

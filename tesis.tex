@@ -1,0 +1,402 @@
+%\documentclass[a4paper,12pt,twoside]{book}
+\documentclass[listof=nochaptergap,12pt,times,authoryear]{report}
+\usepackage{mathptmx}%This package supersedes times and mathptm
+\usepackage[a4paper,right=2.54cm,left=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{newclude}
+\usepackage{float}
+\usepackage[export]{adjustbox}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{N}{@{}m{0pt}@{}}
+\newcommand\fillin[1][3cm]{\makebox[#1]{\dotfill}}
+
+%%Paquete para ocultar indices de tabla de contenidos
+%% Numeración continua en figuras y tablas
+\setcounter{equation}{0}
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+\counterwithout{equation}{chapter}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+% Parche para eliminar espacios por capítulos en lista de figuras y tablas
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\makeatletter
+% \patchcmd{<cmd>}{<search>}{<replace>}{<succes>}{<failure>}
+\patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
+\patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
+\makeatother
+
+
+%%%%paquete para usar citas de diferentes formatos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%add al indice
+%\usepackage[nottoc,numbib]{tocbibind}
+%\usepackage[authoryear,round]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[spanish,es-lcroman]{babel}
+\decimalpoint
+%% Citas y bibliografía formato APA
+\usepackage[backend=biber,style=apa,natbib=true]{biblatex}
+%\DeclareLanguageMapping{australian}{australian-apa}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+\addbibresource{biblio/references.bib}
+
+%% Formato DOI
+\DeclareFieldFormat{doi}{%
+	doi\addcolon\space
+	\ifhyperref
+	{\lowercase{\href{https://doi.org/#1}{\nolinkurl{#1}}}}
+	{\lowercase{\nolinkurl{#1}}}}
+
+%% Formato de URL en referencias
+\DeclareFieldFormat{url}{{Recuperado de}\space\url{#1}}
+
+%% Convertir comando cita por textcite para que tenga formato APA
+\let\cite\textcite
+
+%% Para que texto de figuras y tablas tenga formato APA
+\usepackage{multirow,booktabs,setspace,caption}
+\DeclareCaptionLabelSeparator*{spaced}{\\[2ex]}
+\captionsetup[table]{labelfont=normalfont,textfont=it,format=plain,justification=justified,singlelinecheck=false,labelsep=newline,skip=2pt}
+\captionsetup[figure]{labelsep=period,labelfont={it,bf},justification=justified,singlelinecheck=false,font=doublespacing}
+\captionsetup[subfigure]{justification=centering}
+
+%%%Editar formato y tamaño de capítulos y secciones
+\usepackage{titlesec}
+\titleformat{\chapter}
+{\centering\normalfont\large\bfseries}{Capítulo \thechapter:}{1em}{}
+\titlespacing*{\chapter}{0pt}{-4ex}{1ex}
+
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+
+%\usepackage{biblatex}
+%paquete para hiperlinks entre citas e imagenes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[colorlinks=true,
+citecolor=black,
+urlcolor=black,
+bookmarks=true,
+linkcolor=black,
+pdftitle={Tesis-nombre-alumno},
+pdfauthor={autor nombres}]{hyperref}
+
+\usepackage{amssymb}
+\usepackage{graphicx} % for improved inclusion of graphics
+%\usepackage{wrapfig} % to include figure with text wrapping around it
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption} % for improved layout of figure captions with extra margin, smaller font than text
+\usepackage{subcaption}
+\usepackage{eucal}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage[perpage]{footmisc}
+%\usepackage[round, sort]{natbib}
+\usepackage{ifthen}
+\usepackage{multicol} % for pages with multiple text columns, e.g. References
+\setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
+%% Para no mostrar índices de figuras ni tablas en el índice general
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+%\usepackage{appendix}
+\usepackage[titletoc,title]{appendix} 
+
+%%%----Modificar encabezado y pie de pagina
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr} % for better header layout
+\newcommand{\changefont}{%
+	\fontsize{9pt}{1.5pt}\selectfont
+}
+
+\pagestyle{fancy}
+%%Para borrar fancy por default (incluye numeracion)
+\fancyhf{} % sets both header and footer to nothing
+%%Para borrar linea de encabezado
+\renewcommand{\headrulewidth}{0pt}
+%%Encabezados solo con numero de pagina
+\fancypagestyle{normal}{%
+	\fancyhead{} % clear all header fields
+	\fancyhead[R]{\thepage}}
+%%Encabezados con titulo de tesis y numero de pagina
+\fancypagestyle{special}{%
+	\fancyhead[L]{\changefont Diseño de un modelo de Deep Learning para la clasificación de nódulos tiroideos a través de imágenes de ultrasonido}
+	\fancyhead[R]{\thepage}}
+
+
+%\fancyhf{} %% delete default configuration of page
+%%\setlength\headheight{15pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%% Configuracion de los parrafos
+%\usepackage{setspace}
+%\onehalfspacing
+%\linespread{1.25} 
+\setlength{\parindent}{0.5in} %%sangria
+\setlength{\parskip}{3mm}  %%espacio entre parrafos
+\linespread{1.3} %This equals 1.5 linespacing in Word
+%%%% nuevo parrafo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%% Centrar valores de una tabla
+\usepackage{array}
+%%CENTRADO HORIZONTAL
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+%%CENTRADO VERTICAL
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%%Paquete para alinear texto
+\usepackage{ragged2e}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{rotating}
+\usepackage{siunitx} % To align the numbers later on
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+\definecolor{orange}{rgb}{1,0.647,0}
+\definecolor{turq3}{rgb}{0.54, 0.81, 0.94}
+\definecolor{turq}{rgb}{0.63, 0.79, 0.95}
+\definecolor{bluejean}{rgb}{0.03, 0.27, 0.49}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xparse}
+\usepackage{expl3}
+%%%%funcion de reemplazar regex
+\ExplSyntaxOn
+\NewDocumentCommand{\replace}{mmm}
+{
+	\marian_replace:nnn {#1} {#2} {#3}
+}
+
+\tl_new:N \l_marian_input_text_tl
+\tl_new:N \l_marian_search_tl
+\tl_new:N \l_marian_replace_tl
+
+\cs_new_protected:Npn \marian_replace:nnn #1 #2 #3
+{
+	\tl_set:Nn \l_marian_input_text_tl { #1 }
+	\tl_set:Nn \l_marian_search_tl { #2 }
+	\tl_set:Nn \l_marian_replace_tl { #3 }
+	\regex_replace_all:nnN { \b\u{l_marian_search_tl}\b } { \u{l_marian_replace_tl} } \l_marian_input_text_tl
+	\tl_use:N \l_marian_input_text_tl
+}
+\ExplSyntaxOff
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+%\setcounter{equation}{0}
+%\numberwithin{equation}{chapter} %%enumerar ecuaciones
+%\renewcommand{\theequation}{Ecuación \arabic{equation}}   
+\usepackage{mathtools, nccmath, cool}
+%%%Configuraciones de biblatex
+
+%\include{biblio/config}
+\makeatletter
+\let\abx@macro@citeOrig\abx@macro@cite
+\renewbibmacro{cite}{%
+	\bibhyperref{%
+		\let\bibhyperref\relax\relax%
+		\abx@macro@citeOrig%
+	}%
+}
+\let\abx@macro@textciteOrig\abx@macro@textcite
+\renewbibmacro{textcite}{%
+	\bibhyperref{%
+		\let\bibhyperref\relax\relax%
+		\abx@macro@textciteOrig%
+	}%
+}%
+
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Agregando librerias para que aparezca texto debajo de las ecuaciones.
+\usepackage[titles]{tocloft}
+
+%% Para agregar palabra "CAPÍTULO" en 
+\newlength\mynewlength
+\let\oldcftchappresnum\cftchappresnum
+\renewcommand*\cftchappresnum{Capítulo \oldcftchappresnum}
+\renewcommand\cftchapaftersnum{:}
+\settowidth\mynewlength{\cftchappresnum\cftchapaftersnum\quad}
+\addtolength\cftchapnumwidth{\mynewlength}
+
+\usepackage{xpatch}
+\usepackage{caption}
+\DeclareCaptionType{equcaption}[Ecuación][Índice de Ecuaciones]
+
+\newenvironment{conditions}
+{\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+	{\end{tabular}\par\vspace{\belowdisplayskip}}
+
+% Para agregar linea de puntos en la tabla de contenidos
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+
+% Para eliminar linea de puntos de la tabla de contenidos
+%\renewcommand{\cftdot}{}
+
+% Para alinear párrafo en indice de figuras y tablas
+\cftsetindents{figure}{0em}{2.5em}
+\renewcommand\cftfigpresnum{\figurename~}
+\renewcommand{\cftfigaftersnum}{.} % Goes after figure number
+\newlength\mylength
+\settowidth\mylength{\cftfigpresnum}
+\addtolength\cftfignumwidth{\mylength}
+\cftsetindents{table}{0em}{2.5em}
+\renewcommand\cfttabpresnum{Tabla }
+\renewcommand{\cfttabaftersnum}{.} % Goes after figure number
+\settowidth\mylength{\cfttabpresnum}
+\addtolength\cfttabnumwidth{\mylength}
+
+\DefineBibliographyExtras{spanish}{%
+	\savecommand\sptext
+	\renewcommand*{\sptext}{\textsuperscript}}
+
+\UndefineBibliographyExtras{spanish}{%
+	\restorecommand\sptext}
+
+%%Formato APA (No funciona en biblatex)
+\usepackage{apalike}
+%\bibliographystyle{apalike}
+
+\begin{document}
+% Se añade esto para agregar la lista de ecuaciones en el indice del documento	
+
+\newcommand{\listequationsname}{Índice de Ecuaciones}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+	\addcontentsline{equ}{myequations}{Ecuación \protect\numberline{\theequation}#1}\par}
+%\addcontentsline{toc}{section}{Índice de Ecuaciones}
+
+%%Numeros de pagina en romano (minuscula)
+%\pagenumbering{roman}
+\renewcommand{\thepage}{\roman{page}}
+
+% Beginning of hack...
+%\let\oldthispagestyle=\thispagestyle % If we want to see a page number.
+%\def\thispagestyle#1{} % If we want to see a page number.
+%\let\oldsetcounter=\setcounter
+%\def\setcounter#1#2{}
+% End of hack...
+
+\begin{titlepage}
+
+	\begin{center}
+		%%%cargar imagen
+	    \includegraphics[width=0.20\textwidth]{images_repo/esanlogomin}
+		\vspace*{2cm} \\
+		UNIVERSIDAD ESAN \vspace*{1ex} \\
+		FACULTAD DE INGENIERÍA \vspace*{1ex} \\
+		INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS
+		\vspace*{8ex} \\
+		%\textbf
+		{Diseño de un modelo de Deep Learning para la clasificación de nódulos tiroideos a través de imágenes de ultrasonido}
+		\vspace*{8ex}\\	
+		Tesis de investigación para el curso Trabajo de Tesis II 
+		\vspace*{8ex} \\	
+		Antonny Fernando Corcino Castillo \\
+		Asesor: Marks Calderón		
+		\vfill
+		Lima, \today 
+		
+	\end{center}
+\end{titlepage}
+%%Permite mostrar encabezado y numeracion en primera pagina de capitulos - indices
+\fancypagestyle{plain}{}
+%%cambiar nombres de objetos para el indice y otros
+\renewcommand{\listfigurename}{Índice de Figuras}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{Índice de Tablas}
+%%Permite empezar conteo de paginas de forma personalizada
+\addtocounter{page}{1}
+\pagestyle{normal}
+\include{0/aprobacion}
+\include{0/titulo}
+\include{0/agradecimientos}
+
+% outline
+\tableofcontents            % print the table of contents
+
+%: ----------------------- contents ------------------------
+
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+
+% levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
+
+
+%: ----------------------- list of figures/tables ------------------------
+\clearpage
+\listoffigures
+\clearpage
+\listoftables  % print list of tables
+\clearpage
+\phantomsection
+%\listofequcaptions % print list of equations
+\listofmyequations
+\clearpage
+%% Numeros de pagina en arabic (si se desea continuar la numeración)
+%\renewcommand{\thepage}{\arabic{page}}
+%% Para reiniciar la numeración
+\pagenumbering{arabic}
+%%Encabezado con titulo de tesis y numeracion
+\pagestyle{special}
+\include{0/resumen}
+\include{0/introduccion}
+%\newcommand\chap[1]{%
+%	\chapter*{#1}%
+%	\addcontentsline{toc}{chapter}{#1}}
+
+
+%%Num. de capitulos en romano y el resto en arabic
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+
+% Este es el comando que funciona para las ecuaciones
+\renewcommand{\theequcaption}{\arabic{equcaption}}
+
+%%Para insertar los capítulos y agregando nueva página al terminar
+%\include{1/planteamiento}
+%\include{2/marco}
+%\include{3/metodologia}
+%\include{4/desarrollo}
+%\include{5/resultados}
+%\include{6/conclusion}
+
+%%Para insertar los capítulos de forma seguida
+\input{1/planteamiento}
+\input{2/marco}
+\input{3/metodologia}
+\input{4/desarrollo}
+\input{5/resultados}
+\input{6/conclusion}
+% %%Bibliografia
+%\bibliographystyle{apalike} % No funciona
+%\renewcommand{\bibname}{BIBLIOGRAFÍA} % changes the header; default: Bibliography
+
+\printbibliography[heading=bibintoc,title={Referencias}]
+%\bibliography{biblio/references} % adjust this to fit your BibTex file
+
+%%Anexos
+\appendix
+\renewcommand{\appendixname}{Anexo} %Esto es para las paginas
+\renewcommand{\appendixtocname}{Anexos} %Esto es para el indice
+\renewcommand{\appendixpagename}{Anexos}
+\clearpage
+\addappheadtotoc
+\appendixpage
+\include{anexos/anexo}
+\end{document}
