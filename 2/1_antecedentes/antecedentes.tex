@@ -52,7 +52,31 @@ El modelo construido en esta investigación se basó en MSL (Multi Stage Learnin
 
 Los resultados fueron extraídos de 3 modelos CIsNet, MS-MTL y MS-MTL con intra e inter task consistency. La medida AUC obtenida para cada modelo es 0.9277, 0.9523 y 0.9608, respectivamente. Además, se determinó que el intra task cosistency y el MSL aumenta el desempeño de la segmentación. El caso de inter task consistency con MTL mejora el desempeño de las tareas de clasificación y segmentación. Con la combinación de ambas tareas de consistencias también se demuestra su efectividad.
 
+El método usado en esta investigación se muestra a continuación.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/antecedente_4.jpg}
+		\caption[Representación del método desarrollado]{Representación del método desarrollado. \\
+		Fuente: \cite{pr_kang2022thysegclass}. \textit{Thyroid nodule segmentation and classification in ultrasound images through intra- and inter-task consistent learning}.}
+		\label{2:fig101}
+	\end{center}
+\end{figure}
+
+
 \cite{pr_sun2023classthynvit} presenta el problema de diagnosticar nódulos tiroideos nivel 3 debido a pocas características representativas que diferencien a los nódulos benignos de nivel 3 con los nódulos malignos, esto conlleva a obtener bajas precisiones en el diagnóstico. Ante esto, en el artículo se presenta un modelo clasificador de nódulos tiroideos con ViT (Vision-Transformer-based) y el contrast learning. Estas técnicas ayudaron a minimizar la distancia de características en nódulos de una misma clase, lo cual mejora la capacidad predictiva del modelo. Finalmente, en la fase de testeo del modelo se logró un accuracy de 0.869, mientras que las demás métricas indican la superioridad frente a otros modelos clásicos de Deep Learning que también son usados para clasificar.
+
+En la siguien figura se presenta la arquitectura de Vison Transformer desarrollada.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/antecedente_5.jpg}
+		\caption[Arquitectura de modelo TC-ViT]{Arquitectura de modelo TC-ViT. \\
+		Fuente: \cite{pr_sun2023classthynvit}. \textit{Classification for thyroid nodule using ViT with contrastive learning in ultrasound images}.}
+		\label{2:fig102}
+	\end{center}
+\end{figure}
+
 
 \cite{pr_zhang2023madlap} presenta el nivel de importancia de poseer una buena base de datos etiquetada correctamente para lograr entrenar un buen modelo de Machine Learning. En este artículo se desarrolla y presenta a la herramienta Multistep Automated Data Labelling Procedure (MADLaP) que facilita y automatiza el proceso de etiquetado de datos relacionados a nódulos tiroideos. Este incluye el procesamiento de leguaje natural basado en reglas, el Deep Learning para segmentación de imágenes y el reconocimiento óptico de caracteres. MADLaP fue desarrollado en la fase de entrenamiento con datos de 378 pacientes, mientras que en la fase de prueba se usaron datos de 93. Este obtuvo finalmente un accuracy de 0.83.
 
@@ -69,6 +93,18 @@ La base de datos usada fue construida, y se obtuvieron resultados perfectamente 
 La metodología consistía en la construcción de tres redes distintas: feature extraction network, attenntion-based feature aggregation network, classification network. Estas tres redes juntas forman el modelo objetivo desarrollado en este artículo.
 
 En general, la metodología consistía en, primero, la construcción del conjunto de datos que se conforma de imágenes de ultrasonido procedentes de un hospital. Se recolectaron cerca de 7 800 imágenes de 1 046 exámenes de entre los años 2015 y 2018. En segundos lugar, se realizó el etiquetado de los datos. Estas anotaciones se realizaron de acuerdo con los exámenes en general, y no a cada una de las imágenes que la conforman. Luego, se realizó la separación de la data en entrenamiento, prueba y validación. En la parte final de experimentación, se realizó un preprocesamiento con data augmentation y se definió 100 épocas para la fase de entrenamiento. El modelo ganador de la fase de validación fue probado con la data de prueba. Las métricas usadas para la evaluación fueron el accuracy, sensitivity (true positive rate) y el área bajo la curva (AUC ROC).
+
+La siguiente figura muestra la arquitectura propuesta en esta investigación.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/antecedente_8.jpg}
+		\caption[Arquitecura de la red desarrollada]{Arquitecura de la red desarrollada. \\
+		Fuente: \cite{pr_sun2023classthynvit}. \textit{Automatic diagnosis for thyroid nodules in ultrasound images by deep neural networks}.}
+		\label{2:fig103}
+	\end{center}
+\end{figure}
+
 
 \cite{pr_sun2022tnsnet} mencionan que, en el sistema endocrino, un problema muy común son los nódulos tiroideos. Normalmente estos pueden ser sólidos o de otras variadas texturas. La incidencia de esta enfermedad se ha ido incrementando a través de los años. Comúnmente se usan las imágenes de ultrasonido para detectar estos nódulos, esto lo hacen en tiempo real, tiene bajo costo y no es invasivo, por cual es una buena opción. Estas imágenes pueden otorgar información valiosa de los nódulos como los márgenes, ecogenicidad, calcificación, composición, etc. Además, existe el Thyroid Image Reporting y el sistema de datos TI-RADS pueden cuantificar las características otorgadas por las imágenes de ultrasonido y evaluar si es benigno o maligno. Sin embargo, estas imágenes pueden traer problemas como bajo contraste y ruido de moteado, lo cual genera retos para extraer sus características. Este problema puede superarse a través de una correcta segmentación de los nódulos tiroideos. Así, la segmentación es un paso importante para realizar diagnóstico correcto. Esto puede ser aplicado a la evaluación automática en TI-RADS para facilitar la clasificación de los nódulos. Se añadió un shape-supervised path para mejorar la identificación de la forma, y así lograr una mejor segmentación.
 
