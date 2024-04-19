@@ -1,10 +1,10 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Diccionario de datos del dataset final de Metainformación}}{45}{table.caption.40}%
-\contentsline {table}{\numberline {2}{\ignorespaces Potenciales combinatorias de variables de metainformación}}{61}{table.caption.64}%
-\contentsline {table}{\numberline {3}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{71}{table.caption.75}%
-\contentsline {table}{\numberline {4}{\ignorespaces Exactitud de los conjuntos de datos de validación para las 8 combinaciones}}{74}{table.caption.77}%
-\contentsline {table}{\numberline {5}{\ignorespaces Informe de clasificación para el modelo de metadata}}{75}{table.caption.80}%
-\contentsline {table}{\numberline {6}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{77}{table.caption.84}%
-\contentsline {table}{\numberline {7}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{79}{table.caption.88}%
-\contentsline {table}{\numberline {8}{\ignorespaces Informe de clasificación para el modelo apilado}}{81}{table.caption.92}%
-\contentsline {table}{\numberline {9}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{82}{table.caption.94}%
+\contentsline {table}{\numberline {1}{\ignorespaces Diccionario de datos del dataset final de Metainformación}}{66}{table.caption.56}%
+\contentsline {table}{\numberline {2}{\ignorespaces Potenciales combinatorias de variables de metainformación}}{82}{table.caption.80}%
+\contentsline {table}{\numberline {3}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{92}{table.caption.91}%
+\contentsline {table}{\numberline {4}{\ignorespaces Exactitud de los conjuntos de datos de validación para las 8 combinaciones}}{95}{table.caption.93}%
+\contentsline {table}{\numberline {5}{\ignorespaces Informe de clasificación para el modelo de metadata}}{96}{table.caption.96}%
+\contentsline {table}{\numberline {6}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{98}{table.caption.100}%
+\contentsline {table}{\numberline {7}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{100}{table.caption.104}%
+\contentsline {table}{\numberline {8}{\ignorespaces Informe de clasificación para el modelo apilado}}{102}{table.caption.108}%
+\contentsline {table}{\numberline {9}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{103}{table.caption.110}%

@@ -11,68 +11,84 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Comparación de resultados de los modelos (f1-socre y specificity)}}{22}{figure.caption.18}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos HAM10000}}{23}{figure.caption.19}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos DERMOFIT}}{24}{figure.caption.20}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Convolución de imagen de Fashion MNIST}}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Convolución de imagen con filtro de líneas verticales}}{25}{figure.caption.22}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Convolución de imagen con filtro de líneas horizontales}}{26}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Ejemplo de max-pooling con un pool de 2x2}}{27}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces DenseNet con 5 capas}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Imagen tomográfica de glándula de tiroides}}{30}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Perceptrón}}{32}{figure.caption.27}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Perceptrón multicapa}}{33}{figure.caption.28}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Enfoque del Machine Learning}}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Metodología de implementación}}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Matriz de Confusión}}{38}{figure.caption.31}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Cronograma de actividades}}{40}{figure.caption.35}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Presupuesto}}{41}{figure.caption.36}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Vista del website Web Robots (visitado en agosto del 2019)}}{43}{figure.caption.37}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019}}{44}{figure.caption.38}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle}}{45}{figure.caption.39}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Función para extraer textos de modalidad de descripción}}{46}{figure.caption.41}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Ejecución de la función de extracción de descripciones y almacenamiento}}{47}{figure.caption.42}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Visualización del archivo de descripción subido a Kaggle}}{47}{figure.caption.43}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Función para extraer textos de modalidad de comentarios}}{48}{figure.caption.44}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Ejecución de la función de extracción de comentarios y almacenamiento}}{49}{figure.caption.45}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios}}{49}{figure.caption.46}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle}}{50}{figure.caption.47}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Distribución de proyectos tecnológicos según su estado}}{51}{figure.caption.48}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año}}{51}{figure.caption.49}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año}}{52}{figure.caption.50}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Distribución de las variables categóricas de Metainformación}}{52}{figure.caption.51}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Diagrama de caja y bigote de patrocinadores}}{53}{figure.caption.52}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Diagrama de caja y bigote de meta}}{54}{figure.caption.53}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagrama de caja y bigote de monto patrocinado}}{54}{figure.caption.54}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Diagrama de caja y bigote de duración}}{55}{figure.caption.55}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Matriz de correlaciones entre variables independientes}}{55}{figure.caption.56}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Gráfico de dispersión de correlaciones entre variables independientes}}{56}{figure.caption.57}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Distribución de proyectos por presencia de descripciones y estado final}}{57}{figure.caption.58}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Nube de palabras de descripciones}}{57}{figure.caption.59}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Distribución de proyectos por presencia de comentarios y estado final}}{58}{figure.caption.60}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados}}{59}{figure.caption.61}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Nube de palabras de comentarios más frecuentes}}{59}{figure.caption.62}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Matriz de correlaciones entre variables independientes considerando adicionales}}{60}{figure.caption.63}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Función para dividir base de datos en subconjuntos de entrenamiento y prueba}}{61}{figure.caption.65}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Función para normalizar variables}}{62}{figure.caption.66}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Nube de palabras de descripciones posterior a la limpieza de texto}}{63}{figure.caption.68}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Proceso de representación de palabras en vectores codificados}}{63}{figure.caption.69}%
-\contentsline {figure}{\numberline {56}{\ignorespaces Proceso de creación de matriz de incrustaciones de palabras}}{64}{figure.caption.70}%
-\contentsline {figure}{\numberline {57}{\ignorespaces Nube de palabras de comentarios posterior a la limpieza de texto}}{65}{figure.caption.71}%
-\contentsline {figure}{\numberline {58}{\ignorespaces Arquitectura de modelo MLP para la metadata}}{67}{figure.caption.72}%
-\contentsline {figure}{\numberline {59}{\ignorespaces Arquitectura de modelo CNN para las descripciones}}{68}{figure.caption.73}%
-\contentsline {figure}{\numberline {60}{\ignorespaces Arquitectura de modelo RNN para los comentarios}}{70}{figure.caption.74}%
-\contentsline {figure}{\numberline {61}{\ignorespaces Arquitectura del modelo apilado final The Hydra}}{72}{figure.caption.76}%
-\contentsline {figure}{\numberline {62}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas}}{74}{figure.caption.78}%
-\contentsline {figure}{\numberline {63}{\ignorespaces Matriz de confusión para el modelo de metadata}}{75}{figure.caption.79}%
-\contentsline {figure}{\numberline {64}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{76}{figure.caption.81}%
-\contentsline {figure}{\numberline {65}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{76}{figure.caption.82}%
-\contentsline {figure}{\numberline {66}{\ignorespaces Matriz de confusión para el modelo de descripciones}}{77}{figure.caption.83}%
-\contentsline {figure}{\numberline {67}{\ignorespaces Área bajo la curva ROC de modelo de descripciones}}{78}{figure.caption.85}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas}}{78}{figure.caption.86}%
-\contentsline {figure}{\numberline {69}{\ignorespaces Matriz de confusión para el modelo de comentarios}}{79}{figure.caption.87}%
-\contentsline {figure}{\numberline {70}{\ignorespaces Área bajo la curva de modelo de comentarios}}{80}{figure.caption.89}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas}}{80}{figure.caption.90}%
-\contentsline {figure}{\numberline {72}{\ignorespaces Matriz de confusión para el modelo apilado}}{81}{figure.caption.91}%
-\contentsline {figure}{\numberline {73}{\ignorespaces Área bajo la curva de modelo apilado}}{82}{figure.caption.93}%
-\contentsline {figure}{\numberline {74}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{84}{figure.caption.95}%
-\contentsline {figure}{\numberline {75}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{84}{figure.caption.96}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{85}{figure.caption.97}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{85}{figure.caption.98}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Balanceo de clases usando aumento de datos}}{26}{figure.caption.21}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Estructura de ViT implementado}}{27}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM}}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM}}{29}{figure.caption.24}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Resultado de los modelos CNN basados en transfer learning en el conjunto de datos DDSM}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML}}{32}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Resumen de características de los conjuntos de datos}}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Resultados con el conjunto de datos Chest X-ray}}{35}{figure.caption.28}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Resultados con el conjunto de datos Kvasir}}{36}{figure.caption.29}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Resultados con el conjunto de datos Kvasir-Capsule}}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)}}{39}{figure.caption.31}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)}}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)}}{41}{figure.caption.33}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Imágenes de ultrasonido de la tiroides (originales y generadas)}}{43}{figure.caption.35}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Comparación de los modelos entrenados}}{45}{figure.caption.36}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Convolución de imagen de Fashion MNIST}}{46}{figure.caption.37}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Convolución de imagen con filtro de líneas verticales}}{47}{figure.caption.38}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Convolución de imagen con filtro de líneas horizontales}}{47}{figure.caption.39}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Ejemplo de max-pooling con un pool de 2x2}}{48}{figure.caption.40}%
+\contentsline {figure}{\numberline {33}{\ignorespaces DenseNet con 5 capas}}{50}{figure.caption.41}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Imagen tomográfica de glándula de tiroides}}{51}{figure.caption.42}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Perceptrón}}{53}{figure.caption.43}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Perceptrón multicapa}}{54}{figure.caption.44}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Enfoque del Machine Learning}}{55}{figure.caption.45}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Metodología de implementación}}{57}{figure.caption.46}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Matriz de Confusión}}{59}{figure.caption.47}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Cronograma de actividades}}{61}{figure.caption.51}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Presupuesto}}{62}{figure.caption.52}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Vista del website Web Robots (visitado en agosto del 2019)}}{64}{figure.caption.53}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019}}{65}{figure.caption.54}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle}}{66}{figure.caption.55}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Función para extraer textos de modalidad de descripción}}{67}{figure.caption.57}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Ejecución de la función de extracción de descripciones y almacenamiento}}{68}{figure.caption.58}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Visualización del archivo de descripción subido a Kaggle}}{68}{figure.caption.59}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Función para extraer textos de modalidad de comentarios}}{69}{figure.caption.60}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Ejecución de la función de extracción de comentarios y almacenamiento}}{70}{figure.caption.61}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios}}{70}{figure.caption.62}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle}}{71}{figure.caption.63}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Distribución de proyectos tecnológicos según su estado}}{72}{figure.caption.64}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año}}{72}{figure.caption.65}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año}}{73}{figure.caption.66}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Distribución de las variables categóricas de Metainformación}}{73}{figure.caption.67}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Diagrama de caja y bigote de patrocinadores}}{74}{figure.caption.68}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Diagrama de caja y bigote de meta}}{75}{figure.caption.69}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Diagrama de caja y bigote de monto patrocinado}}{75}{figure.caption.70}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Diagrama de caja y bigote de duración}}{76}{figure.caption.71}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Matriz de correlaciones entre variables independientes}}{76}{figure.caption.72}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Gráfico de dispersión de correlaciones entre variables independientes}}{77}{figure.caption.73}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Distribución de proyectos por presencia de descripciones y estado final}}{78}{figure.caption.74}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Nube de palabras de descripciones}}{78}{figure.caption.75}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Distribución de proyectos por presencia de comentarios y estado final}}{79}{figure.caption.76}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados}}{80}{figure.caption.77}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Nube de palabras de comentarios más frecuentes}}{80}{figure.caption.78}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Matriz de correlaciones entre variables independientes considerando adicionales}}{81}{figure.caption.79}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Función para dividir base de datos en subconjuntos de entrenamiento y prueba}}{82}{figure.caption.81}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Función para normalizar variables}}{83}{figure.caption.82}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Nube de palabras de descripciones posterior a la limpieza de texto}}{84}{figure.caption.84}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Proceso de representación de palabras en vectores codificados}}{84}{figure.caption.85}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Proceso de creación de matriz de incrustaciones de palabras}}{85}{figure.caption.86}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Nube de palabras de comentarios posterior a la limpieza de texto}}{86}{figure.caption.87}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Arquitectura de modelo MLP para la metadata}}{88}{figure.caption.88}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Arquitectura de modelo CNN para las descripciones}}{89}{figure.caption.89}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Arquitectura de modelo RNN para los comentarios}}{91}{figure.caption.90}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Arquitectura del modelo apilado final The Hydra}}{93}{figure.caption.92}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas}}{95}{figure.caption.94}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Matriz de confusión para el modelo de metadata}}{96}{figure.caption.95}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{97}{figure.caption.97}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{97}{figure.caption.98}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Matriz de confusión para el modelo de descripciones}}{98}{figure.caption.99}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Área bajo la curva ROC de modelo de descripciones}}{99}{figure.caption.101}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas}}{99}{figure.caption.102}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Matriz de confusión para el modelo de comentarios}}{100}{figure.caption.103}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Área bajo la curva de modelo de comentarios}}{101}{figure.caption.105}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas}}{101}{figure.caption.106}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Matriz de confusión para el modelo apilado}}{102}{figure.caption.107}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Área bajo la curva de modelo apilado}}{103}{figure.caption.109}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{105}{figure.caption.111}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{105}{figure.caption.112}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{106}{figure.caption.113}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{106}{figure.caption.114}%
