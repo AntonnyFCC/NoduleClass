@@ -2927,6 +2927,53 @@
       \verb https://webrobots.io/kickstarter-datasets/
       \endverb
     \endentry
+    \entry{pr_yang2023novelViTscc}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=11a33b1aa9e89479e304318dff521b9c}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Guang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06de49fd225a5d7171a27e04434226f9}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Suhuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0edeb135a1cec9ff4faa35ae89998642}{%
+           family={Greer},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f417e8a65f8cc3f417c43e53877ac454}
+      \strng{fullhash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{fullhashraw}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{bibnamehash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{authorbibnamehash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{authornamehash}{f417e8a65f8cc3f417c43e53877ac454}
+      \strng{authorfullhash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{authorfullhashraw}{6e4966d4174fcf500c44c9873a50db28}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Processing Letters}
+      \field{number}{7}
+      \field{title}{A Novel Vision Transformer Model for Skin Cancer Classification}
+      \field{volume}{55}
+      \field{year}{2023}
+      \field{pages}{9335\bibrangedash 9351}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s11063-023-11204-5
+      \endverb
+    \endentry
     \entry{pr_yu2018deeplearning}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=d3b838ceb6ea0136cecfe19c4b611a0c}{%
@@ -6199,6 +6246,53 @@
       \endverb
       \verb{url}
       \verb https://webrobots.io/kickstarter-datasets/
+      \endverb
+    \endentry
+    \entry{pr_yang2023novelViTscc}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=11a33b1aa9e89479e304318dff521b9c}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Guang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06de49fd225a5d7171a27e04434226f9}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Suhuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0edeb135a1cec9ff4faa35ae89998642}{%
+           family={Greer},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f417e8a65f8cc3f417c43e53877ac454}
+      \strng{fullhash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{fullhashraw}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{bibnamehash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{authorbibnamehash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{authornamehash}{f417e8a65f8cc3f417c43e53877ac454}
+      \strng{authorfullhash}{6e4966d4174fcf500c44c9873a50db28}
+      \strng{authorfullhashraw}{6e4966d4174fcf500c44c9873a50db28}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Processing Letters}
+      \field{number}{7}
+      \field{title}{A Novel Vision Transformer Model for Skin Cancer Classification}
+      \field{volume}{55}
+      \field{year}{2023}
+      \field{pages}{9335\bibrangedash 9351}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s11063-023-11204-5
       \endverb
     \endentry
     \entry{pr_yu2018deeplearning}{article}{}{}
