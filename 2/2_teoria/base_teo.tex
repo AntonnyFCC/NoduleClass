@@ -73,6 +73,46 @@ DenseNet nace con la premisa de que las CNN pueden obtener mejores desempeños s
 	\end{center}
 \end{figure}
 
+Las tareas relacionadas al procesamiento de imágenes como la segmentación, detección de objetos y clasificación es actualmente dominada por las redes neuronales convolucionales explicadas anteriormente; sin embargo, gracias al gran avance y divulgación de los modelos basados en Transformers, se ha visto el surgimiento de un nueva clase de arquitecturas que prometen mejorar el desempeño de los actuales modelos dominantes: los Vision Transformer (ViT).
+
+Según la investigación original presentada por \cite{pr_dosovitskiy2021animageisworth}, los modelos Transformer, dominantes actuales en tareas de procesamiento de lenguaje natural (NLP), se han convertido en el modelo predilecto cuando se trata de manejo de texto, esto debido a su capacidad de utilizar los recursos computacionales de forma eficiente y su escalabilidad, permitiendo así obtener modelos de; por ejemplo, 100 mil millones de parámetros.
+
+A diferencia de las tareas de NLP, la visión por computadora tuvo mayores problemas para adaptar este nuevo tipo de arquitecturas a sus tareas específicas.
+
+Los primeros intentos se basaban en usar la capacidad de self-attention de los Transformer y combinarlo con los dominantes modelos CNN. Estos intentos de obtener los excelentes resultados de los Transformer en las tareas de visión por computadora no obtenían los resultados de los modelos de mayor desempeño como son los basados en la arquitectura de ResNet.
+
+Debido a esto y al gran potencial que tenían las arquitecturas basadas en Transformers, propusieron el uso de estas arquitecturas aplicadas de forma directa a imágenes; es decir, aplicando la menor cantidad de cambios antes de ingresar al mismo Transformer. El proceso exacto de cómo funciona su arquitectura se explicará más adelante.
+
+La gran ventaja de este nuevo tipo de modelos se basa en la cantidad de datos con la que es entrenado. 
+
+En el caso de usar una pequeña cantidad de imágenes para el entrenamiento se obtienen resultados no favorables, llegando a tener un bajo rendimiento comparado a los modelos basados en CNN. Sin embargo, al realizar su entrenamiento con una mayor cantidad de datos, los Vision Transformer (como se le nombró a este nuevo tipo de arquitectura) obtuvieron mejores resultados que los modelos dominantes en las mismas tareas de visión por computadora.
+
+A diferencia de los Transformer dedica a las tareas de NLP que reciben como entrada token embeddings de una sola dimensión, las imágenes son de dos dimensiones (H, W) y una cantidad de canales (C), lo que dificulta su ingreso directo a este tipo de arquitecturas. Es por esto que es necesario aplicar una división de las imágenes en patches 2D que posteriormente serán aplanados e ingresados al Transformer como haría normalmente los token embeddings.
+
+Estos patches deben tener un tamaño constante P, es decir que se deben obtener divisiones de las imágenes de tamaño P x P. Esto conlleva a que el número de patches final sea igual a $N = HW / P^2$.
+
+Una vez se tienen los N patches, se realiza su aplanamiento y, posteriormente, se mapean en D dimensiones (tamaño del vector latente usado en el Transformer) a través de una proyección lineal capaz de ser entrenada.
+
+Ya obtenidos estos patch embedding, se añade uno nuevo pero con la capacidad de ser aprendible. Estos se agrupan en una secuencia que ingresarán posteriormente al Transforme encoder. Cabe resaltar que, luego de pasar por el encoder, este último embedding añadido representará a la imagen.
+
+A los ya mencionados patch embedding también se le agrega otro tipo de embedding capaz de mantener información relacionada a la posición de cada patch. Estos embedding son 1D y aprendibles. Finalmente, estos serán ingresados juntos con los originales embeddings a Transformer encoder.
+
+En la parte final de la arquitectura se tiene un MLP con la principal tarea de realizar la clasificación de las imágenes. Este MLP consta de una sola capa oculta en la etapa de entrenamiento inicial del modelo, y con una sola capa lineal en la etapa de fine-tuning.
+
+El bloque de Transformer encoder está compuesto por distintos bloques como los multi headed self attention (MSA), MLP y los Layernorm (LN). Estos distintos bloques se van alternando de forma específica, introduciendo además conexiones residuales luego del MSA y MLP.
+
+Toda la arquitectura de los ViT se puede resumir con la siguiente imagen.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{2/figures/vit_arquitecture.png}
+		\caption[Arquitectura del modelo ViT]{Arquitectura del modelo ViT. \\
+		Fuente: \cite{pr_dosovitskiy2021animageisworth}. \textit{AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE}.}
+		\label{2:fig206}
+	\end{center}
+\end{figure}
+
+
 \subsection{Nódulos Tiroideos}
 Para entender qué es un nódulo tiroideo, primero se debe sabes qué es la tiroides. Este es una glándula localizada en el cuello del cuerpo humano que se encarga de producir hormonas que regulan el metabolismo. Los nódulos que aparecen en esta glándula son los más comunes, y se generan debido a un excesivo crecimiento de las células en esa área, estos pueden ser de textura dura o quísticas. \parencite{pr_deng2022autclass}
 
@@ -80,7 +120,7 @@ La siguiente figura muestra a la glándula en una imagen tomográfica.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/gland_thyroid.png}
+		\includegraphics[width=0.75\textwidth]{2/figures/gland_thyroid.png}
 		\caption[Imagen tomográfica de glándula de tiroides]{Imagen tomográfica de glándula de tiroides. \\
 		Fuente: \cite{pr_binboga2019thyroid}. \textit{Thyroid Anatomy}.}
 		\label{2:fig206}
