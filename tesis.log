@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.2)  21 APR 2024 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.2)  21 APR 2024 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3183,122 +3183,228 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [122
 
  <./anexos/arbol_objetivos.png>]
-Underfull \hbox (badness 2310) in paragraph at lines 48--48
+Underfull \hbox (badness 2310) in paragraph at lines 46--46
 []|\OT1/ptm/m/n/12 ?`Es po-si-ble im-ple-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 48--48
+Underfull \hbox (badness 1902) in paragraph at lines 46--46
 \OT1/ptm/m/n/12 Deep Lear-ning pa-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 48--48
+Underfull \hbox (badness 1199) in paragraph at lines 46--46
 \OT1/ptm/m/n/12 n[]odu-los ti-roi-deos a
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 48--48
+Underfull \hbox (badness 1320) in paragraph at lines 46--46
 \OT1/ptm/m/n/12 trav[]es de im[]age-nes
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 48--49
+Underfull \hbox (badness 5388) in paragraph at lines 46--46
 []|\OT1/ptm/m/n/12 Dise[]nar un mo-de-
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 48--49
+Underfull \hbox (badness 4531) in paragraph at lines 46--46
 \OT1/ptm/m/n/12 co de n[]odu-los ti-
  []
 
 
-Overfull \vbox (18.85004pt too high) detected at line 57
+Underfull \hbox (badness 5022) in paragraph at lines 46--47
+\OT1/ptm/m/n/12 de un mo-de-lo de
  []
 
 
-Overfull \vbox (188.50038pt too high) detected at line 65
+Underfull \hbox (badness 2318) in paragraph at lines 46--47
+\OT1/ptm/m/n/12 gra diagn[]osti-car lo
  []
 
 
-Overfull \vbox (18.85004pt too high) detected at line 74
+Underfull \hbox (badness 1199) in paragraph at lines 46--47
+\OT1/ptm/m/n/12 n[]odu-los ti-roi-deos a
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 78--79
+Underfull \hbox (badness 1320) in paragraph at lines 46--47
+\OT1/ptm/m/n/12 trav[]es de im[]age-nes
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 50--50
 []|\OT1/ptm/m/n/12 Determinar las ca-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 78--79
+Underfull \hbox (badness 3601) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 rac-ter[]^^Psti-cas idea-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 1540) in paragraph at lines 50--50
+[]|\OT1/ptm/m/n/12 Las me-jo-res ca-rac-
+ []
+
+
+Overfull \hbox (343.5658pt too wide) in paragraph at lines 50--50
+[]|[]| 
+ []
+
+
+Overfull \hbox (287.8502pt too wide) in paragraph at lines 50--51
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\OT1/ptm/m/n/12 ?`Qu[]e t[]ecni-cas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 pre-pro-ce-sa-mien-to
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 83--83
+Underfull \hbox (badness 1902) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 se de-ber[]^^Pan apli-car
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 83--83
+Underfull \hbox (badness 2261) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 a las im[]age-nes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 ul-tra-so-ni-do del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\OT1/ptm/m/n/12 Determinar las
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 83--84
+Underfull \hbox (badness 1215) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 t[]ecni-cas de pre-pro-
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 83--84
+Underfull \hbox (badness 3954) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 ce-sa-mien-to que se
  []
 
 
-Overfull \vbox (56.55011pt too high) detected at line 88
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\OT1/ptm/m/n/12 Las t[]ecni-cas de
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 92--92
+Underfull \hbox (badness 3601) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 pre-pro-ce-sa-mien-to a
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 nes de ul-tra-so-ni-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 del con-jun-to de
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 54--54
 []|\OT1/ptm/m/n/12 ?`De qu[]e for-ma se
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 92--93
+Underfull \hbox (badness 8038) in paragraph at lines 54--54
 \OT1/ptm/m/n/12 cas de eva-lua-ci[]on
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 92--93
+Underfull \hbox (badness 4634) in paragraph at lines 54--54
 \OT1/ptm/m/n/12 de ren-di-mien-to de
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 95
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]|\OT1/ptm/m/n/12 Las m[]etri-cas de
  []
 
 
-Overfull \vbox (37.70007pt too high) detected at line 101
+Underfull \hbox (badness 3302) in paragraph at lines 54--55
+\OT1/ptm/m/n/12 eva-lua-ci[]on de ren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\OT1/ptm/m/n/12 di-mien-to de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\OT1/ptm/m/n/12 mo-de-los de Deep
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 54--55
+\OT1/ptm/m/n/12 Lear-ning lo-gra una
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\OT1/ptm/m/n/12 co-rrec-ta com-pa-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\OT1/ptm/m/n/12 ?`Qu[]e ar-qui-tec-tu-ras
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 56--56
+\OT1/ptm/m/n/12 de Deep Lear-ning
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 56--56
+\OT1/ptm/m/n/12 tie-nen el m[]as al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/m/n/12 to des-em-pe[]no en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/m/n/12 la cla-si-fi-ca-ci[]on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/m/n/12 de im[]age-nes de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/ptm/m/n/12 ul-tra-so-ni-do de la
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 56--56
+[]|\OT1/ptm/m/n/12 Determinar las ar-
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 56--57
+\OT1/ptm/m/n/12 pe-rio-ri-dad fren-te a
  []
 
 
@@ -3320,12 +3426,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [124]
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[125]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 []\OT1/ptm/m/n/12 Recolecci[]on y pre-
  []
 
 
-Overfull \hbox (36.04941pt too wide) in alignment at lines 117--355
+Overfull \hbox (36.04941pt too wide) in alignment at lines 69--307
  [] [] [] [] 
  []
 
@@ -3336,18 +3450,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[125
+[126
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[126]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3364,53 +3470,119 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [128]
-Overfull \vbox (75.40018pt too high) detected at line 372
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[129]
+Overfull \vbox (75.40018pt too high) detected at line 324
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 381
+Overfull \vbox (37.70009pt too high) detected at line 333
  []
 
 
-Overfull \vbox (56.55013pt too high) detected at line 381
+Overfull \vbox (56.55013pt too high) detected at line 333
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 387
+Overfull \vbox (18.85005pt too high) detected at line 339
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 387
+Overfull \vbox (37.70009pt too high) detected at line 339
  []
 
 
-Overfull \vbox (75.40016pt too high) detected at line 387
+Overfull \vbox (75.40016pt too high) detected at line 339
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 390--390
+Underfull \hbox (badness 1762) in paragraph at lines 342--342
 \OT1/ptm/m/n/12 cas pre-via-men-te con-si-de-ra-das en
  []
 
 
-Overfull \vbox (37.7001pt too high) detected at line 393
+Overfull \vbox (37.7001pt too high) detected at line 345
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 393
+Overfull \vbox (75.40018pt too high) detected at line 345
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 393--393
+Underfull \hbox (badness 1721) in paragraph at lines 345--345
 []|\OT1/ptm/m/n/12 Analizar re-la-ci[]on en-tre exac-ti-tud
  []
 
 
-Overfull \vbox (113.10023pt too high) detected at line 402
+Overfull \vbox (113.10023pt too high) detected at line 354
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 408
+Overfull \vbox (37.70009pt too high) detected at line 360
+ []
+
+
+Overfull \vbox (94.2502pt too high) detected at line 360
+ []
+
+
+Overfull \vbox (18.85007pt too high) detected at line 366
+ []
+
+
+Overfull \vbox (56.55014pt too high) detected at line 366
+ []
+
+
+Overfull \vbox (18.85005pt too high) detected at line 375
+ []
+
+
+Overfull \vbox (75.40016pt too high) detected at line 375
+ []
+
+
+Overfull \vbox (18.85007pt too high) detected at line 381
+ []
+
+
+Overfull \vbox (56.55014pt too high) detected at line 381
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 381--381
+\OT1/ptm/m/n/12 bles de co-nec-ti-vi-dad y va-ria-bles
+ []
+
+
+Overfull \vbox (18.85007pt too high) detected at line 390
+ []
+
+
+Overfull \vbox (94.25021pt too high) detected at line 390
+ []
+
+
+Overfull \vbox (18.85007pt too high) detected at line 399
+ []
+
+
+Overfull \vbox (37.7001pt too high) detected at line 399
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 399--399
+\OT1/ptm/m/n/12 de Apren-di-za-je Au-tom[]ati-co con
+ []
+
+
+Overfull \vbox (56.55013pt too high) detected at line 408
  []
 
 
@@ -3422,124 +3594,66 @@ Overfull \vbox (18.85007pt too high) detected at line 414
  []
 
 
-Overfull \vbox (56.55014pt too high) detected at line 414
+Overfull \vbox (75.40018pt too high) detected at line 414
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 423
- []
-
-
-Overfull \vbox (75.40016pt too high) detected at line 423
- []
-
-
-Overfull \vbox (18.85007pt too high) detected at line 429
- []
-
-
-Overfull \vbox (56.55014pt too high) detected at line 429
- []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 429--429
-\OT1/ptm/m/n/12 bles de co-nec-ti-vi-dad y va-ria-bles
- []
-
-
-Overfull \vbox (18.85007pt too high) detected at line 438
- []
-
-
-Overfull \vbox (94.25021pt too high) detected at line 438
- []
-
-
-Overfull \vbox (18.85007pt too high) detected at line 447
- []
-
-
-Overfull \vbox (37.7001pt too high) detected at line 447
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 447--447
-\OT1/ptm/m/n/12 de Apren-di-za-je Au-tom[]ati-co con
- []
-
-
-Overfull \vbox (56.55013pt too high) detected at line 456
- []
-
-
-Overfull \vbox (94.2502pt too high) detected at line 456
- []
-
-
-Overfull \vbox (18.85007pt too high) detected at line 462
- []
-
-
-Overfull \vbox (75.40018pt too high) detected at line 462
- []
-
-
-Underfull \hbox (badness 1824) in paragraph at lines 462--462
+Underfull \hbox (badness 1824) in paragraph at lines 414--414
 []|\OT1/ptm/m/n/12 Identificar la dis-tri-bu-ci[]on de las
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 471
+Overfull \vbox (18.85007pt too high) detected at line 423
  []
 
 
-Overfull \vbox (94.25021pt too high) detected at line 471
+Overfull \vbox (94.25021pt too high) detected at line 423
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 471--471
+Underfull \hbox (badness 1400) in paragraph at lines 423--423
 \OT1/ptm/m/n/12 di-fe-ren-tes mo-da-li-da-des y eva-luar
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 480
+Overfull \vbox (18.85005pt too high) detected at line 432
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 480
+Overfull \vbox (94.2502pt too high) detected at line 432
  []
 
 
-Overfull \vbox (113.10023pt too high) detected at line 486
+Overfull \vbox (113.10023pt too high) detected at line 438
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 486
+Overfull \vbox (94.2502pt too high) detected at line 438
  []
 
 
-Overfull \vbox (75.40019pt too high) detected at line 492
+Overfull \vbox (75.40019pt too high) detected at line 444
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 492
+Overfull \vbox (75.40018pt too high) detected at line 444
  []
 
 
-Underfull \hbox (badness 7047) in paragraph at lines 492--492
+Underfull \hbox (badness 7047) in paragraph at lines 444--444
 []|\OT1/ptm/m/n/12 Identificar po-ten-cia-les pro-yec-tos
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 504
+Overfull \vbox (75.40018pt too high) detected at line 456
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 504
+Overfull \vbox (75.40018pt too high) detected at line 456
  []
 
 
-Overfull \hbox (9.45334pt too wide) in alignment at lines 363--513
+Overfull \hbox (9.45334pt too wide) in alignment at lines 315--465
  [] [] [] [] [] [] [] 
  []
 
@@ -3550,18 +3664,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[129
+[130
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[130]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3602,15 +3708,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [135]
-Underfull \hbox (badness 3354) in paragraph at lines 527--527
- []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 527--528
- []|\OT1/ptm/m/n/12 Valor| 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3618,16 +3715,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[136
-
-
-]
-Underfull \hbox (badness 3354) in paragraph at lines 634--634
+[136]
+Underfull \hbox (badness 3354) in paragraph at lines 479--479
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 634--635
+Underfull \hbox (badness 4995) in paragraph at lines 479--480
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
@@ -3640,13 +3734,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [137
 
+
 ]
-Underfull \hbox (badness 3354) in paragraph at lines 741--741
+Underfull \hbox (badness 3354) in paragraph at lines 586--586
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 741--742
+Underfull \hbox (badness 4995) in paragraph at lines 586--587
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
@@ -3660,24 +3755,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [138
 
 ]
-Underfull \hbox (badness 4859) in paragraph at lines 842--842
+Underfull \hbox (badness 3354) in paragraph at lines 693--693
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 842--843
+Underfull \hbox (badness 4995) in paragraph at lines 693--694
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
-
-Overfull \hbox (17.7399pt too wide) in alignment at lines 838--930
- [] [] 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 932.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 932.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3686,6 +3772,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [139
+
+]
+Underfull \hbox (badness 4859) in paragraph at lines 794--794
+ []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 794--795
+ []|\OT1/ptm/m/n/12 Valor| 
+ []
+
+
+Overfull \hbox (17.7399pt too wide) in alignment at lines 790--882
+ [] [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 884.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 884.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[140
 
 ]) (tesis.aux
 LaTeX Info: Redefining \sptext on input line 13.
@@ -3710,17 +3824,17 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35119 strings out of 474424
- 691293 string characters out of 5740796
- 2066496 words of memory out of 5000000
+ 35120 strings out of 474424
+ 691301 string characters out of 5740796
+ 2067496 words of memory out of 5000000
  56491 multiletter control sequences out of 15000+600000
  610901 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,117p,2012b,3038s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (151 pages, 10178839 bytes).
+Output written on tesis.pdf (152 pages, 10180402 bytes).
 PDF statistics:
- 1897 PDF objects out of 2073 (max. 8388607)
- 408 named destinations out of 1000 (max. 500000)
+ 1902 PDF objects out of 2073 (max. 8388607)
+ 409 named destinations out of 1000 (max. 500000)
  1010 words of extra memory for PDF output out of 10000 (max. 10000000)
 
