@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.2)  21 APR 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  21 APR 2024 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Antonny/Desktop/2024-1/Tesis/LaTeX/tesis_latexFinal/tesis.tex
-(c:/Users/Antonny/Desktop/2024-1/Tesis/LaTeX/tesis_latexFinal/tesis.tex
+**c:/Users/Antonny/Desktop/TESIS/LaTeX/NoduleClass/tesis.tex
+(c:/Users/Antonny/Desktop/TESIS/LaTeX/NoduleClass/tesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (C:\Users\Antonny\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -3248,162 +3248,160 @@ Underfull \hbox (badness 1540) in paragraph at lines 50--50
  []
 
 
-Overfull \hbox (343.5658pt too wide) in paragraph at lines 50--50
-[]|[]| 
+Overfull \vbox (37.70015pt too high) detected at line 54
  []
 
 
-Overfull \hbox (287.8502pt too wide) in paragraph at lines 50--51
-[]|[]| 
+Overfull \vbox (37.70015pt too high) detected at line 58
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/ptm/m/n/12 ?`Qu[]e t[]ecni-cas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \OT1/ptm/m/n/12 pre-pro-ce-sa-mien-to
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 52--52
+Underfull \hbox (badness 1902) in paragraph at lines 60--60
 \OT1/ptm/m/n/12 se de-ber[]^^Pan apli-car
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 52--52
+Underfull \hbox (badness 2261) in paragraph at lines 60--60
 \OT1/ptm/m/n/12 a las im[]age-nes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \OT1/ptm/m/n/12 ul-tra-so-ni-do del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/ptm/m/n/12 Determinar las
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 52--52
+Underfull \hbox (badness 1215) in paragraph at lines 60--60
 \OT1/ptm/m/n/12 t[]ecni-cas de pre-pro-
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 52--52
+Underfull \hbox (badness 3954) in paragraph at lines 60--60
 \OT1/ptm/m/n/12 ce-sa-mien-to que se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []|\OT1/ptm/m/n/12 Las t[]ecni-cas de
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 52--53
+Underfull \hbox (badness 3601) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 pre-pro-ce-sa-mien-to a
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 52--53
+Underfull \hbox (badness 3942) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 nes de ul-tra-so-ni-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 del con-jun-to de
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 54--54
+Underfull \hbox (badness 2261) in paragraph at lines 62--62
 []|\OT1/ptm/m/n/12 ?`De qu[]e for-ma se
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 54--54
+Underfull \hbox (badness 8038) in paragraph at lines 62--62
 \OT1/ptm/m/n/12 cas de eva-lua-ci[]on
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 54--54
+Underfull \hbox (badness 4634) in paragraph at lines 62--62
 \OT1/ptm/m/n/12 de ren-di-mien-to de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 []|\OT1/ptm/m/n/12 Las m[]etri-cas de
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 54--55
+Underfull \hbox (badness 3302) in paragraph at lines 62--63
 \OT1/ptm/m/n/12 eva-lua-ci[]on de ren-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 \OT1/ptm/m/n/12 di-mien-to de los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 \OT1/ptm/m/n/12 mo-de-los de Deep
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 54--55
+Underfull \hbox (badness 1210) in paragraph at lines 62--63
 \OT1/ptm/m/n/12 Lear-ning lo-gra una
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 \OT1/ptm/m/n/12 co-rrec-ta com-pa-ra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\OT1/ptm/m/n/12 ?`Qu[]e ar-qui-tec-tu-ras
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 56--56
+Underfull \hbox (badness 5403) in paragraph at lines 64--64
 \OT1/ptm/m/n/12 de Deep Lear-ning
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 56--56
+Underfull \hbox (badness 5548) in paragraph at lines 64--64
 \OT1/ptm/m/n/12 tie-nen el m[]as al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/ptm/m/n/12 to des-em-pe[]no en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/ptm/m/n/12 la cla-si-fi-ca-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/ptm/m/n/12 de im[]age-nes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/ptm/m/n/12 ul-tra-so-ni-do de la
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 56--56
+Underfull \hbox (badness 4205) in paragraph at lines 64--64
 []|\OT1/ptm/m/n/12 Determinar las ar-
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 56--57
+Underfull \hbox (badness 2809) in paragraph at lines 64--65
 \OT1/ptm/m/n/12 pe-rio-ri-dad fren-te a
  []
 
@@ -3434,12 +3432,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [125]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 []\OT1/ptm/m/n/12 Recolecci[]on y pre-
  []
 
 
-Overfull \hbox (36.04941pt too wide) in alignment at lines 69--307
+Overfull \hbox (36.04941pt too wide) in alignment at lines 77--315
  [] [] [] [] 
  []
 
@@ -3478,182 +3476,182 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [129]
-Overfull \vbox (75.40018pt too high) detected at line 324
+Overfull \vbox (75.40018pt too high) detected at line 332
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 333
+Overfull \vbox (37.70009pt too high) detected at line 341
  []
 
 
-Overfull \vbox (56.55013pt too high) detected at line 333
+Overfull \vbox (56.55013pt too high) detected at line 341
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 339
+Overfull \vbox (18.85005pt too high) detected at line 347
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 339
+Overfull \vbox (37.70009pt too high) detected at line 347
  []
 
 
-Overfull \vbox (75.40016pt too high) detected at line 339
+Overfull \vbox (75.40016pt too high) detected at line 347
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 342--342
+Underfull \hbox (badness 1762) in paragraph at lines 350--350
 \OT1/ptm/m/n/12 cas pre-via-men-te con-si-de-ra-das en
  []
 
 
-Overfull \vbox (37.7001pt too high) detected at line 345
+Overfull \vbox (37.7001pt too high) detected at line 353
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 345
+Overfull \vbox (75.40018pt too high) detected at line 353
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 345--345
+Underfull \hbox (badness 1721) in paragraph at lines 353--353
 []|\OT1/ptm/m/n/12 Analizar re-la-ci[]on en-tre exac-ti-tud
  []
 
 
-Overfull \vbox (113.10023pt too high) detected at line 354
+Overfull \vbox (113.10023pt too high) detected at line 362
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 360
+Overfull \vbox (37.70009pt too high) detected at line 368
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 360
+Overfull \vbox (94.2502pt too high) detected at line 368
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 366
+Overfull \vbox (18.85007pt too high) detected at line 374
  []
 
 
-Overfull \vbox (56.55014pt too high) detected at line 366
+Overfull \vbox (56.55014pt too high) detected at line 374
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 375
+Overfull \vbox (18.85005pt too high) detected at line 383
  []
 
 
-Overfull \vbox (75.40016pt too high) detected at line 375
+Overfull \vbox (75.40016pt too high) detected at line 383
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 381
+Overfull \vbox (18.85007pt too high) detected at line 389
  []
 
 
-Overfull \vbox (56.55014pt too high) detected at line 381
+Overfull \vbox (56.55014pt too high) detected at line 389
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 381--381
+Underfull \hbox (badness 1565) in paragraph at lines 389--389
 \OT1/ptm/m/n/12 bles de co-nec-ti-vi-dad y va-ria-bles
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 390
+Overfull \vbox (18.85007pt too high) detected at line 398
  []
 
 
-Overfull \vbox (94.25021pt too high) detected at line 390
+Overfull \vbox (94.25021pt too high) detected at line 398
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 399
+Overfull \vbox (18.85007pt too high) detected at line 407
  []
 
 
-Overfull \vbox (37.7001pt too high) detected at line 399
+Overfull \vbox (37.7001pt too high) detected at line 407
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 399--399
+Underfull \hbox (badness 3547) in paragraph at lines 407--407
 \OT1/ptm/m/n/12 de Apren-di-za-je Au-tom[]ati-co con
  []
 
 
-Overfull \vbox (56.55013pt too high) detected at line 408
+Overfull \vbox (56.55013pt too high) detected at line 416
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 408
+Overfull \vbox (94.2502pt too high) detected at line 416
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 414
+Overfull \vbox (18.85007pt too high) detected at line 422
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 414
+Overfull \vbox (75.40018pt too high) detected at line 422
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 414--414
+Underfull \hbox (badness 1824) in paragraph at lines 422--422
 []|\OT1/ptm/m/n/12 Identificar la dis-tri-bu-ci[]on de las
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 423
+Overfull \vbox (18.85007pt too high) detected at line 431
  []
 
 
-Overfull \vbox (94.25021pt too high) detected at line 423
+Overfull \vbox (94.25021pt too high) detected at line 431
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 423--423
+Underfull \hbox (badness 1400) in paragraph at lines 431--431
 \OT1/ptm/m/n/12 di-fe-ren-tes mo-da-li-da-des y eva-luar
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 432
+Overfull \vbox (18.85005pt too high) detected at line 440
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 432
+Overfull \vbox (94.2502pt too high) detected at line 440
  []
 
 
-Overfull \vbox (113.10023pt too high) detected at line 438
+Overfull \vbox (113.10023pt too high) detected at line 446
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 438
+Overfull \vbox (94.2502pt too high) detected at line 446
  []
 
 
-Overfull \vbox (75.40019pt too high) detected at line 444
+Overfull \vbox (75.40019pt too high) detected at line 452
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 444
+Overfull \vbox (75.40018pt too high) detected at line 452
  []
 
 
-Underfull \hbox (badness 7047) in paragraph at lines 444--444
+Underfull \hbox (badness 7047) in paragraph at lines 452--452
 []|\OT1/ptm/m/n/12 Identificar po-ten-cia-les pro-yec-tos
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 456
+Overfull \vbox (75.40018pt too high) detected at line 464
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 456
+Overfull \vbox (75.40018pt too high) detected at line 464
  []
 
 
-Overfull \hbox (9.45334pt too wide) in alignment at lines 315--465
+Overfull \hbox (9.45334pt too wide) in alignment at lines 323--473
  [] [] [] [] [] [] [] 
  []
 
@@ -3716,12 +3714,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [136]
-Underfull \hbox (badness 3354) in paragraph at lines 479--479
+Underfull \hbox (badness 3354) in paragraph at lines 487--487
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 479--480
+Underfull \hbox (badness 4995) in paragraph at lines 487--488
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
@@ -3736,12 +3734,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-Underfull \hbox (badness 3354) in paragraph at lines 586--586
+Underfull \hbox (badness 3354) in paragraph at lines 594--594
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 586--587
+Underfull \hbox (badness 4995) in paragraph at lines 594--595
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
@@ -3755,12 +3753,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [138
 
 ]
-Underfull \hbox (badness 3354) in paragraph at lines 693--693
+Underfull \hbox (badness 3354) in paragraph at lines 701--701
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 693--694
+Underfull \hbox (badness 4995) in paragraph at lines 701--702
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
@@ -3774,24 +3772,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [139
 
 ]
-Underfull \hbox (badness 4859) in paragraph at lines 794--794
+Underfull \hbox (badness 4859) in paragraph at lines 802--802
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 794--795
+Underfull \hbox (badness 4995) in paragraph at lines 802--803
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
 
-Overfull \hbox (17.7399pt too wide) in alignment at lines 790--882
+Overfull \hbox (17.7399pt too wide) in alignment at lines 798--890
  [] [] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 884.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 892.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 884.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 892.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3824,15 +3822,15 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35120 strings out of 474424
- 691301 string characters out of 5740796
- 2067496 words of memory out of 5000000
- 56491 multiletter control sequences out of 15000+600000
+ 35120 strings out of 474423
+ 690797 string characters out of 5740775
+ 2066496 words of memory out of 5000000
+ 56492 multiletter control sequences out of 15000+600000
  610901 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,117p,2012b,3038s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,13n,117p,2000b,3038s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (152 pages, 10180402 bytes).
+Output written on tesis.pdf (152 pages, 10180460 bytes).
 PDF statistics:
  1902 PDF objects out of 2073 (max. 8388607)
  409 named destinations out of 1000 (max. 500000)
