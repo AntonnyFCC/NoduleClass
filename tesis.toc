@@ -28,37 +28,22 @@
 \contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{55}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Machine Learning}{56}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Ecografía y las imágenes de ultrasonido}{57}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Hipótesis}{57}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{57}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{57}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{59}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{59}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{59}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{59}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{59}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{60}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{60}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{61}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{64}{section.3.4}%
-\contentsline {chapter}{\numberline {IV}Desarrollo del Experimento}{66}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Comprensión del negocio}{66}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comprensión de los datos}{67}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Preparación de los datos}{84}{section.4.3}%
-\contentsline {chapter}{\numberline {V}Análisis y Discusión de Resultados}{90}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Modelamiento}{90}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Evaluación}{97}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Despliegue}{107}{section.5.3}%
-\contentsline {chapter}{\numberline {VI}Conclusiones y Recomendaciones}{110}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{110}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{112}{section.6.2}%
-\contentsline {chapter}{Referencias}{114}{chapter*.116}%
-\contentsline {chapter}{Anexos}{120}{section*.117}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{121}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{122}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{123}{section.Alph0.3}%
-\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{126}{section.Alph0.4}%
-\contentsline {section}{\numberline {E}Comparación de objetivos específicos de antecedentes}{130}{section.Alph0.5}%
-\contentsline {section}{\numberline {F}Parámetros para modelo predictivo de Metainformación}{137}{section.Alph0.6}%
-\contentsline {section}{\numberline {G}Parámetros para modelo predictivo de Descripción}{138}{section.Alph0.7}%
-\contentsline {section}{\numberline {H}Parámetros para modelo predictivo de Comentarios}{139}{section.Alph0.8}%
-\contentsline {section}{\numberline {I}Parámetros para modelo de Aprendizaje Profundo Multimodal}{140}{section.Alph0.9}%
+\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{57}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{59}{subsection.2.3.7}%
+\contentsline {section}{\numberline {2.4}Hipótesis}{60}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{60}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{60}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{61}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{61}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{61}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{61}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{61}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{62}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{62}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{63}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{66}{section.3.4}%
+\contentsline {chapter}{Referencias}{68}{chapter*.56}%
+\contentsline {chapter}{Anexos}{72}{section*.57}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{73}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{74}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{75}{section.Alph0.3}%
