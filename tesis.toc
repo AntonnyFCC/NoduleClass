@@ -6,44 +6,44 @@
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{9}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Problema General}{9}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Problemas Específicos}{9}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{10}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivo General}{10}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{10}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Justificación de la Investigación}{10}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Teórica}{10}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Práctica}{10}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}Práctica}{11}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}Metodológica}{11}{subsection.1.4.3}%
 \contentsline {section}{\numberline {1.5}Delimitación del Estudio}{11}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Espacial}{11}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Temporal}{11}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Conceptual}{11}{subsection.1.5.3}%
-\contentsline {chapter}{\numberline {II}Marco Teórico}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{45}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Deep Learning}{45}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Nódulos Tiroideos}{52}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{54}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Inteligencia Artficial}{54}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Perceptrón}{54}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{55}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Machine Learning}{56}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Ecografía y las imágenes de ultrasonido}{57}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{57}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{59}{subsection.2.3.7}%
-\contentsline {section}{\numberline {2.4}Hipótesis}{60}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{60}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{60}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{61}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{61}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{61}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{61}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{61}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{62}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{62}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{63}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{66}{section.3.4}%
-\contentsline {chapter}{Referencias}{68}{chapter*.56}%
-\contentsline {chapter}{Anexos}{72}{section*.57}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{73}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{74}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{75}{section.Alph0.3}%
+\contentsline {subsection}{\numberline {1.5.3}Conceptual}{12}{subsection.1.5.3}%
+\contentsline {chapter}{\numberline {II}Marco Teórico}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{46}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Deep Learning}{46}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Nódulos Tiroideos}{53}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{55}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Inteligencia Artficial}{55}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Perceptrón}{55}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{56}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Machine Learning}{57}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Ecografía y las imágenes de ultrasonido}{58}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{58}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{60}{subsection.2.3.7}%
+\contentsline {section}{\numberline {2.4}Hipótesis}{61}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{61}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{61}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{62}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{62}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{62}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{62}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{62}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{63}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{63}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{64}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{67}{section.3.4}%
+\contentsline {chapter}{Referencias}{69}{chapter*.56}%
+\contentsline {chapter}{Anexos}{73}{section*.57}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{74}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{75}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{76}{section.Alph0.3}%

@@ -4,42 +4,42 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces Tasa bruta de incidencia de cáncer de tiroides en varones por 100 000 personas}}{6}{figure.caption.11}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Tasa bruta de mortalidad de cáncer de tiroides en varones por 100 000 personas}}{7}{figure.caption.12}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Tasa bruta de incidencia y mortalidad de cáncer de tiroides por género y región}}{8}{figure.caption.13}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Representación del método desarrollado}}{16}{figure.caption.14}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Arquitectura de modelo TC-ViT}}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Arquitecura de la red desarrollada}}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Comparación de resultados de los modelos (precision y sensitivity)}}{21}{figure.caption.17}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Comparación de resultados de los modelos (f1-socre y specificity)}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos HAM10000}}{23}{figure.caption.19}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos DERMOFIT}}{24}{figure.caption.20}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Balanceo de clases usando aumento de datos}}{26}{figure.caption.21}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Estructura de ViT implementado}}{27}{figure.caption.22}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM}}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM}}{29}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Resultado de los modelos CNN basados en transfer learning en el conjunto de datos DDSM}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML}}{32}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Resumen de características de los conjuntos de datos}}{34}{figure.caption.27}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Resultados con el conjunto de datos Chest X-ray}}{35}{figure.caption.28}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Resultados con el conjunto de datos Kvasir}}{36}{figure.caption.29}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Resultados con el conjunto de datos Kvasir-Capsule}}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)}}{39}{figure.caption.31}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)}}{40}{figure.caption.32}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)}}{41}{figure.caption.33}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)}}{41}{figure.caption.34}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Imágenes de ultrasonido de la tiroides (originales y generadas)}}{43}{figure.caption.35}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Comparación de los modelos entrenados}}{45}{figure.caption.36}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Convolución de imagen de Fashion MNIST}}{46}{figure.caption.37}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Convolución de imagen con filtro de líneas verticales}}{47}{figure.caption.38}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Convolución de imagen con filtro de líneas horizontales}}{47}{figure.caption.39}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Ejemplo de max-pooling con un pool de 2x2}}{48}{figure.caption.40}%
-\contentsline {figure}{\numberline {33}{\ignorespaces DenseNet con 5 capas}}{50}{figure.caption.41}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Arquitectura del modelo ViT}}{52}{figure.caption.42}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Imagen tomográfica de glándula de tiroides}}{53}{figure.caption.43}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Perceptrón}}{55}{figure.caption.44}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Perceptrón multicapa}}{56}{figure.caption.45}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Enfoque del Machine Learning}}{57}{figure.caption.46}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Ejemplo de transfer learning}}{58}{figure.caption.47}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Ejemplo de data augmentation}}{59}{figure.caption.48}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Metodología de implementación}}{62}{figure.caption.49}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Matriz de Confusión}}{64}{figure.caption.50}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Cronograma de actividades}}{66}{figure.caption.54}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Presupuesto}}{67}{figure.caption.55}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Representación del método desarrollado}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Arquitectura de modelo TC-ViT}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Arquitecura de la red desarrollada}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Comparación de resultados de los modelos (precision y sensitivity)}}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Comparación de resultados de los modelos (f1-socre y specificity)}}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos HAM10000}}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos DERMOFIT}}{25}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Balanceo de clases usando aumento de datos}}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Estructura de ViT implementado}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM}}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM}}{30}{figure.caption.24}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Resultado de los modelos CNN basados en transfer learning en el conjunto de datos DDSM}}{30}{figure.caption.25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML}}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Resumen de características de los conjuntos de datos}}{35}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Resultados con el conjunto de datos Chest X-ray}}{36}{figure.caption.28}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Resultados con el conjunto de datos Kvasir}}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Resultados con el conjunto de datos Kvasir-Capsule}}{37}{figure.caption.30}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)}}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)}}{41}{figure.caption.32}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)}}{42}{figure.caption.33}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)}}{42}{figure.caption.34}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Imágenes de ultrasonido de la tiroides (originales y generadas)}}{44}{figure.caption.35}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Comparación de los modelos entrenados}}{46}{figure.caption.36}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Convolución de imagen de Fashion MNIST}}{47}{figure.caption.37}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Convolución de imagen con filtro de líneas verticales}}{48}{figure.caption.38}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Convolución de imagen con filtro de líneas horizontales}}{48}{figure.caption.39}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Ejemplo de max-pooling con un pool de 2x2}}{49}{figure.caption.40}%
+\contentsline {figure}{\numberline {33}{\ignorespaces DenseNet con 5 capas}}{51}{figure.caption.41}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Arquitectura del modelo ViT}}{53}{figure.caption.42}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Imagen tomográfica de glándula de tiroides}}{54}{figure.caption.43}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Perceptrón}}{56}{figure.caption.44}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Perceptrón multicapa}}{57}{figure.caption.45}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Enfoque del Machine Learning}}{58}{figure.caption.46}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Ejemplo de transfer learning}}{59}{figure.caption.47}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Ejemplo de data augmentation}}{60}{figure.caption.48}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Metodología de implementación}}{63}{figure.caption.49}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Matriz de Confusión}}{65}{figure.caption.50}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Cronograma de actividades}}{67}{figure.caption.54}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Presupuesto}}{68}{figure.caption.55}%
