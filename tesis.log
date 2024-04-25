@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  23 APR 2024 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.2)  25 APR 2024 08:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Antonny/Desktop/TESIS/LaTeX/NoduleClass/tesis.tex
-(c:/Users/Antonny/Desktop/TESIS/LaTeX/NoduleClass/tesis.tex
+**c:/Users/Antonny/Desktop/2024-1/Tesis/LaTeX/tesis_latexFinal/tesis.tex
+(c:/Users/Antonny/Desktop/2024-1/Tesis/LaTeX/tesis_latexFinal/tesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (C:\Users\Antonny\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -2311,11 +2311,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (anexos/anexo.tex
-<anexos/arb_problemas.jpg, id=966, 963.6pt x 385.44pt>
+<anexos/arb_problemas.jpg, id=966, 963.6pt x 453.94594pt>
 File: anexos/arb_problemas.jpg Graphic file (type jpg)
 <use anexos/arb_problemas.jpg>
 Package pdftex.def Info: anexos/arb_problemas.jpg  used on input line 16.
-(pdftex.def)             Requested size: 475.61804pt x 190.24348pt.
+(pdftex.def)             Requested size: 475.61804pt x 224.05629pt.
 
 Overfull \hbox (22.64978pt too wide) in paragraph at lines 16--18
  [] 
@@ -2331,11 +2331,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [74
 
  <./anexos/arb_problemas.jpg>]
-<anexos/arb_objetivos.jpg, id=972, 963.6pt x 364.36125pt>
+<anexos/arb_objetivos.jpg, id=972, 963.6pt x 454.69875pt>
 File: anexos/arb_objetivos.jpg Graphic file (type jpg)
 <use anexos/arb_objetivos.jpg>
 Package pdftex.def Info: anexos/arb_objetivos.jpg  used on input line 29.
-(pdftex.def)             Requested size: 475.61804pt x 179.83954pt.
+(pdftex.def)             Requested size: 475.61804pt x 224.42786pt.
 
 Overfull \hbox (22.64978pt too wide) in paragraph at lines 29--31
  [] 
@@ -2356,11 +2356,6 @@ Underfull \hbox (badness 2310) in paragraph at lines 46--46
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 46--46
-\OT1/ptm/m/n/12 Deep Lear-ning pa-
- []
-
-
 Underfull \hbox (badness 1199) in paragraph at lines 46--46
 \OT1/ptm/m/n/12 n[]odu-los ti-roi-deos a
  []
@@ -2376,28 +2371,18 @@ Underfull \hbox (badness 5388) in paragraph at lines 46--46
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 46--46
-\OT1/ptm/m/n/12 co de n[]odu-los ti-
+Underfull \hbox (badness 4254) in paragraph at lines 46--46
+\OT1/ptm/m/n/12 lo de Deep Lear-
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 46--46
+\OT1/ptm/m/n/12 ning pa-ra el pre-
  []
 
 
 Underfull \hbox (badness 5022) in paragraph at lines 46--47
 \OT1/ptm/m/n/12 de un mo-de-lo de
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 46--47
-\OT1/ptm/m/n/12 gra diagn[]osti-car lo
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 46--47
-\OT1/ptm/m/n/12 n[]odu-los ti-roi-deos a
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 46--47
-\OT1/ptm/m/n/12 trav[]es de im[]age-nes
  []
 
 
@@ -2416,7 +2401,7 @@ Underfull \hbox (badness 1540) in paragraph at lines 50--50
  []
 
 
-Overfull \vbox (37.70015pt too high) detected at line 54
+Overfull \vbox (56.55019pt too high) detected at line 54
  []
 
 
@@ -2628,15 +2613,15 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34060 strings out of 474423
- 658306 string characters out of 5740775
+ 34060 strings out of 474424
+ 658738 string characters out of 5740796
  1952496 words of memory out of 5000000
- 55648 multiletter control sequences out of 15000+600000
+ 55647 multiletter control sequences out of 15000+600000
  582031 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,117p,1992b,3032s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,13n,117p,2004b,3032s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (88 pages, 7032588 bytes).
+Output written on tesis.pdf (88 pages, 7035503 bytes).
 PDF statistics:
  1073 PDF objects out of 1200 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)
