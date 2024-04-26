@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.4.3}Metodológica}{11}{subsection.1.4.3}%
 \contentsline {section}{\numberline {1.5}Delimitación del Estudio}{11}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Espacial}{11}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Temporal}{11}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}Temporal}{12}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Conceptual}{12}{subsection.1.5.3}%
 \contentsline {chapter}{\numberline {II}Marco Teórico}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{13}{section.2.1}%
@@ -28,22 +28,22 @@
 \contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{56}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Machine Learning}{57}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Ecografía y las imágenes de ultrasonido}{58}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{58}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{59}{subsection.2.3.6}%
 \contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{60}{subsection.2.3.7}%
 \contentsline {section}{\numberline {2.4}Hipótesis}{61}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{61}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{61}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{62}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{62}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{62}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{62}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{62}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{63}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{63}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{64}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{67}{section.3.4}%
-\contentsline {chapter}{Referencias}{69}{chapter*.56}%
-\contentsline {chapter}{Anexos}{73}{section*.57}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{74}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{75}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{76}{section.Alph0.3}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{63}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{63}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{63}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{63}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{63}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{64}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{64}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{65}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{68}{section.3.4}%
+\contentsline {chapter}{Referencias}{70}{chapter*.56}%
+\contentsline {chapter}{Anexos}{74}{section*.57}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{75}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{76}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{77}{section.Alph0.3}%

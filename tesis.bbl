@@ -225,6 +225,53 @@
       \field{pages}{1\bibrangedash 11}
       \range{pages}{11}
     \endentry
+    \entry{pr_camacho2022ultrasonicimg}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=63b6df5310630160f5b11caf71a255b8}{%
+           family={Camacho},
+           familyi={C\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4aecd2d01d79c4bdf2f37adaac501f5}{%
+           family={Svilainis},
+           familyi={S\bibinitperiod},
+           given={Linas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcb81bb4173d323abb7093a7a636292b}{%
+           family={Gomez\bibnamedelima Alvarez-Arenas},
+           familyi={G\bibinitperiod\bibinitdelim A\bibinithyphendelim A\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67d913d3850bbfc715f6bc5c55a63d89}
+      \strng{fullhash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{fullhashraw}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{bibnamehash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{authorbibnamehash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{authornamehash}{67d913d3850bbfc715f6bc5c55a63d89}
+      \strng{authorfullhash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{authorfullhashraw}{1462682c7fb4a7992679dc02106b61cb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{20}
+      \field{title}{Ultrasonic Imaging and Sensors}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{pages}{7911\bibrangedash 7911}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s22207911v
+      \endverb
+    \endentry
     \entry{pr_deng2022autclass}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=4017078e8e02bef06318a4aec1575d84}{%
@@ -2299,6 +2346,53 @@
       \field{year}{2019}
       \field{pages}{1\bibrangedash 11}
       \range{pages}{11}
+    \endentry
+    \entry{pr_camacho2022ultrasonicimg}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=63b6df5310630160f5b11caf71a255b8}{%
+           family={Camacho},
+           familyi={C\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4aecd2d01d79c4bdf2f37adaac501f5}{%
+           family={Svilainis},
+           familyi={S\bibinitperiod},
+           given={Linas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcb81bb4173d323abb7093a7a636292b}{%
+           family={Gomez\bibnamedelima Alvarez-Arenas},
+           familyi={G\bibinitperiod\bibinitdelim A\bibinithyphendelim A\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67d913d3850bbfc715f6bc5c55a63d89}
+      \strng{fullhash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{fullhashraw}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{bibnamehash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{authorbibnamehash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{authornamehash}{67d913d3850bbfc715f6bc5c55a63d89}
+      \strng{authorfullhash}{1462682c7fb4a7992679dc02106b61cb}
+      \strng{authorfullhashraw}{1462682c7fb4a7992679dc02106b61cb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{20}
+      \field{title}{Ultrasonic Imaging and Sensors}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{pages}{7911\bibrangedash 7911}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s22207911v
+      \endverb
     \endentry
     \entry{pr_deng2022autclass}{article}{}{}
       \name{author}{4}{}{%
