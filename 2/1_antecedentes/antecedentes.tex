@@ -128,23 +128,101 @@ Además, se aplicó a las imágenes una limpieza, eliminando los duplicados. Tam
 
 Para la evaluación de los modelos se utilizaron las métricas de accuracy, precision, recall (sensitivity), specificity y F1 score. Los resultados de evaluar su capacidad de clasificación de los 4 modelos se muestran a continuación.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper1_part1.png}
-		\caption[Comparación de resultados de los modelos (precision y sensitivity)]{Comparación de resultados de los modelos (precision y sensitivity). \\
-		Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.}
-		\label{2:fig104}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos (precision)]{Comparación de resultados de los modelos (precision).}
+	\label{2:table1}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Tipo de cáncer de piel} & \multicolumn{4}{l}{Precision} \\
+		{} &{IRv2+SA} & {ResNet50+SA} & {ViTfSCD-B} & {ViTfSCD-L} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{AKIEC} & {0.81} & {0.67} & {0.82} & {0.66} \\
+		{BCC} & {0.95} & {0.90} & {1.00} & {0.89} \\
+		{BKL} & {0.73} & {0.72} & {0.81} & {0.86} \\
+		{DF} & {0.62} & {0.62} & {0.67} & {0.60} \\
+		{MEL} & {0.70} & {0.62} & {0.60} & {0.79} \\
+		{NV} & {0.95} & {0.96} & {0.94} & {0.97} \\
+		{VASC} & {0.91} & {0.83} & {0.83} & {1.00} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.
+	\end{flushleft}
+\end{table}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper1_part2.png}
-		\caption[Comparación de resultados de los modelos (f1-socre y specificity)]{Comparación de resultados de los modelos (f1-socre y specificity). \\
-		Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.}
-		\label{2:fig105}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos (sensitivity)]{Comparación de resultados de los modelos (sensitivity).}
+	\label{2:table2}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Tipo de cáncer de piel} & \multicolumn{4}{l}{Sensitivity} \\
+		{} &{IRv2+SA} & {ResNet50+SA} & {ViTfSCD-B} & {ViTfSCD-L} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{AKIEC} & {0.57} & {0.52} & {0.61} & {0.83} \\
+		{BCC} & {0.73} & {0.69} & {0.54} & {0.65} \\
+		{BKL} & {0.79} & {0.70} & {0.65} & {0.76} \\
+		{DF} & {0.83} & {0.83} & {1.00} & {1.00} \\
+		{MEL} & {0.47} & {0.59} & {0.53} & {0.68} \\
+		{NV} & {0.97} & {0.98} & {0.98} & {0.99} \\
+		{VASC} & {1.00} & {1.00} & {1.00} & {1.00} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos (f1-score)]{Comparación de resultados de los modelos (f1-score).}
+	\label{2:table3}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Tipo de cáncer de piel} & \multicolumn{4}{l}{F1-score} \\
+		{} &{IRv2+SA} & {ResNet50+SA} & {ViTfSCD-B} & {ViTfSCD-L} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{AKIEC} & {0.67} & {0.59} & {0.70} & {0.73} \\
+		{BCC} & {0.83} & {0.78} & {0.70} & {0.76} \\
+		{BKL} & {0.76} & {0.71} & {0.72} & {0.81} \\
+		{DF} & {0.71} & {0.71} & {0.80} & {0.75} \\
+		{MEL} & {0.56} & {0.61} & {0.56} & {0.73} \\
+		{NV} & {0.96} & {0.97} & {0.96} & {0.98} \\
+		{VASC} & {0.95} & {0.91} & {0.91} & {1.00} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos (specificity)]{Comparación de resultados de los modelos (specificity).}
+	\label{2:table4}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Tipo de cáncer de piel} & \multicolumn{4}{l}{Specificity} \\
+		{} &{IRv2+SA} & {ResNet50+SA} & {ViTfSCD-B} & {ViTfSCD-L} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{AKIEC} & {1.00} & {0.99} & {1.00} & {0.99} \\
+		{BCC} & {1.00} & {1.00} & {1.00} & {1.00} \\
+		{BKL} & {0.98} & {0.98} & {0.99} & {0.99} \\
+		{DF} & {1.00} & {1.00} & {1.00} & {1.00} \\
+		{MEL} & {0.99} & {0.99} & {0.99} & {0.99} \\
+		{NV} & {0.80} & {0.84} & {0.76} & {0.88} \\
+		{VASC} & {1.00} & {1.00} & {1.00} & {1.00} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.
+	\end{flushleft}
+\end{table}
 
 De los resultados, se observó que el modelo ViTfSCD-Large obtuvo el más alto precision, recall, y F1 scores. Además, el mismo modelo obtuvo un accuracy de 94.1\%, siendo el valor más alto, mientras que el modelo ViTfSCD-Base obtuvo 91.4\%.
 
@@ -152,27 +230,57 @@ Finalmente, se realizó una comparación de los modelos a través de su accuracy
 
 Para esta comparación final, también se consideraron los resultados originales de los modelos IRv2, IRv2 + SA, ResNet50 y ResNet50 + SA junto con los resultados obtenidos en esta investigación. Además, también se realizaron experimentos con los modelos ViT originales (ViT-Base 16 y ViT-Large 16). Los resultados finales muestran que los modelos ViTfSCD-Base y ViTSCD-Large son superiores a sus versiones originales.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.90\textwidth]{2/figures/vitpaper1_part3.png}
-		\caption[Comparación de resultados según accuracy con el conjunto de datos HAM10000]{Comparación de resultados según accuracy con el conjunto de datos HAM10000. \\
-		Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.}
-		\label{2:fig106}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Comparación de resultados según accuracy con el conjunto de datos HAM10000]{Comparación de resultados según accuracy con el conjunto de datos HAM10000.}
+	\label{2:table5}
+	\centering
+	\small
+	\begin{tabular}{llm{3cm}m{3cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Métodos} & {Año} & {Accuracy general en sus paper} & {Accuracy general en propios experimentos} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{Loss balancing y ensemble} & {2020} & {92.6\%} & {-} \\
+		{Semi-supervised} & {2021} & {92.54\%} & {-} \\
+		{ResNet50} & {2021} & {90.5\%} & {-} \\
+		{IRv2} & {2021} & {91.2\%} & {-} \\
+		{ResNet50 con Soft Attention} & {2021} & {91.5\%} & {91.5\%} \\
+		{Inception ResNet con Soft Attention} & {2021} & {93.4\%} & {91.9\%} \\
+		{Vision Transformer (ViT)-Base16} & {2021} & {-} & {91.1\%} \\
+		{ViT-Large16} & {2021} & {-} & {93.7\%} \\
+		{ViT para detección de cáncer de piel-Base} & {2022} & {-} & {91.4\%} \\
+		{ViT para detección de cáncer de piel-Largo} & {2022} & {-} & {94.1\%} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.
+	\end{flushleft}
+\end{table}
 
 También se realizaron experimentos con el conjunto de datos DERMOFIT que consta de imágenes de lesiones clínicas de la piel divididas en 10 clases distintas. Los resultados originales con este conjunto de datos muestran que el modelo ResNet50 tuvo mejor desempeño que el modelo de árbol de decisión y KNN. 
 
 Los nuevos experimentos con este conjunto de datos se llevaron a cabo con los modelos ResNet50, IRv2 y ViTfSCD-Base. Los siguientes resultados muestran el desempeño superior del modelo ViTfSCD frente a los demás.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper1_part4.png}
-		\caption[Comparación de resultados según accuracy con el conjunto de datos DERMOFIT]{Comparación de resultados según accuracy con el conjunto de datos DERMOFIT. \\
-		Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.}
-		\label{2:fig107}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Comparación de resultados según accuracy con el conjunto de datos DERMOFIT]{Comparación de resultados según accuracy con el conjunto de datos DERMOFIT.}
+	\label{2:table6}
+	\centering
+	\small
+	\begin{tabular}{m{6cm}lm{3cm}m{3cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Métodos} & {Año} & {Accuracy general en sus paper} & {Accuracy general en propios experimentos} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{Decision Tree} & {2020} & {78.1\%} & {-} \\
+		{Flat ResNet50} & {2020} & {78.7\%} & {-} \\
+		{ResNet50} & {2022} & {-} & {71.2\%} \\
+		{Inception ResNet (IRv2)} & {2022} & {-} & {71.9\%} \\
+		{IRv2 + Soft Attention} & {2022} & {-} & {75.0\%} \\
+		{Vision Transformer para la detección de cáncer de piel-Base} & {2021} & {-} & {80.5\%} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_yang2023novelViTscc}. \textit{A Novel Vision Transformer Model for Skin Cancer Classification}.
+	\end{flushleft}
+\end{table}
 
 La investigación presentada por \cite{pr_ayana2023ViTtrasnferLMC} se enfoca en el cáncer más común de las mujeres en los Estados Unidos: el cáncer de mama. Se dice que la tasa de incidencia de este mal ha ido en aumento en 0.5\% cada año; sin embargo, la tasa de mortalidad ha caído a un 45\% considerando datos desde el año 1989 hasta el 2020, esto debido a las mejoras constantes de los tratamientos y a las detecciones a tiempo, siendo la mamografía una técnica crucial en este último.
 
@@ -192,7 +300,7 @@ El conjunto de datos usado para entrenar y probar el modelo fue el Digital Datab
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper2_part1.png}
+		\includegraphics[width=0.90\textwidth]{2/figures/vitpaper2_part1.png}
 		\caption[Balanceo de clases usando aumento de datos]{Balanceo de clases usando aumento de datos. \\
 		Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.}
 		\label{2:fig108}
@@ -232,40 +340,212 @@ Las métricas usadas para el proceso de evaluación de los modelos fueron el acc
 
 Se evaluó el método propuesto a través de 5 formas distintas: comparación de desempeño de los 3 modelos con transfer learning, comparación de los modelos vision transformer entrenados desde cero con el conjunto de datos de mamografías, comparación de transfer learning de vision transformer con los CNN, comparación de costo computacional de cada modelo vision transformer y, finalmente, se comparó el desempeño de los métodos desarrollados en esta investigación con otros que usaron el mismo conjunto de datos.
 
-Como se muestra en la siguiente imagen, los 6 modelos transfer learning basados en arquitectura de vision transformer y entrenados con el conjunto de datos DDSM tuvieron un desempeño uniforme a través de todas la métricas.
+Como se muestra en las siguiente tablas, los 6 modelos transfer learning basados en arquitectura de vision transformer y entrenados con el conjunto de datos DDSM tuvieron un desempeño uniforme a través de todas la métricas.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper2_part3.png}
-		\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM. \\
-		Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.}
-		\label{2:fig110}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
+	\label{2:table7}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}m{2.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Accuracy (95\%)} & {AUC (95\%)} & {F1 Score (95\%)}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Vision Transformer} & {ViT-Base} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$}  \\
+		{} & {ViT-Large} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		\multirow{2}{3cm}{Swin Transformer} & {Swin-Small} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		{} & {Swim-Base} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		\multirow{2}{3cm}{Pyramid Vision Transformer} & {PVT-Medium} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		{} & {PVT-Large} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
 
-La siguiente imagen muestra los resultados de los modelos vision transformer implementados desde cero y entrenados con el conjunto de datos DDSM.
+\begin{table}[H]
+	\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (precision, recall, MCC)]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (precision, recall, MCC).}
+	\label{2:table8}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}m{2.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Precision (95\%)} & {Recall (95\%)} & {MCC (95\%)}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Vision Transformer} & {ViT-Base} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$}  \\
+		{} & {ViT-Large} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		\multirow{2}{3cm}{Swin Transformer} & {Swin-Small} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		{} & {Swim-Base} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		\multirow{2}{3cm}{Pyramid Vision Transformer} & {PVT-Medium} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		{} & {PVT-Large} & {$1 \pm 0$} & {$1 \pm 0$} & {$1 \pm 0$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper2_part4.png}
-		\caption[Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM]{Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM. \\
-		Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.}
-		\label{2:fig111}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (kappa)]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (kappa).}
+	\label{2:table9}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Kappa (95\%)} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Vision Transformer} & {ViT-Base} & {$1 \pm 0$} \\
+		{} & {ViT-Large} & {$1 \pm 0$} \\
+		\multirow{2}{3cm}{Swin Transformer} & {Swin-Small} & {$1 \pm 0$}\\
+		{} & {Swim-Base} & {$1 \pm 0$} \\
+		\multirow{2}{3cm}{Pyramid Vision Transformer} & {PVT-Medium} & {$1 \pm 0$}\\
+		{} & {PVT-Large} & {$1 \pm 0$}  \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
+
+La siguientes tablas muestran los resultados de los modelos vision transformer inplementados desde cero y entrenados con el conjunto de datos DDSM.
+
+\begin{table}[H]
+	\caption[Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
+	\label{2:table10}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}m{2.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Accuracy (95\%)} & {AUC (95\%)} & {F1 Score (95\%)}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Vision Transformer} & {ViT-Base} & {$0.74 \pm 0.02$} & {$0.73 \pm 0.03$} & {$0.74 \pm 0.01$}  \\
+		{} & {ViT-Large} & {$0.72 \pm 0.04$} & {$0.72 \pm 0.02$} & {$0.72 \pm 0.03$} \\
+		\multirow{2}{3cm}{Swin Transformer} & {Swin-Small} & {$0.75 \pm 0.02$} & {$0.75 \pm 0.03$} & {$0.75 \pm 0.01$} \\
+		{} & {Swim-Base} & {$0.76 \pm 0.01$} & {$0.75 \pm 0.02$} & {$0.75 \pm 0.02$} \\
+		\multirow{2}{3cm}{Pyramid Vision Transformer} & {PVT-Medium} & {$0.78 \pm 0.02$} & {$0.77 \pm 0.02$} & {$0.78 \pm 0.01$} \\
+		{} & {PVT-Large} & {$0.77 \pm 0.03$} & {$0.77 \pm 0.01$} & {$0.77 \pm 0.02$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (precision, recall, MCC)]{Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (precision, recall, MCC).}
+	\label{2:table11}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}m{2.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Precision (95\%)} & {Recall (95\%)} & {MCC (95\%)}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Vision Transformer} & {ViT-Base} & {$0.74 \pm 0.01$} & {$0.74 \pm 0.01$} & {$0.73 \pm 0.03$}  \\
+		{} & {ViT-Large} & {$0.72 \pm 0.04$} & {$0.72 \pm 0.03$} & {$0.71 \pm 0.02$} \\
+		\multirow{2}{3cm}{Swin Transformer} & {Swin-Small} & {$0.75 \pm 0.02$} & {$0.75 \pm 0.02$} & {$0.74 \pm 0.03$} \\
+		{} & {Swim-Base} & {$0.75 \pm 0.01$} & {$0.76 \pm 0.01$} & {$0.75 \pm 0.01$} \\
+		\multirow{2}{3cm}{Pyramid Vision Transformer} & {PVT-Medium} & {$0.78 \pm 0.02$} & {$0.78 \pm 0.02$} & {$0.77 \pm 0.01$} \\
+		{} & {PVT-Large} & {$0.77 \pm 0.02$} & {$0.77 \pm 0.02$} & {$0.77 \pm 0.01$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (kappa)]{Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (kappa).}
+	\label{2:table12}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Kappa (95\%)} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Vision Transformer} & {ViT-Base} & {$0.73 \pm 0.02$} \\
+		{} & {ViT-Large} & {$0.72 \pm 0.01$} \\
+		\multirow{2}{3cm}{Swin Transformer} & {Swin-Small} & {$0.74 \pm 0.02$}\\
+		{} & {Swim-Base} & {$0.75 \pm 0.02$} \\
+		\multirow{2}{3cm}{Pyramid Vision Transformer} & {PVT-Medium} & {$0.77 \pm 0.02$}\\
+		{} & {PVT-Large} & {$0.77 \pm 0.01$}  \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
 
 Se puede observar que el modelo PVT-medium obtuvo un mejor desempeño comparado a los demás modelos. Sin embargo, estos resultados se mantienen muy por debajo de los presentados anteriormente.
 
 Finalmente, también se obtuvieron resultados de los experimentos de transfer learning con modelos CNN y el conjunto de datos DDSM. Estos se muestran a continuación.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper2_part5.png}
-		\caption[Resultado de los modelos CNN basados en transfer learning en el conjunto de datos DDSM]{Resultado de los modelos CNN basados en transfer learning en el conjunto de datos DDSM. \\
-		Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.}
-		\label{2:fig112}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
+	\label{2:table13}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}m{2.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Accuracy (95\%)} & {AUC (95\%)} & {F1 Score (95\%)}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{ResNet} & {ResNet50} & {$0.95 \pm 0.01$} & {$0.96 \pm 0.01$} & {$0.95 \pm 0.01$}  \\
+		{} & {ResNet101} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.02$} & {$0.95 \pm 0.01$} \\
+		\multirow{2}{3cm}{EfficientNet} & {EfficientNetB0} & {$0.94 \pm 0.02$} & {$0.94 \pm 0.01$} & {$0.94 \pm 0.01$} \\
+		{} & {EfficientNetB2} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.01$} \\
+		\multirow{2}{3cm}{InceptionNet} & {InceptionNetV2} & {$0.93 \pm 0.02$} & {$0.93 \pm 0.01$} & {$0.93 \pm 0.02$} \\
+		{} & {InceptionNetV3} & {$0.94 \pm 0.01$} & {$0.94 \pm 0.01$} & {$0.94 \pm 0.01$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)]{Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC).}
+	\label{2:table14}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}m{2.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Precision (95\%)} & {Recall (95\%)} & {MCC (95\%)}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{ResNet} & {ResNet50} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.01$} & {$0.94 \pm 0.01$}  \\
+		{} & {ResNet101} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.01$} & {$0.94 \pm 0.02$} \\
+		\multirow{2}{3cm}{EfficientNet} & {EfficientNetB0} & {$0.94 \pm 0.01$} & {$0.94 \pm 0.01$} & {$0.93 \pm 0.03$} \\
+		{} & {EfficientNetB2} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.01$} & {$0.95 \pm 0.01$} \\
+		\multirow{2}{3cm}{InceptionNet} & {InceptionNetV2} & {$0.93 \pm 0.02$} & {$0.93 \pm 0.02$} & {$0.93 \pm 0.03$} \\
+		{} & {InceptionNetV3} & {$0.94 \pm 0.01$} & {$0.94 \pm 0.01$} & {$0.93 \pm 0.02$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (kappa)]{Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (kappa).}
+	\label{2:table15}
+	\centering
+	\small
+	\begin{tabular}{m{3cm}m{3cm}m{2.4cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Arquitectura} & {Modelo} & {Kappa (95\%)} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{ResNet} & {ResNet50} & {$0.94 \pm 0.02$} \\
+		{} & {ResNet101} & {$0.94 \pm 0.02$} \\
+		\multirow{2}{3cm}{EfficientNet} & {EfficientNetB0} & {$0.93 \pm 0.02$}\\
+		{} & {EfficientNetB2} & {$0.95 \pm 0.01$} \\
+		\multirow{2}{3cm}{InceptionNet} & {InceptionNetV2} & {$0.92 \pm 0.02$}\\
+		{} & {InceptionNetV3} & {$0.93 \pm 0.02$}  \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.
+	\end{flushleft}
+\end{table}
+
 
 El desempeño de los modelos CNN también se encuentran por debajo de los vision transformer presentados inicialmente. 
 
@@ -299,14 +579,113 @@ Las métricas usadas para evaluar las 3 versiones del modelo MedViT fueron el ac
 
 De los resultados mostrados a continuación, los modelos MedViT superan, de forma general, en gran medida a los modelos basados en CNN en la misma tarea. Esto lleva a concluir que el modelo demuestra una alta capacidad de generalización en imágenes médicas.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper3_part1.png}
-		\caption[Comparación de resultados de los modelos MedViT con los CNN y AutoML]{Comparación de resultados de los modelos MedViT con los CNN y AutoML. \\
-		Fuente: \cite{pr_manzari2023MedViTGMIC}. \textit{MedViT: A robust vision transformer for generalized medical image classification}.}
-		\label{2:fig113}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos MedViT con los CNN y AutoML (PathMNIST, ChestMNIST y DermaMNIST)]{Comparación de resultados de los modelos MedViT con los CNN y AutoML (PathMNIST, ChestMNIST y DermaMNIST).}
+	\label{2:table16}
+	\centering
+	\small
+	\begin{tabular}{lcccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Métodos} & \multicolumn{2}{l}{PathMNIST} & \multicolumn{2}{l}{ChestMNIST} & \multicolumn{2}{l}{DermaMNIST} \\
+		{} & {AUC} & {ACC} & {AUC} & {ACC} & {AUC} & {ACC} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{ResNet-18 (28)} & {0.983} & {0.907} & {0.768} & {0.947} & {0.917} & {0.735} \\
+		{RestNet-18 (224)} & {0.989} & {0.909} & {0.773} & {0.947} & {0.920} & {0.754} \\
+		{ResNet-50 (28)} & {0.990} & {0.911} & {0.769} & {0.947} & {0.913} & {0.735} \\
+		{RestNet-50 (224)} & {0.989} & {0.892} & {0.773} & {0.948} & {0.912} & {0.731} \\
+		{auto-sklearn} & {0.934} & {0.716} & {0.649} & {0.779} & {0.902} & {0.719} \\
+		{AutoKeras} & {0.959} & {0.834} & {0.742} & {0.937} & {0.915} & {0.749} \\
+		{Google AutoML} & {0.944} & {0.728} & {0.778} & {0.948} & {0.914} & {0.768} \\
+		{MedVIT-T (224)} & {0.994} & {0.938} & {0.786} & {0.956} & {0.914} & {0.768} \\
+		{MedVIT-S (224)} & {0.993} & {0.942} & {0.791} & {0.954} & {0.937} & {0.780} \\
+		{MedVIT-L (224)} & {0.984} & {0.933} & {0.805} & {0.959} & {0.920} & {0.773} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_manzari2023MedViTGMIC}. \textit{MedViT: A robust vision transformer for generalized medical image classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos MedViT con los CNN y AutoML (OCTMNIST, PneumoniaMNIST y RetinaMNIST)]{Comparación de resultados de los modelos MedViT con los CNN y AutoML (OCTMNIST, PneumoniaMNIST y RetinaMNIST).}
+	\label{2:table17}
+	\centering
+	\small
+	\begin{tabular}{lcccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Métodos} & \multicolumn{2}{l}{OCTMNIST} & \multicolumn{2}{l}{PneumoniaMNIST} & \multicolumn{2}{l}{RetinaMNIST} \\
+		{} & {AUC} & {ACC} & {AUC} & {ACC} & {AUC} & {ACC} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{ResNet-18 (28)} & {0.943} & {0.743} & {0.944} & {0.854} & {0.717} & {0.524} \\
+		{RestNet-18 (224)} & {0.958} & {0.763} & {0.956} & {0.864} & {0.710} & {0.493} \\
+		{ResNet-50 (28)} & {0.952} & {0.762} & {0.948} & {0.954} & {0.726} & {0.528} \\
+		{RestNet-50 (224)} & {0.958} & {0.776} & {0.962} & {0.884} & {0.716} & {0.511} \\
+		{auto-sklearn} & {0.887} & {0.601} & {0.942} & {0.855} & {0.690} & {0.515} \\
+		{AutoKeras} & {0.955} & {0.763} & {0.947} & {0.878} & {0.719} & {0.503} \\
+		{Google AutoML} & {0.963} & {0.771} & {0.991} & {0.946} & {0.750} & {0.531} \\
+		{MedVIT-T (224)} & {0.961} & {0.767} & {0.993} & {0.949} & {0.752} & {0.534} \\
+		{MedVIT-S (224)} & {0.960} & {0.982} & {0.995} & {0.961} & {0.773} & {0.561} \\
+		{MedVIT-L (224)} & {0.945} & {0.761} & {0.991} & {0.921} & {0.754} & {0.552} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_manzari2023MedViTGMIC}. \textit{MedViT: A robust vision transformer for generalized medical image classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos MedViT con los CNN y AutoML (BreastMNIST, BloodMNIST y TissueMNIST)]{Comparación de resultados de los modelos MedViT con los CNN y AutoML (BreastMNIST, BloodMNIST y TissueMNIST).}
+	\label{2:table18}
+	\centering
+	\small
+	\begin{tabular}{lcccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Métodos} & \multicolumn{2}{l}{BreastMNIST} & \multicolumn{2}{l}{BloodMNIST} & \multicolumn{2}{l}{TissueMNIST} \\
+		{} & {AUC} & {ACC} & {AUC} & {ACC} & {AUC} & {ACC} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{ResNet-18 (28)} & {0.901} & {0.863} & {0.998} & {0.958} & {0.930} & {0.676} \\
+		{RestNet-18 (224)} & {0.891} & {0.833} & {0.998} & {0.963} & {0.933} & {0.681} \\
+		{ResNet-50 (28)} & {0.857} & {0.812} & {0.997} & {0.956} & {0.931} & {0.680} \\
+		{RestNet-50 (224)} & {0.866} & {0.842} & {0.997} & {0.950} & {0.932} & {0.680} \\
+		{auto-sklearn} & {0.836} & {0.803} & {0.984} & {0.878} & {0.828} & {0.532} \\
+		{AutoKeras} & {0.871} & {0.831} & {0.998} & {0.961} & {0.941} & {0.703} \\
+		{Google AutoML} & {0.919} & {0.861} & {0.998} & {0.966} & {0.924} & {0.673} \\
+		{MedVIT-T (224)} & {0.934} & {0.896} & {0.996} & {0.950} & {0.943} & {0.703} \\
+		{MedVIT-S (224)} & {0.938} & {0.897} & {0.997} & {0.951} & {0.952} & {0.731} \\
+		{MedVIT-L (224)} & {0.929} & {0.883} & {0.996} & {0.954} & {0.935} & {0.699} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_manzari2023MedViTGMIC}. \textit{MedViT: A robust vision transformer for generalized medical image classification}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Comparación de resultados de los modelos MedViT con los CNN y AutoML (OrganMNIST, OrganCMNIST y OrganSMNIST)]{Comparación de resultados de los modelos MedViT con los CNN y AutoML (OrganMNIST, OrganCMNIST y OrganSMNIST).}
+	\label{2:table19}
+	\centering
+	\small
+	\begin{tabular}{lcccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{3cm}{Métodos} & \multicolumn{2}{l}{OrganMNIST} & \multicolumn{2}{l}{OrganCMNIST} & \multicolumn{2}{l}{OrganSMNIST} \\
+		{} & {AUC} & {ACC} & {AUC} & {ACC} & {AUC} & {ACC} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{ResNet-18 (28)} & {0.997} & {0.935} & {0.992} & {0.900} & {0.972} & {0.782} \\
+		{RestNet-18 (224)} & {0.998} & {0.951} & {0.994} & {0.920} & {0.974} & {0.778} \\
+		{ResNet-50 (28)} & {0.997} & {0.935} & {0.992} & {0.905} & {0.972} & {0.770} \\
+		{RestNet-50 (224)} & {0.998} & {0.947} & {0.993} & {0.911} & {0.975} & {0.785} \\
+		{auto-sklearn} & {0.963} & {0.762} & {0.976} & {0.829} & {0.845} & {0.672} \\
+		{AutoKeras} & {0.994} & {0.905} & {0.990} & {0.879} & {0.974} & {0.813} \\
+		{Google AutoML} & {0.990} & {0.886} & {0.988} & {0.877} & {0.964} & {0.749} \\
+		{MedVIT-T (224)} & {0.995} & {0.931} & {0.991} & {0.901} & {0.972} & {0.789} \\
+		{MedVIT-S (224)} & {0.996} & {0.928} & {0.993} & {0.916} & {0.987} & {0.805} \\
+		{MedVIT-L (224)} & {0.997} & {0.943} & {0.994} & {0.922} & {0.973} & {0.806} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_manzari2023MedViTGMIC}. \textit{MedViT: A robust vision transformer for generalized medical image classification}.
+	\end{flushleft}
+\end{table}
 
 \cite{pr_regmi2023ViTChestXray} nos menciona la gran importancia que tiene el análisis de imágenes médicas para la detección a tiempo de enfermedades potencialmente mortales. Los radiólogos y personal clínico realizan esta importante tarea en la gran mayoría de los casos; sin embargo, sus interpretaciones de las imágenes no siempre están en lo correcto debido a que su análisis muchas veces está condicionado por el mismo observador, llevando a que los niveles de precisión para interpretar este tipo de datos no sean tan altos.
 
@@ -332,14 +711,26 @@ El último conjunto de datos, Kvasir-Capsule dataset consiste de 44 228 imágene
 
 A continuación se resumen las características de los 3 conjuntos de datos.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper4_part1.png}
-		\caption[Resumen de características de los conjuntos de datos]{Resumen de características de los conjuntos de datos. \\
-		Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.}
-		\label{2:fig114}
-	\end{center}
-\end{figure}
+
+\begin{table}[H]
+	\caption[Resumen de características de los conjuntos de datos]{Resumen de características de los conjuntos de datos.}
+	\label{2:table20}
+	\centering
+	\small
+	\begin{tabular}{m{2.5cm}m{1.5cm}m{2.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Dataset} & {N° de Imágenes} & {Tamaño de entrada} & {Entren.} & {Val.} & {Prue.} & {Aplicación} \\
+		\specialrule{.1em}{.05em}{.05em}
+		{Chest X-ray dataset} & {7135} & {variable} & {5693} & {671} & {771} & {Enfermedad pulmonar} \\
+		{Kvasir dataset} & {8000} & {720 x 556} & {6400} & {800} & {800} & {Endoscopía} \\
+		{Kvasir-Capsule} & {44152} & {336 x 336} & {19280} & {4820} & {23061} & {Enfermedad intestinal} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.
+	\end{flushleft}
+\end{table}
+
 
 El modelo ViT base (ViT-B) está compuesto por 12 bloques transformer con módulos de autoatención de 12 cabezas, permitiendo un total de 86 millones de parámetros entrenables.
 
@@ -367,32 +758,86 @@ Se realizó la prueba t por pares para comparar los resultados con la métrica M
 
 Los resultados de los experimentos se muestran a continuación.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper4_part2.png}
-		\caption[Resultados con el conjunto de datos Chest X-ray]{Resultados con el conjunto de datos Chest X-ray. \\
-		Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.}
-		\label{2:fig115}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultados con el conjunto de datos Chest X-ray]{Resultados con el conjunto de datos Chest X-ray.}
+	\label{2:table21}
+	\centering
+	\small
+	\begin{tabular}{m{2.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Método} & {Precision} & {Recall} & {F1-score} & {Acc.} & {MCC} & {P-val.} & {FPS}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		{DenseNet201 + DenseNet121} & {$0.9345 \pm 0.0324$} & {$0.9326 \pm 0.0584$} & {$0.9319 \pm 0.0236$} & {0.9326} & {0.8931} & {1.24e-03} & {16.08} \\
+		{DenseNet201} & {$0.9169 \pm 0.0358$} & {$0.9157 \pm 0.0538$} & {$0.9150 \pm 0.0195$} & {0.9157} & {0.8658} & {8.41e-05} & {22.47} \\
+		{DenseNet121} & {$0.9314 \pm 0.0358$} & {$0.9287 \pm 0.0678$} & {$0.9277 \pm 0.0370$} & {0.9287} & {0.8878} & {3.37e-04} & {26.15} \\
+		{Incep.RestNetV2} & {$0.9415\pm 0.0358$} & {$0.9403 \pm 0.0678$} & {$0.9400 \pm 0.0370$} & {0.9287} & {0.9052} & {1.18e-04} & {20.48} \\
+		{Xception} & {$0.9380 \pm 0.0324$} & {$0.9377 \pm 0.0461$} & {$0.9375 \pm 0.0358$} & {0.9377} & {0.9010} & {4.80e-05} & {21.34} \\
+		{MobileNetV2} & {$0.9133 \pm 0.0625$} & {$0.9092 \pm 0.0508$} & {$0.9099 \pm 0.0401$} & {0.9092} & {0.8567} & {8.96e-04} & {21.85} \\
+		{DeiT-Ti} & {$0.9266 \pm 0.0453$} & {$0.9261 \pm 0.0326$} & {$0.9262 \pm 0.0368$} & {0.9261} & {0.8821} & {3.37e-04} & {25.84} \\
+		{DeiT-B 384} & {$0.9332 \pm 0.0592$} & {$0.9300 \pm 0.0728$} & {$0.9291 \pm 0.0272$} & {0.9300} & {0.8899} & {1.10e-03} & {16.75} \\
+		{ViT-L/32} & {$0.9527 \pm 0.0362$} & {$0.9520 \pm 0.0301$} & {$0.9521 \pm 0.0277$} & {0.9520} & {0.9236} & {3.83e-02} & {11.49} \\
+		{ViT-L/16} & {$0.9533 \pm 0.0202$} & {$0.9533 \pm 0.0301$} & {$0.9532 \pm 0.0225$} & {0.9533} & {0.9259} & {-} & {11.20} \\
+		{ViT-B/16} & {$0.9291 \pm 0.0592$} & {$0.9248 \pm 0.0728$} & {$0.9248 \pm 0.0272$} & {0.9248} & {0.8813} & {3.77e-04} & {20.74} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.
+	\end{flushleft}
+\end{table}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper4_part3.png}
-		\caption[Resultados con el conjunto de datos Kvasir]{Resultados con el conjunto de datos Kvasir. \\
-		Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.}
-		\label{2:fig116}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultados con el conjunto de datos Kvasir]{Resultados con el conjunto de datos Kvasir.}
+	\label{2:table22}
+	\centering
+	\small
+	\begin{tabular}{m{2.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Método} & {Precision} & {Recall} & {F1-score} & {Acc.} & {MCC} & {P-val.} & {FPS}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		{DenseNet201 + DenseNet121} & {$0.9284 \pm 0.0559$} & {$0.9263 \pm 0.0711$} & {$0.9258 \pm 0.0538$} & {0.9263} & {0.9161} & {2.60e-01} & {12.32} \\
+		{DenseNet201} & {$0.9262 \pm 0.0467$} & {$0.9250 \pm 0.0628$} & {$0.9246 \pm 0.0472$} & {0.9250} & {0.9146} & {1.52e-01} & {21.59} \\
+		{DenseNet121} & {$0.9136 \pm 0.0523$} & {$0.9112 \pm 0.0749$} & {$0.9105 \pm 0.0515$} & {0.9113} & {0.8991} & {6.63e-02} & {24.35} \\
+		{Incep.RestNetV2} & {$0.8877\pm 0.0619$} & {$0.8875 \pm 0.0753$} & {$0.8870 \pm 0.0648$} & {0.8875} & {0.8716} & {1.90e-02} & {21.18} \\
+		{Xception} & {$0.9032 \pm 0.0611$} & {$0.9025 \pm 0.0761$} & {$0.9020 \pm 0.0639$} & {0.9025} & {0.8888} & {4.64e-02} & {43.12} \\
+		{MobileNetV2} & {$0.8789 \pm 0.0689$} & {$0.8775 \pm 0.0826$} & {$0.8769 \pm 0.0691$} & {0.8775} & {0.8603} & {1.42e-02} & {43.97} \\
+		{DeiT-Ti} & {$0.9353 \pm 0.0337$} & {$0.9350 \pm 0.0394$} & {$0.9349 \pm 0.0338$} & {0.9350} & {0.9258} & {5.82e-01} & {25.80} \\
+		{DeiT-B 384} & {$0.9408 \pm 0.0401$} & {$0.9401 \pm 0.0466$} & {$0.9399 \pm 0.0370$} & {0.9401} & {0.9319} & {3.73e-01} & {15.81} \\
+		{ViT-L/32} & {$0.9375 \pm 0.0532$} & {$0.9337 \pm 0.0698$} & {$0.9333 \pm 0.0458$} & {0.9337} & {0.9249} & {4.55e-01} & {13.35} \\
+		{ViT-L/16} & {$0.9454 \pm 0.0400$} & {$0.9437 \pm 0.0487$} & {$0.9436 \pm 0.0345$} & {0.9437} & {0.9360} & {-} & {11.34} \\
+		{ViT-B/16} & {$0.9433 \pm 0.0427$} & {$0.9400 \pm 0.0532$} & {$0.9398 \pm 0.0260$} & {0.9400} & {0.9316} & {5.53e-01} & {21.50} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.
+	\end{flushleft}
+\end{table}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper4_part4.png}
-		\caption[Resultados con el conjunto de datos Kvasir-Capsule]{Resultados con el conjunto de datos Kvasir-Capsule. \\
-		Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.}
-		\label{2:fig117}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultados con el conjunto de datos Kvasir-Capsule]{Resultados con el conjunto de datos Kvasir-Capsule.}
+	\label{2:table23}
+	\centering
+	\small
+	\begin{tabular}{m{2.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}m{1.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		{Método} & {Precision} & {Recall} & {F1-score} & {Acc.} & {MCC} & {P-val.} & {FPS}  \\
+		\specialrule{.1em}{.05em}{.05em}
+		{DenseNet201 + DenseNet121} & {$0.6633 \pm 0.2485$} & {$0.7230 \pm 0.2859$} & {$0.6737 \pm 0.2594$} & {0.7230} & {0.3560} & {9.63e-03} & {578.15} \\
+		{DenseNet201} & {$0.6606 \pm 0.2522$} & {$0.7198 \pm 0.2820$} & {$0.6737 \pm 0.2583$} & {0.7198} & {0.3585} & {8.88e-03} & {1142.90} \\
+		{DenseNet121} & {$0.6564 \pm 0.2660$} & {$0.7187 \pm 0.2848$} & {$0.6720 \pm 0.2621$} & {0.7187} & {0.3500} & {4.28e-03} & {1143.35} \\
+		{Incep.RestNetV2} & {$0.6059\pm 0.2647$} & {$0.6900 \pm 0.2742$} & {$0.6548 \pm 0.0336$} & {0.6203} & {0.2277} & {3.06e-04} & {544.81} \\
+		{Xception} & {$0.6159 \pm 0.2484$} & {$0.6895 \pm 0.2710$} & {$0.6310 \pm 0.2431$} & {0.6895} & {0.2544} & {3.34e-04} & {1223.44} \\
+		{MobileNetV2} & {$0.5903 \pm 0.2645$} & {$0.6800 \pm 0.2732$} & {$0.5925 \pm 0.2342$} & {0.6800} & {0.1637} & {7.041e-04} & {3555.12} \\
+		{DeiT-Ti} & {$0.6100 \pm 0.2603$} & {$0.6839 \pm 0.2669$} & {$0.6203 \pm 0.2431$} & {0.6839} & {0.2212} & {5.06e-05} & {281.24} \\
+		{DeiT-B 384} & {$0.6496 \pm 0.3020$} & {$0.7180 \pm 0.2770$} & {$0.6657 \pm 0.3010$} & {0.7185} & {0.3422} & {6.10e-04} & {520.21} \\
+		{ViT-L/32} & {$0.6483 \pm 0.2922$} & {$0.7182 \pm 0.2985$} & {$0.6631 \pm 0.2760$} & {0.7182} & {0.3377} & {3.11e-02} & {343.60} \\
+		{ViT-L/16} & {$0.6425 \pm 0.2806$} & {$0.6751 \pm 0.2725$} & {$0.6405 \pm 0.2581$} & {0.6751} & {0.2637} & {1.69e-03} & {262.09} \\
+		{ViT-B/16} & {$0.6841 \pm 0.2985$} & {$0.7156 \pm 0.2899$} & {$0.7156 \pm 0.2779$} & {0.7156} & {0.3705} & {-} & {570.53} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_regmi2023ViTChestXray}. \textit{Vision transformer for efficient chest X-ray and gastrointestinal image classification}.
+	\end{flushleft}
+\end{table}
 
 \cite{pr_tampu2023diseasedthyOCT} nos menciona que las tomografías de coherencia óptica (OCT) son un tipo de técnica de imágenes médicas que permiten la visualización de la microestructura de tejidos. Este ha sido altamente utilizado en distintas situaciones de análisis de imágenes médicas; por ejemplo, para las imágenes de arterias coronarias, el diagnóstico de cáncer, la gastroenterología y la odontología.
 
@@ -436,41 +881,119 @@ Para evaluar el rendimiento de los modelos se usó la matriz de confusión multi
 
 A continuación se muestran los resultados finales.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper5_part1.png}
-		\caption[Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)]{Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score). \\
-		Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.}
-		\label{2:fig118}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)]{Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score).}
+	\label{2:table24}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Data 2D} & {Modelo} & {MCC} & {Accuracy} & {F1-scpre} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{5}{3cm}{Task 1 normal vs abnormal (2 clases)} & {LightOCT} & {$0.23 \pm 0.07$} & {$0.58 \pm 0.03$} & {$0.49 \pm 0.05$} \\
+		{} & {ResNet50} & {$0.31 \pm 0.09$} & {$0.61 \pm 0.06$} & {$0.54 \pm 0.09$} \\
+		{} & {Mk-CNN} & {$0.04 \pm 0.09$} & {$0.51 \pm 0.02$} & {$0.40 \pm 0.04$} \\
+		{} & {sResNet4} & {$0.45 \pm 0.07$} & {$0.68 \pm 0.03$} & {$0.66 \pm 0.04$} \\
+		{} & {ViT} & {$0.37 \pm 0.06$} & {$0.68 \pm 0.03$} & {$0.68 \pm 0.03$} \\
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper5_part2.png}
-		\caption[Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)]{Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall). \\
-		Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.}
-		\label{2:fig119}
-	\end{center}
-\end{figure}
+		\multirow{5}{3cm}{Task 2 Basado en estructura (3 clases)} & {LightOCT} & {$0.36 \pm 0.10$} & {$0.57 \pm 0.07$} & {$0.55 \pm 0.07$} \\
+		{} & {ResNet50} & {$0.48 \pm 0.11$} & {$0.64 \pm 0.08$} & {$0.64 \pm 0.08$} \\
+		{} & {Mk-CNN} & {$0.47 \pm 0.13$} & {$0.62 \pm 0.10$} & {$0.55 \pm 0.14$} \\
+		{} & {sResNet4} & {$0.47 \pm 0.06$} & {$0.63 \pm 0.04$} & {$0.62 \pm 0.04$} \\
+		{} & {ViT} & {$0.41 \pm 0.05$} & {$0.58 \pm 0.03$} & {$0.54 \pm 0.04$} \\
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper5_part3.png}
-		\caption[Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)]{Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score). \\
-		Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.}
-		\label{2:fig120}
-	\end{center}
-\end{figure}
+		\multirow{5}{3cm}{Task 5 Por enfermedad (6 clases)} & {LightOCT} & {$0.33 \pm 0.08$} & {$0.43 \pm 0.07$} & {$0.42 \pm 0.06$} \\
+		{} & {ResNet50} & {$0.31 \pm 0.67$} & {$0.41 \pm 0.05$} & {$0.39 \pm 0.07$} \\
+		{} & {Mk-CNN} & {$0.40 \pm 0.03$} & {$0.47 \pm 0.02$} & {$0.45 \pm 0.04$} \\
+		{} & {sResNet4} & {$0.34 \pm 0.08$} & {$0.43 \pm 0.07$} & {$0.37 \pm 0.08$} \\
+		{} & {ViT} & {$0.38 \pm 0.08$} & {$0.47 \pm 0.07$} & {$0.45 \pm 0.06$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.
+	\end{flushleft}
+\end{table}
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper5_part4.png}
-		\caption[Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)]{Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall). \\
-		Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.}
-		\label{2:fig121}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)]{Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall).}
+	\label{2:table25}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Data 2D} & {Modelo} & {AUC} & {Precision} & {Recall} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{5}{3cm}{Task 1 normal vs abnormal (2 clases)} & {LightOCT} & {$0.74 \pm 0.09$} & {$0.72 \pm 0.09$} & {$0.58 \pm 0.03$} \\
+		{} & {ResNet50} & {$0.75 \pm 0.10$} & {$0.74 \pm 0.10$} & {$0.61 \pm 0.06$} \\
+		{} & {Mk-CNN} & {$0.70 \pm 0.15$} & {$0.70 \pm 0.12$} & {$0.51 \pm 0.02$} \\
+		{} & {sResNet4} & {$0.80 \pm 0.04$} & {$0.77 \pm 0.04$} & {$0.68 \pm 0.03$} \\
+		{} & {ViT} & {$0.74 \pm 0.02$} & {$0.73 \pm 0.02$} & {$0.68 \pm 0.03$} \\
+
+		\multirow{5}{3cm}{Task 2 Basado en estructura (3 clases)} & {LightOCT} & {$0.76 \pm 0.05$} & {$0.61 \pm 0.08$} & {$0.57 \pm 0.07$} \\
+		{} & {ResNet50} & {$0.84 \pm 0.06$} & {$0.74 \pm 0.08$} & {$0.64 \pm 0.08$} \\
+		{} & {Mk-CNN} & {$0.83 \pm 0.04$} & {$0.68 \pm 0.06$} & {$0.62 \pm 0.10$} \\
+		{} & {sResNet4} & {$0.82 \pm 0.04$} & {$0.70 \pm 0.06$} & {$0.63 \pm 0.04$} \\
+		{} & {ViT} & {$0.78 \pm 0.02$} & {$0.59 \pm 0.03$} & {$0.58 \pm 0.03$} \\
+
+		\multirow{5}{3cm}{Task 5 Por enfermedad (6 clases)} & {LightOCT} & {$0.81 \pm 0.05$} & {$0.50 \pm 0.08$} & {$0.43 \pm 0.07$} \\
+		{} & {ResNet50} & {$0.79 \pm 0.06$} & {$0.46 \pm 0.09$} & {$0.41 \pm 0.05$} \\
+		{} & {Mk-CNN} & {$0.86 \pm 0.03$} & {$0.59 \pm 0.05$} & {$0.47 \pm 0.02$} \\
+		{} & {sResNet4} & {$0.83 \pm 0.07$} & {$0.51 \pm 0.10$} & {$0.43 \pm 0.07$} \\
+		{} & {ViT} & {$0.82 \pm 0.06$} & {$0.53 \pm 0.08$} & {$0.47 \pm 0.07$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)]{Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score).}
+	\label{2:table26}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Data 3D} & {Modelo} & {MCC} & {Accuracy} & {F1-score} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{4cm}{Normal vs abnormal (2 clases)} & {LightOCT} & {$0.26 \pm 0.07$} & {$0.58 \pm 0.03$} & {$0.49 \pm 0.05$} \\
+		{} & {ViT} & {$0.37 \pm 0.06$} & {$0.68 \pm 0.03$} & {$0.68 \pm 0.03$} \\
+
+		\multirow{2}{4cm}{Basado en estructura (3 clases)} & {LightOCT} & {$0.36 \pm 0.10$} & {$0.57 \pm 0.07$} & {$0.55 \pm 0.07$} \\
+		{} & {ViT} & {$0.41 \pm 0.05$} & {$0.58 \pm 0.03$} & {$0.54 \pm 0.04$} \\
+
+		\multirow{2}{4cm}{Por enfermedad (6 clases)} & {LightOCT} & {$0.33 \pm 0.08$} & {$0.43 \pm 0.07$} & {$0.42 \pm 0.06$} \\
+		{} & {ViT} & {$0.38 \pm 0.08$} & {$0.47 \pm 0.07$} & {$0.45 \pm 0.06$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.
+	\end{flushleft}
+\end{table}
+
+\begin{table}[H]
+	\caption[Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)]{Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall).}
+	\label{2:table27}
+	\centering
+	\small
+	\begin{tabular}{ccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Data 3D} & {Modelo} & {AUC} & {Precision} & {Recall} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{2}{4cm}{Normal vs abnormal (2 clases)} & {LightOCT} & {$0.74 \pm 0.09$} & {$0.72 \pm 0.09$} & {$0.58 \pm 0.03$} \\
+		{} & {ViT} & {$0.74 \pm 0.02$} & {$0.73 \pm 0.02$} & {$0.68 \pm 0.03$} \\
+
+		\multirow{2}{4cm}{Basado en estructura (3 clases)} & {LightOCT} & {$0.76 \pm 0.05$} & {$0.61 \pm 0.08$} & {$0.57 \pm 0.07$} \\
+		{} & {ViT} & {$0.78 \pm 0.02$} & {$0.59 \pm 0.03$} & {$0.58 \pm 0.03$} \\
+
+		\multirow{2}{4cm}{Por enfermedad (6 clases)} & {LightOCT} & {$0.81 \pm 0.05$} & {$0.50 \pm 0.08$} & {$0.43 \pm 0.07$} \\
+		{} & {ViT} & {$0.82 \pm 0.06$} & {$0.53 \pm 0.08$} & {$0.47 \pm 0.07$} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_tampu2023diseasedthyOCT}. \textit{Diseased thyroid tissue classification in OCT images using deep learning: Towards surgical decision support}.
+	\end{flushleft}
+\end{table}
 
 Según \cite{pr_JERBI2023autoclassViTGAN} el análisis de imágenes médicas ha tomado gran importancia las últimas décadas en los procesos de diagnóstico de enfermedades. Sin embargo, la complejidad y variedad de este tipo de imágenes conlleva a buscar nuevos métodos de análisis.
 
@@ -500,7 +1023,7 @@ Algunas imágenes generadas y originales se muestran a continuación.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper6_part1.png}
+		\includegraphics[width=0.70\textwidth]{2/figures/vitpaper6_part1.png}
 		\caption[Imágenes de ultrasonido de la tiroides (originales y generadas)]{Imágenes de ultrasonido de la tiroides (originales y generadas). \\
 		Fuente: \cite{pr_JERBI2023autoclassViTGAN}. \textit{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}.}
 		\label{2:fig122}
@@ -531,14 +1054,45 @@ Las métricas usadas para evaluar los modelos entrenados fueron el accuracy, pre
 
 Los resultados se muestran a continuación.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{2/figures/vitpaper6_part2.png}
-		\caption[Comparación de los modelos entrenados]{Comparación de los modelos entrenados. \\
-		Fuente: \cite{pr_JERBI2023autoclassViTGAN}. \textit{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}.}
-		\label{2:fig123}
-	\end{center}
-\end{figure}
+\begin{table}[H]
+	\caption[Comparación de los modelos entrenados]{Comparación de los modelos entrenados.}
+	\label{2:table28}
+	\centering
+	\small
+	\begin{tabular}{ccccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{} & {Modelo} & {División de datos} & {F1-score} & {Recall} & {Precision} & {Accuracy} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{10}{4cm}{Softmax Classifier} & {VGG16} & {División clásica} & {93.06\%} & {93.06\%} & {93.06\%} & {92.90\%} \\
+		{} & {EffecientNetB0} & {División clásica} & {86.42\%} & {86.42\%} & {86.42\%} & {86.40\%} \\
+		{} & {RestNet50} & {División clásica} & {96.67\%} & {96.67\%} & {96.67\%} & {96.60\%} \\
+		{} & {ViT-B16} & {División clásica} & {92.28\%} & {92.28\%} & {92.28\%} & {92.10\%} \\
+		{} & {Hybrid ViT} & {División clásica} & {97.87\%} & {97.87\%} & {97.87\%} & {97.50\%} \\
+
+		{} & {VGG16} & {10-Folds} & {93.24\%} & {93.24\%} & {93.24\%} & {93.42\%} \\
+		{} & {EffecientNetB0} & {10-Folds} & {87.09\%} & {87.09\%} & {87.09\%} & {87.16\%} \\
+		{} & {RestNet50} & {10-Folds} & {96.66\%} & {96.66\%} & {96.66\%} & {96.71\%} \\
+		{} & {ViT-B16} & {10-Folds} & {96.10\%} & {96.10\%} & {96.10\%} & {95.98\%} \\
+		{} & {Hybrid ViT} & {10-Folds} & {96.96\%} & {96.96\%} & {96.96\%} & {97.10\%} \\
+
+		\multirow{10}{4cm}{SVM Classifier} & {VGG16} & {División clásica} & {92.78\%} & {90.82\%} & {94.96\%} & {93.69\%} \\
+		{} & {EffecientNetB0} & {División clásica} & {85.38\%} & {76.85\%} & {96.42\%} & {90.79\%} \\
+		{} & {RestNet50} & {División clásica} & {95.98\%} & {94.14\%} & {98.03\%} & {97.20} \\
+		{} & {ViT-B16} & {División clásica} & {94.55\%} & {92.08\%} & {97.23\%} & {95.09\%} \\
+		{} & {Hybrid ViT} & {División clásica} & {96.42\%} & {94.82\%} & {98.24\%} & {96.80\%} \\
+
+		{} & {VGG16} & {10-Folds} & {92.29\%} & {90.86\%} & {93.98\%} & {93.44\%} \\
+		{} & {EffecientNetB0} & {10-Folds} & {83.95\%} & {75.38\%} & {95.46\%} & {90.51\%} \\
+		{} & {RestNet50} & {10-Folds} & {96.46\%} & {94.96\%} & {98.16\%} & {97.32\%} \\
+		{} & {ViT-B16} & {10-Folds} & {96.12\%} & {95.14\%} & {97.18\%} & {96.17\%} \\
+		{} & {Hybrid ViT} & {10-Folds} & {96.67\%} & {95.01\%} & {98.51\%} & {97.63\%} \\
+
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_JERBI2023autoclassViTGAN}. \textit{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}.
+	\end{flushleft}
+\end{table}
 
 En relación a los modelos CNN, se pudo observar que el de mayor desempeño fue el RestNet50 con el clasificador SVM, alcanzando un accuracy de 97.63\%. Este hallazgo permitió determinar el CNN a usar en el modelo híbrido propuesto (ResNet50-ViTB16) que obtuvo finalmente el mejor desempeño general con un accuracy de 97.63\%.
 
