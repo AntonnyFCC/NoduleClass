@@ -7,7 +7,7 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Representación del método desarrollado}}{17}{figure.caption.14}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Arquitectura de modelo TC-ViT}}{18}{figure.caption.15}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Arquitecura de la red desarrollada}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Balanceo de clases usando aumento de datos}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Balanceo de clases usando Aumento de Datos}}{26}{figure.caption.23}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Estructura de ViT implementado}}{27}{figure.caption.24}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Imágenes de ultrasonido de la tiroides (originales y generadas)}}{47}{figure.caption.46}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Convolución de imagen de Fashion MNIST}}{50}{figure.caption.48}%

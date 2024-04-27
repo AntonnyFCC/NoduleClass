@@ -5,9 +5,9 @@
 \contentsline {table}{\numberline {4}{\ignorespaces Comparación de resultados de los modelos (specificity)}}{23}{table.caption.20}%
 \contentsline {table}{\numberline {5}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos HAM10000}}{24}{table.caption.21}%
 \contentsline {table}{\numberline {6}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos DERMOFIT}}{24}{table.caption.22}%
-\contentsline {table}{\numberline {7}{\ignorespaces Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{29}{table.caption.25}%
-\contentsline {table}{\numberline {8}{\ignorespaces Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (precision, recall, MCC)}}{29}{table.caption.26}%
-\contentsline {table}{\numberline {9}{\ignorespaces Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (kappa)}}{29}{table.caption.27}%
+\contentsline {table}{\numberline {7}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{29}{table.caption.25}%
+\contentsline {table}{\numberline {8}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)}}{29}{table.caption.26}%
+\contentsline {table}{\numberline {9}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (kappa)}}{29}{table.caption.27}%
 \contentsline {table}{\numberline {10}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{30}{table.caption.28}%
 \contentsline {table}{\numberline {11}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (precision, recall, MCC)}}{30}{table.caption.29}%
 \contentsline {table}{\numberline {12}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (kappa)}}{30}{table.caption.30}%

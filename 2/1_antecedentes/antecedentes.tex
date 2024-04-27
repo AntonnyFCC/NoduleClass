@@ -14,7 +14,7 @@ Para aumentar aún más las capacidades del sistema, se desarrolló en la parte 
 
 El sistema desarrollado en esta investigación fue basado en el diagnóstico a través de imágenes tomográficas que comúnmente es realizado por un médico experto; sin embargo, se menciona que este análisis siempre está sujeto a errores ya que existe mucha subjetividad en este tipo de diagnóstico, lo que conlleva muchas veces errores de detección. Además de la existencia de la tendencia al rechazo hacia esto tipo de sistemas CADx (Computer-aided Diagnosis) por parte de los médicos, esto debido a la fata de comprensión del cómo se realiza este tipo de pre-diagnóstico.
 
-Para afrontar esta desconfianza a este tipo de sistemas, se menciona la existencia del Deep hierarchical semantic convolutional neural network (HSCNN) que añadía a la capacidad de predecir si un nódulo era maligno o benigno, la función de otorgar evidencia visual del pre-diagnóstico a través de la predicción de las características del nódulo. Sin embargo, el conjunto de datos usado en esta investigación difería de las evaluaciones de los propios médicos. Por tal motivo, en la presente investigación se puso como un objetivo probar si la disminución de esta varianza en los datos podría mejorar los resultados del modelo HSCNN.
+Para afrontar esta desconfianza a este tipo de sistemas, se menciona la existencia del Deep Hierarchical Semantic Convolutional Neural Network (HSCNN) que añadía a la capacidad de predecir si un nódulo era maligno o benigno, la función de otorgar evidencia visual del pre-diagnóstico a través de la predicción de las características del nódulo. Sin embargo, el conjunto de datos usado en esta investigación difería de las evaluaciones de los propios médicos. Por tal motivo, en la presente investigación se puso como un objetivo probar si la disminución de esta varianza en los datos podría mejorar los resultados del modelo HSCNN.
 
 A través de un análisis de los datos, se logró mejorar la descripción de características. Este nuevo conjunto de datos fue revisado por especialista para comprobar su validez antes de ser ingresado al modelo HSCNN para predecir si un nódulo era maligno o benigno. Este proceso se hizo a través de un k-folds igual a 4 junto con cross-validation.
 
@@ -28,7 +28,7 @@ Los resultamos muestran una sensibilidad del 0.91, especificidad de 0.96 y preci
 
 Otra investigación relacionada a detectar alguna enfermedad a través de técnicas de Deep Learning y visión por computadora es la presentada por \cite{pr_monroy2021disvc} donde toma a la enfermedad de Parkinson como mal a detectar, esto a través del análisis de la escritura de una persona. Para tal objetivo, en la investigación se desarrolló un modelo de visión computacional para el pre-diagnóstico de esta enfermedad.
 
-La metodología empieza con la adquisición y preprocesamiento de los datos, para posteriormente usar técnicas de extracción de características como SIFT, SURF, ORB y HOG. Estos serán ingresados a un modelo de Machine Learning (SVM, RF, KNN) que finalmente realizará una clasificación. Además, se usaron diferente arquitectura de redes neuronales convolucionales como Inception, VGG16, VGG19, LeNet y ResNet50.
+La metodología empieza con la adquisición y preprocesamiento de los datos, para posteriormente usar técnicas de extracción de características como SIFT, SURF, ORB y HOG. Estos serán ingresados a un modelo de Machine Learning (SVM, RF, KNN) que finalmente realizará una clasificación. Además, se usaron diferente arquitectura de Redes Neuronales Convolucionales como Inception, VGG16, VGG19, LeNet y ResNet50.
 
 Los resultados finales fueron un 0.99 en accuracy, 0.99 en precisión, 0.99 en recall, 0.98 en F1-score y AUC.
 
@@ -92,7 +92,7 @@ La base de datos usada fue construida, y se obtuvieron resultados perfectamente 
 
 La metodología consistía en la construcción de tres redes distintas: feature extraction network, attenntion-based feature aggregation network, classification network. Estas tres redes juntas forman el modelo objetivo desarrollado en este artículo.
 
-En general, la metodología consistía en, primero, la construcción del conjunto de datos que se conforma de imágenes de ultrasonido procedentes de un hospital. Se recolectaron cerca de 7 800 imágenes de 1 046 exámenes de entre los años 2015 y 2018. En segundos lugar, se realizó el etiquetado de los datos. Estas anotaciones se realizaron de acuerdo con los exámenes en general, y no a cada una de las imágenes que la conforman. Luego, se realizó la separación de la data en entrenamiento, prueba y validación. En la parte final de experimentación, se realizó un preprocesamiento con data augmentation y se definió 100 épocas para la fase de entrenamiento. El modelo ganador de la fase de validación fue probado con la data de prueba. Las métricas usadas para la evaluación fueron el accuracy, sensitivity (true positive rate) y el área bajo la curva (AUC ROC).
+En general, la metodología consistía en, primero, la construcción del conjunto de datos que se conforma de imágenes de ultrasonido procedentes de un hospital. Se recolectaron cerca de 7 800 imágenes de 1 046 exámenes de entre los años 2015 y 2018. En segundos lugar, se realizó el etiquetado de los datos. Estas anotaciones se realizaron de acuerdo con los exámenes en general, y no a cada una de las imágenes que la conforman. Luego, se realizó la separación de la data en entrenamiento, prueba y validación. En la parte final de experimentación, se realizó un preprocesamiento con Data Augmentation y se definió 100 épocas para la fase de entrenamiento. El modelo ganador de la fase de validación fue probado con la data de prueba. Las métricas usadas para la evaluación fueron el accuracy, sensitivity (true positive rate) y el área bajo la curva (AUC ROC).
 
 La siguiente figura muestra la arquitectura propuesta en esta investigación.
 
@@ -124,7 +124,7 @@ A pesar de estos logros del desarrollo de Deep Learning en esta área, se mencio
 
 La metodología seguida por los autores inicia con la preparación de los datos. En este caso se usó el conjunto de datos HAM10000 que consta de 7 clases distintas de cáncer de piel. Las imágenes tuvieron que ser redimensionadas para los 4 distintos modelos a entrenar: Inception ResNet con Soft Attention (IRv2 + SA), ResNet50 con Soft Attention (ResNet50 + SA), ViTfSCD-Large y ViTfSCD-Base. Los parámetros de estos dos últimos modelos se muestran en la siguiente figura.
 
-Además, se aplicó a las imágenes una limpieza, eliminando los duplicados. También pasó por un proceso de balanceo de las clases donde se intentó igualar la cantidad de imágenes en cada una de estas. Se realizó el proceso de aumento de datos a través de modificaciones en las imágenes como alterar la saturación de forma aleatoria, cambiar el contraste y el brillo. Finalmente, se definió los porcentajes de división para el conjunto de datos, siendo 85\% para el entrenamiento y 15\% para la prueba. 
+Además, se aplicó a las imágenes una limpieza, eliminando los duplicados. También pasó por un proceso de balanceo de las clases donde se intentó igualar la cantidad de imágenes en cada una de estas. Se realizó el proceso de Aumento de Datos a través de modificaciones en las imágenes como alterar la saturación de forma aleatoria, cambiar el contraste y el brillo. Finalmente, se definió los porcentajes de división para el conjunto de datos, siendo 85\% para el entrenamiento y 15\% para la prueba. 
 
 Para la evaluación de los modelos se utilizaron las métricas de accuracy, precision, recall (sensitivity), specificity y F1 score. Los resultados de evaluar su capacidad de clasificación de los 4 modelos se muestran a continuación.
 
@@ -288,20 +288,20 @@ A pesar del importante papel de las mamografías en la detección a tiempo del c
 
 Ante este problema, se dice que se han desarrollado diversos sistema de detección asistida por computadora o CAD por sus siglas en inglés que tiene el principal objetivo de reducir los errores en la detección de este cáncer. 
 
-Existen varios tipos de sistema CAD. Algunos no usan la Inteligencia Artificial, mientras otros utilizan las técnicas altamente difundidas del Deep Learning. Específicamente los modelos basados en las redes neuronales convolucionales (CNN) han sido consideradas como prometedoras para las tareas detección de tumores de mama, llevándolos incluso a ser capaces de reducir la probabilidad de error humano. Sin embargo, esta clase de modelos también tienen sus dificultades. 
+Existen varios tipos de sistema CAD. Algunos no usan la Inteligencia Artificial, mientras otros utilizan las técnicas altamente difundidas del Deep Learning. Específicamente los modelos basados en las Redes Neuronales Convolucionales (CNN) han sido consideradas como prometedoras para las tareas detección de tumores de mama, llevándolos incluso a ser capaces de reducir la probabilidad de error humano. Sin embargo, esta clase de modelos también tienen sus dificultades. 
 
 Los modelos CNN son computacionalmente caros debido a la complejidad y cantidad de convoluciones que se realizan. Además, en el contexto del cáncer de mama, estos modelos tienen dificultades en la localización de tumores, y una alta necesidad en el pre procesamiento, pues es necesario mejorar la calidad y reducir el ruido de las imágenes.
 
-Otro problema a considerar es la falta de conjuntos de datos para el análisis de imágenes médicas. Para abordar esto, es necesario aplicar transfer learning y el aumento de datos.
+Otro problema a considerar es la falta de conjuntos de datos para el análisis de imágenes médicas. Para abordar esto, es necesario aplicar Transfer Learning y el Aumento de Datos.
 
-En esta investigación se desarrolló un modelo de Deep Learning basado en los Vision Transformers y el transfer learning para la detección de cáncer de mama a través de mamografías. Para lograr esto, primero se abordó el problema de desbalanceo de las dos clases (benigno y maligno) en el conjunto de datos de mamografías, posteriormente, se desarrolló un método de transfer learning basado en los vision transformer con el objetivo de mejorar las deficiencias de los métodos de transfer learning basados en CNN.
+En esta investigación se desarrolló un modelo de Deep Learning basado en los Vision Transformers y el Transfer Learning para la detección de cáncer de mama a través de mamografías. Para lograr esto, primero se abordó el problema de desbalanceo de las dos clases (benigno y maligno) en el conjunto de datos de mamografías, posteriormente, se desarrolló un método de Transfer Learning basado en los Vision Transformer con el objetivo de mejorar las deficiencias de los métodos de Transfer Learning basados en CNN.
 
-El conjunto de datos usado para entrenar y probar el modelo fue el Digital Database for Screening Mammography (DDSM). Este consiste (hasta el último acceso del 12 de septiembre del 2022) de 13 128 imágenes mamográficas de las cuales 5 970 son benignas y 7 158 son malignas. Esto presentaba un claro desbalance con un ratio de 0.65:0.35. Esta distribución entre las clases podría generar errores en la etapa de aprendizaje del modelo, por este motivo, se desarrolló un nuevo método para el balanceo de datos a través de la técnica de aumento de datos, específicamente, se aplicó variaciones en la fluctuaciones de color de las imágenes, correción gamma, giro horizontal, sal y pimientas, y afilado o sharpening. El objetivo fue balancear el conjunto de datos para realizar validación cruzada de 5 pliegues, para lograr esto, se dividió al conjunto de datos en 5 partes o pliegues. Para las primeras 4 partes, se colocaron 1 145 imágenes de tumores malignos en cada una, mientras que para el quinto pliegue se tenían  1 146. Además, en los primeros 4 pliegues se tuvieron 955 imágenes de tumores benignos, a la vez que en el quinto pliegue se tuvieron 956. Para el lograr el balanceo de clases, se sometió a  imágenes de tumores benignos al proceso de aumento de imágenes 5 veces, mientras que para al grupo de imágenes de tumores malignos solo se aplicó una vez. Así, finalmente se obtuvo 1 146 imágenes para ambas clases presentes en cada pliegue. Este proceso se muestra en la figura a continuación.
+El conjunto de datos usado para entrenar y probar el modelo fue el Digital Database for Screening Mammography (DDSM). Este consiste (hasta el último acceso del 12 de septiembre del 2022) de 13 128 imágenes mamográficas de las cuales 5 970 son benignas y 7 158 son malignas. Esto presentaba un claro desbalance con un ratio de 0.65:0.35. Esta distribución entre las clases podría generar errores en la etapa de aprendizaje del modelo, por este motivo, se desarrolló un nuevo método para el balanceo de datos a través de la técnica de Aumento de Datos, específicamente, se aplicó variaciones en la fluctuaciones de color de las imágenes, correción gamma, giro horizontal, sal y pimientas, y afilado o sharpening. El objetivo fue balancear el conjunto de datos para realizar validación cruzada de 5 pliegues, para lograr esto, se dividió al conjunto de datos en 5 partes o pliegues. Para las primeras 4 partes, se colocaron 1 145 imágenes de tumores malignos en cada una, mientras que para el quinto pliegue se tenían  1 146. Además, en los primeros 4 pliegues se tuvieron 955 imágenes de tumores benignos, a la vez que en el quinto pliegue se tuvieron 956. Para el lograr el balanceo de clases, se sometió a  imágenes de tumores benignos al proceso de aumento de imágenes 5 veces, mientras que para al grupo de imágenes de tumores malignos solo se aplicó una vez. Así, finalmente se obtuvo 1 146 imágenes para ambas clases presentes en cada pliegue. Este proceso se muestra en la figura a continuación.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.90\textwidth]{2/figures/vitpaper2_part1.png}
-		\caption[Balanceo de clases usando aumento de datos]{Balanceo de clases usando aumento de datos. \\
+		\caption[Balanceo de clases usando Aumento de Datos]{Balanceo de clases usando Aumento de Datos. \\
 		Fuente: \cite{pr_ayana2023ViTtrasnferLMC}. \textit{Vision-Transformer-Based Transfer Learning for Mammogram Classification}.}
 		\label{2:fig108}
 	\end{center}
@@ -309,7 +309,7 @@ El conjunto de datos usado para entrenar y probar el modelo fue el Digital Datab
 
 Una vez obtenida la data ya balanceada, se realizó el preprocesamiento a las imágenes, específicamente, se redimensionó a las imágenes a 244 x 244 pixeles, esto debido a que el tamaño de las imágenes del conjunto de datos era variable. 
 
-El diseño del modelo consiste inicialmente de la arquitectura de vision transformer. Se explica que siendo un modelo derivado de los convencionales transformer usados para el proceso del lenguaje natural o NLP donde las entradas son de una sola dimensión, los vision transformer se adaptaron para recibir entradas de dos dimensiones (imágenes). 
+El diseño del modelo consiste inicialmente de la arquitectura de Vision Transformer. Se explica que siendo un modelo derivado de los convencionales transformer usados para el proceso del lenguaje natural o NLP donde las entradas son de una sola dimensión, los Vision Transformer se adaptaron para recibir entradas de dos dimensiones (imágenes). 
 
 Específicamente, el modelo se encarga de dividir las entradas en pequeñas partes, también de dos dimensiones,conocidas como patches que finalmente servirán como entrada y serán pasada como word tokens, de igual forma que en un modelo transformer NLP. Aunque antes de proveer estos patches, se realizan los procesos de flattening, sequence imbedding, learnable embedding y patch embedding.
 
@@ -326,24 +326,24 @@ En el siguiente gráfico se muestra la estructura del modelo implementado en la 
 	\end{center}
 \end{figure}
 
-El transfer learning fue aplicado en la investigación a través del uso de modelos de vision transformer pre-entrenados con el extenso conjunto de datos ImageNet, y posteriormente utilizados para entrenar el conjunto de datos de imágenes mamográficas. Es decir que se aprovechó el conocimiento de dichos modelos para la tarea final de clasificación de mamografías en benigno y maligno. Los modelos usados para este proceso fueron el Vision Transformer (ViT), Swin Transformer (Swin-T) y el Pyramid Vision Transformer (PVT).
+El Transfer Learning fue aplicado en la investigación a través del uso de modelos de Vision Transformer pre-entrenados con el extenso conjunto de datos ImageNet, y posteriormente utilizados para entrenar el conjunto de datos de imágenes mamográficas. Es decir que se aprovechó el conocimiento de dichos modelos para la tarea final de clasificación de mamografías en benigno y maligno. Los modelos usados para este proceso fueron el Vision Transformer (ViT), Swin Transformer (Swin-T) y el Pyramid Vision Transformer (PVT).
 
 El modelo Swin-T posee cuatro distintas versiones: Swin-base, Swin-tiny, Swin-small y Swin-large. Las variantes usadas en esta investigación fueron el Swin-small y Swin-base. Mientras que de las 4 versiones de PVT (PVT-tiny, PVT-small, PVT-medium y PVT-large), se usaron solo el PVT-medium y PVT-large.
 
 Los modelos fueron entrenados con 50 épocas, una tasa de aprendizaje de 0.0001, optimizador Adam y un tamaño de lote de 64. Además, se dividió el conjunto de datos en 80\% para entrenamiento y 20\% para prueba.
 
-Los vision transformer usaron GELU como función de activación, mientras que los CNN usaron ReLu. Ambos usaron el regularizador L2.
+Los Vision Transformer usaron GELU como función de activación, mientras que los CNN usaron ReLu. Ambos usaron el regularizador L2.
 
 También se aplicó validación cruzada de 5 para lograr una mejor comparación en el rendimiento de los modelos.
 
 Las métricas usadas para el proceso de evaluación de los modelos fueron el accuracy, AUC, F1-score, preicision, recall, el coeficiente de correlación de Matthew y el kappa score.
 
-Se evaluó el método propuesto a través de 5 formas distintas: comparación de desempeño de los 3 modelos con transfer learning, comparación de los modelos vision transformer entrenados desde cero con el conjunto de datos de mamografías, comparación de transfer learning de vision transformer con los CNN, comparación de costo computacional de cada modelo vision transformer y, finalmente, se comparó el desempeño de los métodos desarrollados en esta investigación con otros que usaron el mismo conjunto de datos.
+Se evaluó el método propuesto a través de 5 formas distintas: comparación de desempeño de los 3 modelos con Transfer Learning, comparación de los modelos Vision Transformer entrenados desde cero con el conjunto de datos de mamografías, comparación de Transfer Learning de Vision Transformer con los CNN, comparación de costo computacional de cada modelo Vision Transformer y, finalmente, se comparó el desempeño de los métodos desarrollados en esta investigación con otros que usaron el mismo conjunto de datos.
 
-Como se muestra en las siguiente tablas, los 6 modelos transfer learning basados en arquitectura de vision transformer y entrenados con el conjunto de datos DDSM tuvieron un desempeño uniforme a través de todas la métricas.
+Como se muestra en las siguiente tablas, los 6 modelos Transfer Learning basados en arquitectura de Vision Transformer y entrenados con el conjunto de datos DDSM tuvieron un desempeño uniforme a través de todas la métricas.
 
 \begin{table}[H]
-	\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
+	\caption[Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
 	\label{2:table7}
 	\centering
 	\small
@@ -365,7 +365,7 @@ Como se muestra en las siguiente tablas, los 6 modelos transfer learning basados
 \end{table}
 
 \begin{table}[H]
-	\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (precision, recall, MCC)]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (precision, recall, MCC).}
+	\caption[Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)]{Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC).}
 	\label{2:table8}
 	\centering
 	\small
@@ -387,7 +387,7 @@ Como se muestra en las siguiente tablas, los 6 modelos transfer learning basados
 \end{table}
 
 \begin{table}[H]
-	\caption[Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (kappa)]{Resultado de los modelo ViT basados en transfer learning en el conjunto de datos DDSM (kappa).}
+	\caption[Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (kappa)]{Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (kappa).}
 	\label{2:table9}
 	\centering
 	\small
@@ -408,7 +408,7 @@ Como se muestra en las siguiente tablas, los 6 modelos transfer learning basados
 	\end{flushleft}
 \end{table}
 
-La siguientes tablas muestran los resultados de los modelos vision transformer inplementados desde cero y entrenados con el conjunto de datos DDSM.
+La siguientes tablas muestran los resultados de los modelos Vision Transformer inplementados desde cero y entrenados con el conjunto de datos DDSM.
 
 \begin{table}[H]
 	\caption[Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
@@ -478,7 +478,7 @@ La siguientes tablas muestran los resultados de los modelos vision transformer i
 
 Se puede observar que el modelo PVT-medium obtuvo un mejor desempeño comparado a los demás modelos. Sin embargo, estos resultados se mantienen muy por debajo de los presentados anteriormente.
 
-Finalmente, también se obtuvieron resultados de los experimentos de transfer learning con modelos CNN y el conjunto de datos DDSM. Estos se muestran a continuación.
+Finalmente, también se obtuvieron resultados de los experimentos de Transfer Learning con modelos CNN y el conjunto de datos DDSM. Estos se muestran a continuación.
 
 \begin{table}[H]
 	\caption[Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)]{Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score).}
@@ -547,9 +547,9 @@ Finalmente, también se obtuvieron resultados de los experimentos de transfer le
 \end{table}
 
 
-El desempeño de los modelos CNN también se encuentran por debajo de los vision transformer presentados inicialmente. 
+El desempeño de los modelos CNN también se encuentran por debajo de los Vision Transformer presentados inicialmente. 
 
-\cite{pr_manzari2023MedViTGMIC} nos menciona que dentro del análisis de imágenes médicas, la tarea de clasificación es crucial. Por ello, este se ha visto beneficiado constantemente de novedosos sistemas de diagnóstico asistido, siendo los de mayor desempeño aquellos basados en redes neuronales convolucionales (CNN), pues ofrecen predicciones cada vez más precisas incluso comparándose con los médicos. Sin embargo, estos también tienen algunas desventajas o dificultades, principalmente lo relacionado a su capacidad de aprendizaje de dependencias a largo alcance en conjuntos de datos visuales, esto debido al conocido sesgo local de las CNN.
+\cite{pr_manzari2023MedViTGMIC} nos menciona que dentro del análisis de imágenes médicas, la tarea de clasificación es crucial. Por ello, este se ha visto beneficiado constantemente de novedosos sistemas de diagnóstico asistido, siendo los de mayor desempeño aquellos basados en Redes Neuronales Convolucionales (CNN), pues ofrecen predicciones cada vez más precisas incluso comparándose con los médicos. Sin embargo, estos también tienen algunas desventajas o dificultades, principalmente lo relacionado a su capacidad de aprendizaje de dependencias a largo alcance en conjuntos de datos visuales, esto debido al conocido sesgo local de las CNN.
 
 En este contexto, las arquitecturas basadas en transformers y su mecanismo de autoatención, han demostrado ser capaces de solucionar estas desventajas de las CNN. Esto debido a su capacidad de modelar las dependencias a largo alcance de los datos, convirtiéndolos así en modelos superiores a las arquitectura de CNN, aunque con mayor necesidad en cantidad de datos de entrenamiento, recursos computacionales y tiempo.
 
@@ -565,7 +565,7 @@ De forma generar el modelo MedViT, propuesto en esta investigación, tiene como 
 
 Los bloques principales de modelo son el Efficient Convolution Block (ECB) y el Local Transformer Block (LTB). Estos se encargan de capturar las dependencias de los datos de entrada a largo y corto plazo.
 
-También se propuso una nueva técnica de aumento de datos denominada Patch Momentum Charge (PMC) con el objetivo de mejorar el rendimiento del modelo.
+También se propuso una nueva técnica de Aumento de Datos denominada Patch Momentum Charge (PMC) con el objetivo de mejorar el rendimiento del modelo.
 
 Los experimentos se realizaron con 12 distintos conjuntos de datos de la categoría imágenes médicas. Todos estos se encontraron en MedMINIST, y conforman imágenes de tomografías computarizadas, rayos X, ultrasonido y tomografías de coherencia óptica (OCT). Esta variedad de datos permiten el entrenamiento de modelos en tareas de clasificación.
 
@@ -573,7 +573,7 @@ De forma específica, los conjuntos de datos usados fueron el PathMNIST (posee 1
 
 En la etapa de entrenamiento del modelo con los 12 conjuntos de datos descritos anteriormente, se siguieron los mismos ajustes de entrenamiento de MedMNISTv2. Se usaron 100 épocas con un tamaño de lote de 128 y se aplicó el redimensionado a las imágenes para obtener la forma de 224 x 224 pixeles. Además, se usó el optimizar AdamW con una tasa de aprendizaje de 0.0001.
 
-MedViT consiste en 3 distintas arquitecturas definidas por su tamaño: MedViT-T, MedViT-S y MedViT-L. Estas fueron entrenadas de forma separada con cada uno de los conjuntos de datos. También se incluyó el aumento de datos a través de PMC.en la etapa de entrenamiento.
+MedViT consiste en 3 distintas arquitecturas definidas por su tamaño: MedViT-T, MedViT-S y MedViT-L. Estas fueron entrenadas de forma separada con cada uno de los conjuntos de datos. También se incluyó el Aumento de Datos a través de PMC.en la etapa de entrenamiento.
 
 Las métricas usadas para evaluar las 3 versiones del modelo MedViT fueron el accuracy y la curva ROC. Esta elección fue debido a que el experimento se llevó a cabo en varios conjuntos de datos distintos entre sí. 
 
@@ -691,13 +691,13 @@ De los resultados mostrados a continuación, los modelos MedViT superan, de form
 
 Esta tarea de interpretación de imágenes médicas es aun más importante en los casos de una alta necesidad de detectar a tiempo alguna enfermedad; por ejemplo, las relacionadas a los pulmones o las enfermedades gastrointestinales que pueden no causar daño como el reflujo ácido u otras de grave impacto como el cáncer de colon. Una detección a tiempo de estos permite aplicar los tratamientos debidos y así, consecuentemente, mejorar la calidad de vida de los pacientes. En este contexto, los sistemas de diagnóstico asistido por computadora (CAD por sus siglas en inglés) han demostrado ser de gran ayuda para los médicos y expertos clínicos en la tarea de realizar diagnósticos tempranos.
 
-La capacidad de las redes neuronales convolucionales (CNN) de poder adaptarse en detectar distintas característica de un conjunto de datos han permitido su desarrollo en el campo médico, específicamente en las tareas de segmentación, clasificación, registro y reconstrucción de imágenes médicas.
+La capacidad de las Redes Neuronales Convolucionales (CNN) de poder adaptarse en detectar distintas característica de un conjunto de datos han permitido su desarrollo en el campo médico, específicamente en las tareas de segmentación, clasificación, registro y reconstrucción de imágenes médicas.
 
 Otra técnica popular que va tomando cada vez más mayor importancia son los Vision Transformer (ViT) capaces también de desempeñarse satisfactoriamente en las tareas de clasificación de imágenes, a pesar de ser basados en los originales transformers especializados en tareas relacionadas a texto.
 
 Otro tipo de arquitectura basada en transformer son los Data-Efficient Image Transformer (DeiT), una versión de nuevos de los ViT caracterizados por su baja dependencia a los datos a través de su enfoque maestro-estudiante.
 
-En esta investigación se presentan distintas arquitecturas basadas en CNN y Transformer para la clasificación de radiografías de tórax en distintos tipos de enfermedades relacionadas. Específicamente, se usaron los modelos DeiT, ViT y Ensemble, este último basado en otros modelos CNN. También se aplicó transfer learning junto a modelos CNN previamente entrenados. Finalmente todos los modelos fueron comparados en la misma tarea de clasificación de imágenes.
+En esta investigación se presentan distintas arquitecturas basadas en CNN y Transformer para la clasificación de radiografías de tórax en distintos tipos de enfermedades relacionadas. Específicamente, se usaron los modelos DeiT, ViT y Ensemble, este último basado en otros modelos CNN. También se aplicó Transfer Learning junto a modelos CNN previamente entrenados. Finalmente todos los modelos fueron comparados en la misma tarea de clasificación de imágenes.
 
 Se usaron distintas versiones de ViT (ViT-B/16, ViT-L/16, ViT-L/32) pre-entrenados con el conjunto de datos ImageNet-21k. 
 
@@ -744,7 +744,7 @@ Se usaron dos modelos de DeiT: DeiT-Ti y DeiT-B 384. El primero de estos permit�
 
 Todos los conjuntos de datos fueron divididos en data de entrenamiento, validación y prueba.
 
-Además, se aplicaron distintas técnicas de aumento de datos para cada uno de los conjuntos de datos. En el caso de Chest X-ray se aplicó el reescalado, cambio de brillo, desplazamiento vertical y vertical, y zoom de forma aleatoria. Para el conjunto de datos Kvasir, se alteró el brillo de las imágenes, se rotaron y se dieron vuelta de manera vertical. Finalmente, para Kvasir-Capsule, se aplicó rotación, se dio vuelta a las imágenes de manera horizontal y vertical.
+Además, se aplicaron distintas técnicas de Aumento de Datos para cada uno de los conjuntos de datos. En el caso de Chest X-ray se aplicó el reescalado, cambio de brillo, desplazamiento vertical y vertical, y zoom de forma aleatoria. Para el conjunto de datos Kvasir, se alteró el brillo de las imágenes, se rotaron y se dieron vuelta de manera vertical. Finalmente, para Kvasir-Capsule, se aplicó rotación, se dio vuelta a las imágenes de manera horizontal y vertical.
 
 Los modelos CNN pre-entrenados que se usaron fueron el DenseNet201, DenseNet121, InceptionRestNetV2, Xception, MovileNetV2 y el Ensemble que combinaba DenseNet201 y DenseNet121.
 
@@ -845,7 +845,7 @@ Debido a la capacidad de proporcionar imágenes de alta calidad, esta técnica e
 
 A pesar de estas grandes ventajas y aplicaciones de las imágenes OCT, su uso e interpretabilidad está limitado a un pequeño número de profesionales clínicos. Por este motivo, se han ido desarrollando distintos métodos de análisis de imágenes médicas con el fin de facilitar su interpretación; sin embargo, estos están comúnmente basados en las técnicas tradicionales de procesamiento de imágenes que poseen dos grandes limitaciones: procesamiento lento y necesidad de intervención manual.
 
-En este contexto, se han desarrollado nuevos métodos para sobrellevar las desventajas de los OCT. Los más conocidos son los basados en las redes neuronales convolucionales (CNN) que han ido demostrando los últimos años su capacidad de obtener un alto rendimiento en tareas de clasificación, segmentación y detección de objetivos en imágenes.
+En este contexto, se han desarrollado nuevos métodos para sobrellevar las desventajas de los OCT. Los más conocidos son los basados en las Redes Neuronales Convolucionales (CNN) que han ido demostrando los últimos años su capacidad de obtener un alto rendimiento en tareas de clasificación, segmentación y detección de objetivos en imágenes.
 
 Existe una gran variedad de arquitecturas de Deep Learning basadas en CNN desarrolladas para la clasificación de imágenes. Las más conocidas son ResNet, AlexNet e Inception. Todas entrenadas con el conjunto de datos ImageNet que consta de imágenes naturales. Sin embargo, las imágenes médicas tienen un comportamiento distinto, y es que estas tienen toda la información dispersa en la imagen y no solo enfocada en una región. Además, se ha ido experimentando con redes poco profundas con este tipo de imágenes y los resultados muestran un desempeño similar a las grandes pre-entrenadas arquitecturas.
 
@@ -875,7 +875,7 @@ Los modelos entrenados desde cero con los conjuntos de datos 2D fueron RestNet50
 
 Para el entrenamiento de los modelos se tuvieron distintas configuraciones. El modelo LightOCT se optimizó a través del algoritmo de descenso por gradiente estocástico con el objetivo de reducir la pérdida definida por el categorical cross-entropy. Los demás modelos usaron la función de pérdida weighted categorical cross-entropy con el optimizador Lookahead y el optimizador interno ADAM. Además, también se calcularon los pesos para el balanceo de clases del conjunto de datos de entrenamiento.
 
-El entrenamiento de los modelos 2D fue con la técnica de validación cruzada 5-folds con 250 épocas. Además, para el conjunto de datos de estos modelos, se aplicó aumento de datos sobre la marcha (giro horizontal y vertical aleatorios, rotación aleatoria de 30 grados y zoom aleatorio de 10\%).
+El entrenamiento de los modelos 2D fue con la técnica de validación cruzada 5-folds con 250 épocas. Además, para el conjunto de datos de estos modelos, se aplicó Aumento de Datos sobre la marcha (giro horizontal y vertical aleatorios, rotación aleatoria de 30 grados y zoom aleatorio de 10\%).
 
 Para evaluar el rendimiento de los modelos se usó la matriz de confusión multiclases. También se calculó el Matthew’s Correlation Coefficient (MCC), accuracy, precision, recall, F1-score y AUC para cada modelo.
 
@@ -1007,9 +1007,9 @@ Es por esto que se halla la necesidad de usar tecnologías, como las basadas en 
 
 A pesar de la capacidad de los actuales sistemas CAD capaces de realizar tareas de clasificación de imágenes médicas, hay una necesidad de mejores métodos y técnicas capaces de procesar grandes cantidades de datos.
 
-En ese contexto, los últimos años se han ido desarrollando modelos basados en redes neuronales convolucionales, como VGG16, EffecientNet y ResNet50, capaces de manejar grandes cantidades de datos.
+En ese contexto, los últimos años se han ido desarrollando modelos basados en Redes Neuronales Convolucionales, como VGG16, EffecientNet y ResNet50, capaces de manejar grandes cantidades de datos.
 
-El rendimiento de este tipo de modelos también se ve beneficiado por técnicas de aumento de datos donde se generan nuevas imágenes a través de; por ejemplo, su rotación, cambio de saturación o realce. Sin embargo, también existen técnicas más avanzadas de aumento de datos como el uso de Deep Convolutional Generative Adversarial Networks (DCGAN) que tiene la capacidad de generar imágenes a través de tomar como entrada algunas imágenes reales. Este tipo de procesos tienen el objetivo de solucionar el desbalance o baja cantidad de datos.
+El rendimiento de este tipo de modelos también se ve beneficiado por técnicas de Aumento de Datos donde se generan nuevas imágenes a través de; por ejemplo, su rotación, cambio de saturación o realce. Sin embargo, también existen técnicas más avanzadas de Aumento de Datos como el uso de Deep Convolutional Generative Adversarial Networks (DCGAN) que tiene la capacidad de generar imágenes a través de tomar como entrada algunas imágenes reales. Este tipo de procesos tienen el objetivo de solucionar el desbalance o baja cantidad de datos.
 
 Se menciona que otra técnica que ha ido tomando gran importancia estos años son los Vision Transformers (ViT), basadas en los modelos transformer originales diseñadas para tareas de Procesamiento de Lenguaje Natural (NLP).
 
@@ -1017,7 +1017,7 @@ En esta investigación se desarrolló un modelo híbrido entre ViT y CNN con el 
 
 El conjunto de datos usado fue el de CIM@LAB de la Universidad Nacional de Colombia y el Instituto de Diagnóstico Médico. Este consiste en 472 imágenes de ultrasonido de la glándula tiroides donde 397 eran de carácter maligno, y 75 de carácter benigno. Las imágenes poseen distintos tamaños, por ello se procedió con su redimensionamiento a 128 x 128 píxeles.
 
-Debido a la baja cantidad de muestras del conjunto de datos, se realizó un aumento de datos a través del modelo DCGAN, el cual generó 10 000 imágenes, repartidas homogéneamente en cada clase.
+Debido a la baja cantidad de muestras del conjunto de datos, se realizó un Aumento de Datos a través del modelo DCGAN, el cual generó 10 000 imágenes, repartidas homogéneamente en cada clase.
 
 Algunas imágenes generadas y originales se muestran a continuación.
 
@@ -1036,7 +1036,7 @@ La parte de la arquitectura encargada de discriminar tiene una entrada de tamañ
 
 Para la división del conjunto de datos, se usaron dos métodos distintos. El primero consistía en dividir el toda la data en 80\% para el entrenamiento (4 000 imágenes de nódulos benignos y 4 000 imágenes de nódulos malignos), 10\% (500 benignos y 500 malignos) para la validación y 10\% (500 benignos y 500 malignos) para la prueba. El segundo método fue el cross-validation con k-fold de tamaño de 10; es decir, se tomaron 9 000 imágenes para el entrenamiento y 1 000 para la prueba.
 
-Las redes neuronales convolucionales VGG16, EffecientNetB0 y ResNet50 se probaron con el conjunto de datos (dividido por los dos métodos mencionados) utilizando transfer learning. En la parte del clasificador se usó Softmax y SVM con un kernel igual a l2. Esta parte sirvió para definir cuál modelo CNN será usado para la implementación de la arquitectura híbrida.
+Las Redes Neuronales Convolucionales VGG16, EffecientNetB0 y ResNet50 se probaron con el conjunto de datos (dividido por los dos métodos mencionados) utilizando Transfer Learning. En la parte del clasificador se usó Softmax y SVM con un kernel igual a l2. Esta parte sirvió para definir cuál modelo CNN será usado para la implementación de la arquitectura híbrida.
 
 La arquitectura de ViT usada fue el ViTB16. Este modelo recibe patches de 16 x 16. Es decir, las imágenes de ultrasonido se dividirán, de acuerdo a su tamaño, en patches de tamaño 16 x 16. Luego, cada uno de estos es aplanado y mapeado a través de una proyección lineal.
 

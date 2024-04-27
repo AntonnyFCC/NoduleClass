@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.2)  26 APR 2024 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.2)  27 APR 2024 11:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2703,11 +2703,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [65
 
 ]
-<3/figures/metod_classthy1.jpg, id=888, 796.065pt x 482.457pt>
+<3/figures/metod_classthy1.jpg, id=888, 800.007pt x 499.32pt>
 File: 3/figures/metod_classthy1.jpg Graphic file (type jpg)
 <use 3/figures/metod_classthy1.jpg>
 Package pdftex.def Info: 3/figures/metod_classthy1.jpg  used on input line 28.
-(pdftex.def)             Requested size: 452.96826pt x 274.51747pt.
+(pdftex.def)             Requested size: 452.96826pt x 282.71823pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2717,12 +2717,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [66 <./3/figures/metod_classthy1.jpg>]
-<3/figures/conf_matrix.jpg, id=894, 441.723pt x 211.773pt>
-File: 3/figures/conf_matrix.jpg Graphic file (type jpg)
-<use 3/figures/conf_matrix.jpg>
-Package pdftex.def Info: 3/figures/conf_matrix.jpg  used on input line 53.
-(pdftex.def)             Requested size: 339.7262pt x 162.87181pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2731,6 +2725,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67]
+<3/figures/conf_matrix.jpg, id=898, 441.723pt x 211.773pt>
+File: 3/figures/conf_matrix.jpg Graphic file (type jpg)
+<use 3/figures/conf_matrix.jpg>
+Package pdftex.def Info: 3/figures/conf_matrix.jpg  used on input line 53.
+(pdftex.def)             Requested size: 339.7262pt x 162.87181pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3301,7 +3301,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  89i,13n,117p,2004b,3032s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonny/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (91 pages, 5937780 bytes).
+Output written on tesis.pdf (91 pages, 5976939 bytes).
 PDF statistics:
  1103 PDF objects out of 1200 (max. 8388607)
  246 named destinations out of 1000 (max. 500000)
