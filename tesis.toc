@@ -28,10 +28,10 @@
 \contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{59}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Machine Learning}{60}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Ecografía y las imágenes de ultrasonido}{61}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{61}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{62}{subsection.2.3.7}%
-\contentsline {section}{\numberline {2.4}Hipótesis}{63}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{63}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{62}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{63}{subsection.2.3.7}%
+\contentsline {section}{\numberline {2.4}Hipótesis}{64}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{64}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{64}{subsection.2.4.2}%
 \contentsline {chapter}{\numberline {III}Metodología de la Investigación}{65}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Diseño de la investigación}{65}{section.3.1}%
@@ -42,8 +42,8 @@
 \contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{66}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{67}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{70}{section.3.4}%
-\contentsline {chapter}{Referencias}{72}{chapter*.67}%
-\contentsline {chapter}{Anexos}{76}{section*.68}%
+\contentsline {chapter}{Referencias}{72}{chapter*.68}%
+\contentsline {chapter}{Anexos}{76}{section*.69}%
 \contentsline {section}{\numberline {A}Árbol de Problemas}{77}{section.Alph0.1}%
 \contentsline {section}{\numberline {B}Árbol de Objetivos}{78}{section.Alph0.2}%
 \contentsline {section}{\numberline {C}Matriz de Consistencia}{79}{section.Alph0.3}%

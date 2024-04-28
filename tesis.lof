@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces Arquitecura de la red desarrollada}}{20}{figure.caption.16}%
 \contentsline {figure}{\numberline {9}{\ignorespaces Balanceo de clases usando Aumento de Datos}}{26}{figure.caption.23}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Estructura de ViT implementado}}{27}{figure.caption.24}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Imágenes de ultrasonido de la tiroides (originales y generadas)}}{47}{figure.caption.46}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Imágenes de ultrasonido de la tiroides generadas}}{47}{figure.caption.46}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Convolución de imagen de Fashion MNIST}}{50}{figure.caption.48}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Convolución de imagen con filtro de líneas verticales}}{51}{figure.caption.49}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Convolución de imagen con filtro de líneas horizontales}}{51}{figure.caption.50}%
@@ -20,8 +20,9 @@
 \contentsline {figure}{\numberline {19}{\ignorespaces Perceptrón}}{59}{figure.caption.55}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Perceptrón Multicapa}}{60}{figure.caption.56}%
 \contentsline {figure}{\numberline {21}{\ignorespaces Enfoque del Machine Learning}}{61}{figure.caption.57}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Ejemplo de Transfer Learning}}{62}{figure.caption.58}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Ejemplo de Data Augmentation}}{63}{figure.caption.59}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Metodología de implementación}}{66}{figure.caption.60}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Matriz de Confusión}}{68}{figure.caption.61}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Cronograma de actividades}}{70}{figure.caption.65}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Imágenes de ultrasonido de nódulos tiroideos}}{62}{figure.caption.58}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Ejemplo de Transfer Learning}}{63}{figure.caption.59}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Ejemplo de Data Augmentation}}{64}{figure.caption.60}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Metodología de implementación}}{66}{figure.caption.61}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Matriz de Confusión}}{68}{figure.caption.62}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Cronograma de actividades}}{70}{figure.caption.66}%

@@ -3227,25 +3227,27 @@
     <bcf:citekey order="155" intorder="1">pr_herrera2017diseimp</bcf:citekey>
     <bcf:citekey order="156" intorder="1">pr_herrera2017diseimp</bcf:citekey>
     <bcf:citekey order="157" intorder="1">pr_camacho2022ultrasonicimg</bcf:citekey>
-    <bcf:citekey order="158" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="159" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="158" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="159" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
     <bcf:citekey order="160" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="161" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="162" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="163" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="164" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="165" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="166" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
-    <bcf:citekey order="167" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="166" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="167" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="168" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
     <bcf:citekey order="169" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
-    <bcf:citekey order="170" intorder="1">pr_monroy2021disvc</bcf:citekey>
-    <bcf:citekey order="171" intorder="1">pr_monroy2021disvc</bcf:citekey>
-    <bcf:citekey order="172" intorder="1">ws_izco2018bdcp</bcf:citekey>
-    <bcf:citekey order="173" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="170" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="171" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="172" intorder="1">pr_monroy2021disvc</bcf:citekey>
+    <bcf:citekey order="173" intorder="1">pr_monroy2021disvc</bcf:citekey>
     <bcf:citekey order="174" intorder="1">ws_izco2018bdcp</bcf:citekey>
     <bcf:citekey order="175" intorder="1">ws_izco2018bdcp</bcf:citekey>
     <bcf:citekey order="176" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="177" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="178" intorder="1">ws_izco2018bdcp</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
