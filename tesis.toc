@@ -21,15 +21,15 @@
 \contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{13}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Bases Teóricas}{50}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Deep Learning}{50}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Nódulos Tiroideos}{56}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{58}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Inteligencia Artficial}{58}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Perceptrón}{58}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{59}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Machine Learning}{60}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Ecografía y las imágenes de ultrasonido}{61}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Transfer Learning}{62}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Data Augmentation}{63}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.2.2}Transfer Learning}{56}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Data Augmentation}{57}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Nódulos Tiroideos}{58}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Ecografía y las imágenes de ultrasonido}{60}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{61}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Inteligencia Artficial}{61}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Perceptrón}{61}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Perceptrón Multicapa}{62}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Machine Learning}{63}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4}Hipótesis}{64}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{64}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{64}{subsection.2.4.2}%

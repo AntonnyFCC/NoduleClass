@@ -114,6 +114,40 @@ Toda la arquitectura de los ViT se puede resumir con la Figura \ref{2:fig206}.
 	\end{center}
 \end{figure}
 
+\subsection{Transfer Learning}
+\cite{bk_geron2022handml} nos menciona que el Transfer Learning o Transferencia de Aprendizaje es un técnica usada en el campo de Deep Learning que permite el uso de algunas capas de un modelo ya definido y entrenado previamente en un nuevo modelo que necesite ser entrenado en una tarea similar al que se desarrolla el modelo original. Las capas destinadas al reuso son normalmente las más cercanas a la entrada o también conocidas como capas inferiores. El beneficio de usar esta técnica radica en dos puntos importantes: cantidad de datos requeridos y velocidad de entrenamiento del modelo; es decir, la cantidad de datos que se deben usar para entrenar un modelo de alto desempeño se reduce considerablemente, mientras que el tiempo requerido para terminar este proceso es menor comparándolo a si lo entrenaran desde cero.
+
+Para que esta técnica funcione debidamente, las capas más cercanas a la salida, conocidas también como capas de alto nivel, deben ser reemplazadas, esto debido a que son más específicas de las tareas del modelo original. Esto también incluye a la capa final, ya que posiblemente no tenga la cantidad de salidas necesarias para completar satisfactoriamente la nueva tarea.
+
+En la Figura \ref{2:fig211} se presenta de forma gráfica la técnica.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{2/figures/transfer_learning.PNG}
+		\caption[Ejemplo de Transfer Learning]{Ejemplo de Transfer Learning. \\
+		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
+		\label{2:fig211}
+	\end{center}
+\end{figure}
+
+\subsection{Data Augmentation}
+
+Según \cite{bk_geron2022handml} el Aumento de Datos o Data Augmentation es una técnica de regularización que permite reforzar la cantidad de muestras en un conjunto de datos. Esto se realiza a través de la generación de nuevas instancias similares a los originales; es decir, las personas no deberían ser capaces de diferenciar una imagen generada de una del propio conjunto de datos.
+
+Para generar estas nuevas muestras, normalmente se aplican diferentes transformaciones a las instancias del conjunto de datos original. Estas transformaciones pueden ser; por ejemplo, una simple rotación o recorte de la imagen, siempre y cuando no altere por completo su sentido como es el caso de voltear una imagen de texto de forma horizontal. 
+
+El principal beneficio de esta técnica es que permite reducir el sobreajuste de los modelos entrenados. 
+
+En la Figura \ref{2:fig212} se muestran algunas transformaciones que se pueden hacer al aplicar el Aumento de Datos. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{2/figures/data_aug.PNG}
+		\caption[Ejemplo de Data Augmentation]{Ejemplo de Data Augmentation. \\
+		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
+		\label{2:fig212}
+	\end{center}
+\end{figure}
 
 \subsection{Nódulos Tiroideos}
 Para entender qué es un nódulo tiroideo, primero se debe sabes qué es la tiroides. Este es una glándula localizada en el cuello del cuerpo humano que se encarga de producir hormonas que regulan el metabolismo. Los nódulos que aparecen en esta glándula son los más comunes, y se generan debido a un excesivo crecimiento de las células en esa área, estos pueden ser de textura dura o quísticas. \parencite{pr_deng2022autclass}
@@ -141,3 +175,18 @@ La forma y orientación de los nódulos también pueden determinar si son o no m
 
 Finalmente, el margen de los nódulos también puede dar información del tipo con el que se trata. Una característica que sugiere que un nódulo es maligno es un margen espiculado o micro tubulado.
 
+\subsection{Ecografía y las imágenes de ultrasonido}
+Según \cite{pr_herrera2017diseimp}, la ecografía, que es una técnica de diagnóstico en donde se usan imágenes generadas por ultrasonido, es comúnmente desarrollado en las áreas de cardiología, ginecología, y otras más relacionadas. La popularidad de esta técnica se basa en la capacidad de las imágenes de alta calidad que se obtienen de este proceso, además de no ser un método invasivo o de radiación como muchos otros de su tipo.
+
+Los sistema encargados de extraer las imágenes de ultrasonido son compuestos de distintas sensores que generan ondas de sonido para posteriormente analizar la respuesta de la interacción física con el campo de interés. Estas señales recibidas de regreso son digitalizados por una parte electrónica delantera que también transforman estos datos crudos en la imagen final. El funcionamiento de este proceso depende de la configuración de los sensores, el método usado para obtener las imágenes y las características de área de interés. \parencite{pr_camacho2022ultrasonicimg}
+
+Algunas imágenes de ultrasonido de nódulos tiroideos se muestran en la Figura \ref{2:fig210}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{2/figures/imagenes_ultrasonido_originales.png}
+		\caption[Imágenes de ultrasonido de nódulos tiroideos]{Imágenes de ultrasonido de nódulos tiroideos. \\
+		Fuente: \cite{pr_JERBI2023autoclassViTGAN}. \textit{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}.}
+		\label{2:fig210}
+	\end{center}
+\end{figure}
