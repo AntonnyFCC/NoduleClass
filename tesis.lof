@@ -15,14 +15,15 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Convolución de imagen con filtro de líneas horizontales}}{51}{figure.caption.50}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Ejemplo de max-pooling con un pool de 2x2}}{52}{figure.caption.51}%
 \contentsline {figure}{\numberline {16}{\ignorespaces DenseNet con 5 capas}}{54}{figure.caption.52}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Arquitectura del modelo ViT}}{56}{figure.caption.53}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Ejemplo de Transfer Learning}}{57}{figure.caption.54}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Ejemplo de Data Augmentation}}{58}{figure.caption.55}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Imagen tomográfica de glándula de tiroides}}{59}{figure.caption.56}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Imágenes de ultrasonido de nódulos tiroideos}}{61}{figure.caption.57}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Perceptrón}}{62}{figure.caption.58}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Perceptrón Multicapa}}{63}{figure.caption.59}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Enfoque del Machine Learning}}{64}{figure.caption.60}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Metodología de implementación}}{66}{figure.caption.61}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Matriz de Confusión}}{68}{figure.caption.62}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Cronograma de actividades}}{70}{figure.caption.66}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Arquitectura del modelo Transformer}}{56}{figure.caption.53}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Arquitectura del modelo ViT}}{58}{figure.caption.54}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Ejemplo de Transfer Learning}}{59}{figure.caption.55}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Ejemplo de Data Augmentation}}{60}{figure.caption.56}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Imagen tomográfica de glándula de tiroides}}{61}{figure.caption.57}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Imágenes de ultrasonido de nódulos tiroideos}}{63}{figure.caption.58}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Perceptrón}}{64}{figure.caption.59}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Perceptrón Multicapa}}{65}{figure.caption.60}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Enfoque del Machine Learning}}{66}{figure.caption.61}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Metodología de implementación}}{68}{figure.caption.62}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Matriz de Confusión}}{70}{figure.caption.63}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Cronograma de actividades}}{72}{figure.caption.67}%

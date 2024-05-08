@@ -81,7 +81,32 @@ Según la investigación original presentada por \cite{pr_dosovitskiy2021animage
 
 % A diferencia de las tareas de NLP, la visión por computadora tuvo mayores problemas para adaptar este nuevo tipo de arquitecturas a sus tareas específicas.
 
-Los primeros intentos de ingreso de esta arquitectura en la visión por computadora se basaban en usar la capacidad de self-attention de los Transformer y combinarlo con los dominantes modelos CNN. Estos intentos de obtener los excelentes resultados de los Transformer en las tareas de visión por computadora no obtenían los resultados de los modelos de mayor desempeño como son los basados en la arquitectura de ResNet.
+Según \cite{pr_vaswani2017attentionisallneed} los Transformer tiene una arquitectura similar a los modelos Neural Sequence Transduction que contienen dos partes importantes: encoder y decoder. El encoder se encarga de realizar un mapeo de las entradas a secuencias continuas. El decoder recibe este último para finalmente generar un secuencia de símbolos de forma autorregresiva, generando un símbolo a la vez mientras utiliza los anteriores símbolos ya generados como entrada. El modelo Transformer sigue este mismo comportamiento a través de su mecanismo característico de Self-Attention junto a sus capas conectadas completamente.
+
+En el encoder de las arquitecturas Transformer se tienen 6 capas que se componen de otras 2 subcapas: Multi-Head Self-Attention y Fully Connected Feedforward en función a su posición. Además, entre estas dos subcapas, se aplicaron conexiones residuales y capas de normalización. Finalmente, también se definió una capa de Embedding. La dimensión de los vectores generados por todas estas capas es de 512.
+
+En el decoder también se tienen 6 capas idénticas entre sí. Además, similar al encoder, las dos capas Multi-Head y Fully Connected también están presentes con la diferencia de una nueva subcapa Multi-head que recibe como entrada la salida del encoder. Otra característica distintiva del decoder es el masking aplicado a la capa Multi-Head que surge como medio para evitar que las posiciones tengan la capacidad de atender a las siguientes posiciones. Finalmente, también se emplearon conexiones residuales y capas de normalización de igual manera que en el encoder.
+
+El proceso de Attention en los Transformers se define como el mapeo de vectores de alta dimensionalidad (query, key y value) a una salida (también vector de alta dimensión). Esta salida se calcula mediante a través de pesos, que se obtienen con una función de compatibilidad entre el query y el key, y que son asignados al vector value para finalmente realizar una suma ponderada con estos. Todo este proceso se realiza de forma paralela en sus proyecciones lineales donde sus salidas serán concatenadas y proyectadas nuevamente. A este proceso, se le conoce como Multi-Head Attetion.
+
+Además de las capas de atención, tanto el encoder como decoder del Transformer tienen una subcapa de Fully Connected Feedforward en función a la posición. Este tipo de capa aplica una transformación lineal usando además la función de activación ReLU.
+
+Las capas Embedding son usadas para llevar los token de entradas a vectores de alta dimensionalidad. Mientras que las funciones de transformación lineal y softmax cambian la salida del decoder para obtener las probabilidades predichas.
+
+Junto a los Embedding, y tanto en el encoder y decoder del Transformer, también se definen los Positional Encoding. Estos se encargan de otorgar información sobre la posición de los token en la secuencia a la que pertenecen. Estos tienen la misma dimensión que los propios Embedding.
+
+Cada una de las partes de la arquitectura de los Transformer descritos anteriormente se puede observar de forma gráfica en la Figura \ref{2:fig213}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{2/figures/transformer_arch.PNG}
+		\caption[Arquitectura del modelo Transformer]{Arquitectura del modelo Transformer. \\
+		Fuente: \cite{pr_vaswani2017attentionisallneed}. \textit{Attention is all you need}.}
+		\label{2:fig213}
+	\end{center}
+\end{figure}
+
+En el contexto de la visión por computadora, \cite{pr_dosovitskiy2021animageisworth} menciona que los primeros intentos de uso de esta arquitectura se basaban en aprovechar la capacidad de Self-Attention de los Transformer y combinarlo con los dominantes modelos CNN. Estos intentos de obtener los excelentes resultados de los Transformer en las tareas de visión por computadora no obtenían los resultados de los modelos de mayor desempeño como son los basados en la arquitectura de ResNet.
 
 Debido a esto y al gran potencial que tenían las arquitecturas basadas en Transformers, propusieron el uso de estas arquitecturas aplicadas de forma directa a imágenes; es decir, aplicando la menor cantidad de cambios antes de ingresar al mismo Transformer. El proceso exacto de cómo funciona su arquitectura se explicará más adelante.
 
