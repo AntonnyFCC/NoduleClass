@@ -25,7 +25,7 @@ En el presente caso, se pretende desarrollar un modelo de Deep Learning capaz de
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1.00\textwidth]{3/figures/metod_classthy1.jpg}
+		\includegraphics[width=1.00\textwidth]{3/figures/metod_classthy1.png}
 		\caption[Metodología de implementación]{Metodología de implementación. \\
 		Fuente: Elaboración propia.}
 		\label{3:fig301}
@@ -36,7 +36,7 @@ La adquisición del conjunto de datos, es decir, imágenes de ultrasonido, consi
 
 En la etapa de preprocesamiento, se realizará en primera instancia una exploración del conjunto de datos con el fin de entender su composición y las características a mejorar; por ejemplo, un posible desbalanceo de clases o presencia de imágenes corruptas o sin etiquetar. Posteriormente, se realizará limpieza datos en caso de imágenes corruptas o de nula utilidad. Además, se usarán técnicas de Aumento de Datos en la situación de desbalanceo de datos, con el fin de evitar una baja generalización y sobreajuste en la clase mayoritaria. Además, se aplicará un reescalado y normalización en las imágenes destinadas al entrenamiento del modelo con el objetivo de reducir la complejidad computacional y así obtener menor tiempo de ejecución.
 
-Una vez se tenga la data ya preprocesada, una parte de este se usará para el entrenamiento de modelos de Deep Learning. Inicialmente, se planea usar algunos de los diversos tipos y arquitecturas de Redes Neuronales Convolucionales (CNN), específicamente los más utilizados en este tipo de tareas como lo son VGG, RestNet y EfficientNet, pues son ideales para la extracción de características de las imágenes, facilitando así el proceso final de clasificación. Además, se desarrollarán modelos basados en arquitecturas de Vision Transformer debido al potencial que han demostrado en anteriores investigaciones. Finalmente, también se realizará el desarrollo de modelos híbridos de CNN con Vision Transformer. %similares a los descritos por \cite{pr_JERBI2023autoclassViTGAN}.
+Una vez se tenga la data ya preprocesada, una parte de este se usará para el entrenamiento de modelos de Deep Learning. Inicialmente, se planea usar algunos de los diversos tipos y arquitecturas de Redes Neuronales Convolucionales (CNN), específicamente los más utilizados en este tipo de tareas como lo son VGG y ResNet, pues son ideales para la extracción de características de las imágenes, facilitando así el proceso final de clasificación. Además, se desarrollarán modelos basados en arquitecturas de Vision Transformer debido al potencial que han demostrado en anteriores investigaciones. Finalmente, también se realizará el desarrollo de modelos híbridos de CNN con Vision Transformer. %similares a los descritos por \cite{pr_JERBI2023autoclassViTGAN}.
 
 Cada uno de los modelos será probado en la parte restante de la data, específicamente en la data de prueba o test. De aquí se obtendrán las predicciones de los modelos clasificando las imágenes en benigno (0) o maligno (1).
 

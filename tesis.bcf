@@ -3254,6 +3254,20 @@
     <bcf:citekey order="182" intorder="1">ws_izco2018bdcp</bcf:citekey>
     <bcf:citekey order="183" intorder="1">ws_izco2018bdcp</bcf:citekey>
     <bcf:citekey order="184" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="185" intorder="1">pr_simonyan2015vdcn</bcf:citekey>
+    <bcf:citekey order="186" intorder="1">pr_he2016deepres</bcf:citekey>
+    <bcf:citekey order="187" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="188" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="189" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="190" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="191" intorder="1">ws_inkawhich2024dcganpytorch</bcf:citekey>
+    <bcf:citekey order="192" intorder="1">ws_inkawhich2024dcganpytorch</bcf:citekey>
+    <bcf:citekey order="193" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="194" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="195" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="196" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="197" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="198" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

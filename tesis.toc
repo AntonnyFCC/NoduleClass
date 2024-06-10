@@ -42,8 +42,16 @@
 \contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{68}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Metodología para la Medición de Resultados de la Implementación}{69}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{72}{section.3.4}%
-\contentsline {chapter}{Referencias}{74}{chapter*.69}%
-\contentsline {chapter}{Anexos}{78}{section*.70}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{79}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{80}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{81}{section.Alph0.3}%
+\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{74}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Determinación y evaluación de alternativas de solución}{74}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Propuesta solución}{77}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{77}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{80}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Medición de la solución}{124}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{124}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Simulación de solución}{125}{subsection.4.3.2}%
+\contentsline {chapter}{Referencias}{128}{chapter*.141}%
+\contentsline {chapter}{Anexos}{132}{section*.142}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{133}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{134}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{135}{section.Alph0.3}%

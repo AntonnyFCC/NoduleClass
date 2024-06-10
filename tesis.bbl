@@ -782,6 +782,39 @@
       \field{title}{Grokking Artificial Intelligence Algorithms}
       \field{year}{2020}
     \endentry
+    \entry{ws_inkawhich2024dcganpytorch}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
+           family={Inkawhich},
+           familyi={I\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DCGAN Tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+    \endentry
     \entry{ws_izco2018bdcp}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
@@ -2974,6 +3007,39 @@
       \field{labeltitlesource}{title}
       \field{title}{Grokking Artificial Intelligence Algorithms}
       \field{year}{2020}
+    \endentry
+    \entry{ws_inkawhich2024dcganpytorch}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
+           family={Inkawhich},
+           familyi={I\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DCGAN Tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
     \endentry
     \entry{ws_izco2018bdcp}{misc}{}{}
       \name{author}{1}{}{%
