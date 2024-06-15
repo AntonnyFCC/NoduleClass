@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Resumen}{1}{chapter*.6}%
-\contentsline {chapter}{Introducción}{3}{chapter*.8}%
+\contentsline {chapter}{Resumen}{1}{chapter*.7}%
+\contentsline {chapter}{Introducción}{3}{chapter*.9}%
 \contentsline {chapter}{\numberline {I}Planteamiento del Problema}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{5}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{9}{section.1.2}%
@@ -50,8 +50,8 @@
 \contentsline {section}{\numberline {4.3}Medición de la solución}{124}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{124}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Simulación de solución}{125}{subsection.4.3.2}%
-\contentsline {chapter}{Referencias}{128}{chapter*.141}%
-\contentsline {chapter}{Anexos}{132}{section*.142}%
+\contentsline {chapter}{Referencias}{128}{chapter*.140}%
+\contentsline {chapter}{Anexos}{132}{section*.141}%
 \contentsline {section}{\numberline {A}Árbol de Problemas}{133}{section.Alph0.1}%
 \contentsline {section}{\numberline {B}Árbol de Objetivos}{134}{section.Alph0.2}%
 \contentsline {section}{\numberline {C}Matriz de Consistencia}{135}{section.Alph0.3}%

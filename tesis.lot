@@ -1,31 +1,31 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Comparación de resultados de los modelos (precision)}}{22}{table.caption.17}%
-\contentsline {table}{\numberline {2}{\ignorespaces Comparación de resultados de los modelos (sensitivity)}}{22}{table.caption.18}%
-\contentsline {table}{\numberline {3}{\ignorespaces Comparación de resultados de los modelos (f1-score)}}{23}{table.caption.19}%
-\contentsline {table}{\numberline {4}{\ignorespaces Comparación de resultados de los modelos (specificity)}}{23}{table.caption.20}%
-\contentsline {table}{\numberline {5}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos HAM10000}}{24}{table.caption.21}%
-\contentsline {table}{\numberline {6}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos DERMOFIT}}{24}{table.caption.22}%
-\contentsline {table}{\numberline {7}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{29}{table.caption.25}%
-\contentsline {table}{\numberline {8}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)}}{29}{table.caption.26}%
-\contentsline {table}{\numberline {9}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (kappa)}}{29}{table.caption.27}%
-\contentsline {table}{\numberline {10}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{30}{table.caption.28}%
-\contentsline {table}{\numberline {11}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (precision, recall, MCC)}}{30}{table.caption.29}%
-\contentsline {table}{\numberline {12}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (kappa)}}{30}{table.caption.30}%
-\contentsline {table}{\numberline {13}{\ignorespaces Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{31}{table.caption.31}%
-\contentsline {table}{\numberline {14}{\ignorespaces Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)}}{31}{table.caption.32}%
-\contentsline {table}{\numberline {15}{\ignorespaces Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (kappa)}}{31}{table.caption.33}%
-\contentsline {table}{\numberline {16}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (PathMNIST, ChestMNIST y DermaMNIST)}}{34}{table.caption.34}%
-\contentsline {table}{\numberline {17}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (OCTMNIST, PneumoniaMNIST y RetinaMNIST)}}{35}{table.caption.35}%
-\contentsline {table}{\numberline {18}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (BreastMNIST, BloodMNIST y TissueMNIST)}}{35}{table.caption.36}%
-\contentsline {table}{\numberline {19}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (OrganMNIST, OrganCMNIST y OrganSMNIST)}}{36}{table.caption.37}%
-\contentsline {table}{\numberline {20}{\ignorespaces Resumen de características de los conjuntos de datos}}{38}{table.caption.38}%
-\contentsline {table}{\numberline {21}{\ignorespaces Resultados con el conjunto de datos Chest X-ray}}{39}{table.caption.39}%
-\contentsline {table}{\numberline {22}{\ignorespaces Resultados con el conjunto de datos Kvasir}}{40}{table.caption.40}%
-\contentsline {table}{\numberline {23}{\ignorespaces Resultados con el conjunto de datos Kvasir-Capsule}}{41}{table.caption.41}%
-\contentsline {table}{\numberline {24}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)}}{44}{table.caption.42}%
-\contentsline {table}{\numberline {25}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)}}{45}{table.caption.43}%
-\contentsline {table}{\numberline {26}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)}}{45}{table.caption.44}%
-\contentsline {table}{\numberline {27}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)}}{45}{table.caption.45}%
-\contentsline {table}{\numberline {28}{\ignorespaces Comparación de los modelos entrenados}}{49}{table.caption.47}%
-\contentsline {table}{\numberline {29}{\ignorespaces Presupuesto}}{73}{table.caption.68}%
-\contentsline {table}{\numberline {30}{\ignorespaces Resultados de los modelos entrenados con los dos conjuntos de datos, técnicas de entrenamiento y pesos}}{124}{table.caption.138}%
+\contentsline {table}{\numberline {1}{\ignorespaces Comparación de resultados de los modelos (precision)}}{22}{table.caption.18}%
+\contentsline {table}{\numberline {2}{\ignorespaces Comparación de resultados de los modelos (sensitivity)}}{22}{table.caption.19}%
+\contentsline {table}{\numberline {3}{\ignorespaces Comparación de resultados de los modelos (f1-score)}}{23}{table.caption.20}%
+\contentsline {table}{\numberline {4}{\ignorespaces Comparación de resultados de los modelos (specificity)}}{23}{table.caption.21}%
+\contentsline {table}{\numberline {5}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos HAM10000}}{24}{table.caption.22}%
+\contentsline {table}{\numberline {6}{\ignorespaces Comparación de resultados según accuracy con el conjunto de datos DERMOFIT}}{24}{table.caption.23}%
+\contentsline {table}{\numberline {7}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{29}{table.caption.26}%
+\contentsline {table}{\numberline {8}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)}}{29}{table.caption.27}%
+\contentsline {table}{\numberline {9}{\ignorespaces Resultado de los modelo ViT basados en Transfer Learning en el conjunto de datos DDSM (kappa)}}{29}{table.caption.28}%
+\contentsline {table}{\numberline {10}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{30}{table.caption.29}%
+\contentsline {table}{\numberline {11}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (precision, recall, MCC)}}{30}{table.caption.30}%
+\contentsline {table}{\numberline {12}{\ignorespaces Resultado de los modelo ViT entrenados desde cero en el conjunto de datos DDSM (kappa)}}{30}{table.caption.31}%
+\contentsline {table}{\numberline {13}{\ignorespaces Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (accuracy, AUC, f1-score)}}{31}{table.caption.32}%
+\contentsline {table}{\numberline {14}{\ignorespaces Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (precision, recall, MCC)}}{31}{table.caption.33}%
+\contentsline {table}{\numberline {15}{\ignorespaces Resultado de los modelos CNN basados en Transfer Learning en el conjunto de datos DDSM (kappa)}}{31}{table.caption.34}%
+\contentsline {table}{\numberline {16}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (PathMNIST, ChestMNIST y DermaMNIST)}}{34}{table.caption.35}%
+\contentsline {table}{\numberline {17}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (OCTMNIST, PneumoniaMNIST y RetinaMNIST)}}{35}{table.caption.36}%
+\contentsline {table}{\numberline {18}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (BreastMNIST, BloodMNIST y TissueMNIST)}}{35}{table.caption.37}%
+\contentsline {table}{\numberline {19}{\ignorespaces Comparación de resultados de los modelos MedViT con los CNN y AutoML (OrganMNIST, OrganCMNIST y OrganSMNIST)}}{36}{table.caption.38}%
+\contentsline {table}{\numberline {20}{\ignorespaces Resumen de características de los conjuntos de datos}}{38}{table.caption.39}%
+\contentsline {table}{\numberline {21}{\ignorespaces Resultados con el conjunto de datos Chest X-ray}}{39}{table.caption.40}%
+\contentsline {table}{\numberline {22}{\ignorespaces Resultados con el conjunto de datos Kvasir}}{40}{table.caption.41}%
+\contentsline {table}{\numberline {23}{\ignorespaces Resultados con el conjunto de datos Kvasir-Capsule}}{41}{table.caption.42}%
+\contentsline {table}{\numberline {24}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (MCC, accuracy y f1-score)}}{44}{table.caption.43}%
+\contentsline {table}{\numberline {25}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 2D (AUC, precision y recall)}}{45}{table.caption.44}%
+\contentsline {table}{\numberline {26}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (MCC, accuracy y f1-score)}}{45}{table.caption.45}%
+\contentsline {table}{\numberline {27}{\ignorespaces Resultados de los modelos entrenados con el conjunto de datos 3D (AUC, precision y recall)}}{45}{table.caption.46}%
+\contentsline {table}{\numberline {28}{\ignorespaces Comparación de los modelos entrenados}}{49}{table.caption.48}%
+\contentsline {table}{\numberline {29}{\ignorespaces Presupuesto}}{73}{table.caption.69}%
+\contentsline {table}{\numberline {30}{\ignorespaces Resultados de los modelos entrenados con los dos conjuntos de datos, técnicas de entrenamiento y pesos}}{124}{table.caption.137}%

@@ -225,16 +225,54 @@ Este descubrimiento afirmó la necesidad de aplicar una técnica de balanceo de 
 
 \textbf{Actividad 2: Filtrar y organizar imágenes poco útiles del conjunto de datos}
 \\
-A través del algoritmo presentado en la Figura \ref{4:fig108} se logró filtrar y obviar aquellas imágenes corruptas (en el caso de este conjunto de datos no se tuvo ninguno). Además, este también permitió la lectura de solo las imágenes con nombre presente en los archivos CSV, lo cual logró evitar el cargado de imágenes sin etiqueta alguna (en el caso de este conjunto de datos tampoco se tuvieron imágenes sin etiquetas). Finalmente, todas aquellos datos que cumplieran con los anteriores pasos serían trasladados a la nueva distribución de ficheros mostrada en la Figura \ref{4:fig109}.
+A través del Algoritmo \ref{4:alg101} se logró filtrar y obviar aquellas imágenes corruptas (en el caso de este conjunto de datos no se tuvo ninguno). Además, este también permitió la lectura de solo las imágenes con nombre presente en los archivos CSV, lo cual logró evitar el cargado de imágenes sin etiqueta alguna (en el caso de este conjunto de datos tampoco se tuvieron imágenes sin etiquetas). Finalmente, todas aquellos datos que cumplieran con los anteriores pasos serían trasladados a la nueva distribución de ficheros mostrada en la Figura \ref{4:fig109}.
+%\hspace{\algorithmicindent} 
+\begin{algorithm}[H]
+	\caption{Proceso de organización y traslado de imágenes}
+	\label{4:alg101}
+	\begin{algorithmic}[1]
+		\State \textbf{Entradas:} $pd\_train$, $pd\_test$, $source\_dir\_train$, $source\_dir\_test$, $train\_dir$, $test\_dir$
+		\State Obtener nombres de imágenes de entrenamiento de $pd\_train$
+		\State Crear diccionario $d$ de nombres a etiquetas de $pd\_train$
+		\For{cada nombre de imagen $im$ en nombres de imágenes de entrenamiento}
+			\State \textbf{Intentar:}
+			\If{etiqueta de $im$ en $d$ es 1}
+				\State Copiar $im$ a $train\_dir/malignant$
+			\ElsIf{etiqueta de $im$ en $d$ es 0}
+				\State Copiar $im$ a $train\_dir/benign$
+			\EndIf
+			\State \textbf{Excepción:}
+			\State \textbf{Imprimir:} La imagen $im$ no se ha podido cargar...
+		\EndFor
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{4/figures/algoritm_organi.PNG}
-		\caption[Algoritmo de organización de imágenes]{Algoritmo de organización de imágenes. \\
-		Fuente: Elaboración propia.}
-		\label{4:fig108}
-	\end{center}
-\end{figure}
+		\State Obtener nombres de imágenes de prueba de $pd\_test$
+		\State Crear diccionario $dt$ de nombres a etiquetas de $pd\_test$
+		\For{cada nombre de imagen $im$ en nombres de imágenes de prueba}
+			\State \textbf{Intentar:}
+			\If{etiqueta de $im$ en $dt$ es 1}
+				\State Copiar $im$ a $test\_dir/malignant$
+			\ElsIf{etiqueta de $im$ en $dt$ es 0}
+				\State Copiar $im$ a $test\_dir/benign$
+			\EndIf
+			\State \textbf{Excepción:}
+			\State \textbf{Imprimir:} La imagen $im$ no se ha podido cargar...
+		\EndFor
+
+		\State \textbf{Imprimir:} SE TRASLADARON TODAS LAS IMÁGENES AL NUEVO DIRECTORIO!
+	\end{algorithmic}
+\end{algorithm}
+
+\begin{comment}
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{4/figures/algoritm_organi.PNG}
+			\caption[Algoritmo de organización de imágenes]{Algoritmo de organización de imágenes. \\
+			Fuente: Elaboración propia.}
+			\label{4:fig108}
+		\end{center}
+	\end{figure}
+	
+\end{comment}
 
 \begin{figure}[H]
 	\begin{center}
@@ -257,16 +295,53 @@ Finalmente, el conjunto de datos de entrenamiento se dividió en dos partes: dat
 
 La cantidad de la data de prueba se mantuvo igual a como originalmente fue obtenida.
 
-Todo este proceso se realizó a través del algoritmo presentado en la Figura \ref{4:fig110}, donde finalmente se otorgaron los tres conjuntos de datos en tipo DataLoader de Pytorch que posteriormente facilitó la ingesta de datos a los modelos.
+Todo este proceso se realizó a través del Algoritmo \ref{4:alg102}, donde finalmente se otorgaron los tres conjuntos de datos en tipo DataLoader de Pytorch que posteriormente facilitó la ingesta de datos a los modelos.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.70\textwidth]{4/figures/algoritm_dataloader.PNG}
-		\caption[Algoritmo para lectura de los datos en DataLoader]{Algoritmo para lectura de los datos en DataLoader. \\
-		Fuente: Elaboración propia.}
-		\label{4:fig110}
-	\end{center}
-\end{figure}
+\begin{algorithm}[H]
+	\caption{Preparación de datos para entrenamiento, validación y prueba}
+	\label{4:alg102}
+	\begin{algorithmic}[1]
+		\State \textbf{Entradas:} $train\_dir$, $test\_dir$, $img\_size$, $b\_size$
+		\State \textbf{Salidas:} $train\_gen$, $val\_gen$, $test\_gen$
+		
+		\Procedure{DefinirTransformaciones}{}
+			\State Redimensionar imágenes a $img\_size$
+			\State Recortar las imágenes a $img\_size$
+			\State Convertir imágenes a tensores
+			\State Normalizar tensores con medias y desviaciones estándar $(0.5, 0.5, 0.5)$
+		\EndProcedure
+		
+		\Procedure{CargarDatos}{}
+			\State Cargar imágenes de entrenamiento de $train\_dir$ con transformaciones
+			\State Cargar imágenes de prueba de $test\_dir$ con transformaciones
+		\EndProcedure
+		
+		\Procedure{DividirDatosEntrenamiento}{}
+			\State Calcular $val\_size$ como $15\%$ de $train\_data$
+			\State Calcular $train\_size$ como $len(train\_data) - val\_size$
+			\State Dividir de forma aleatoria $train\_data$ en $train\_data$ y $val\_data$ usando $train\_size$ y $val\_size$
+		\EndProcedure
+		
+		\Procedure{CrearDataloaders}{}
+			\State Crear $train\_gen$ para $train\_data$ con $b\_size$
+			\State Crear $val\_gen$ para $val\_data$ con $b\_size$
+			\State Crear $test\_gen$ para $test\_data$ con $b\_size$
+		\EndProcedure
+		
+		\State \Return $train\_gen$, $val\_gen$, $test\_gen$
+	\end{algorithmic}
+\end{algorithm}
+
+\begin{comment}
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.70\textwidth]{4/figures/algoritm_dataloader.PNG}
+			\caption[Algoritmo para lectura de los datos en DataLoader]{Algoritmo para lectura de los datos en DataLoader. \\
+			Fuente: Elaboración propia.}
+			\label{4:fig110}
+		\end{center}
+	\end{figure}
+\end{comment}
 
 \textbf{Actividad 4: Mejorar composición del conjunto de datos}
 \\
@@ -408,7 +483,7 @@ La gráfica circula presenta en la Figura \ref{4:fig119} muestra el nuevo balanc
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{4/figures/generated_real_2.png}
+		\includegraphics[width=0.60\textwidth]{4/figures/balanced_circular.png}
 		\caption[Gráfica circula de data de entrenamiento balanceada]{Gráfica circula de data de entrenamiento balanceada. \\
 		Fuente: Elaboración propia.}
 		\label{4:fig119}
