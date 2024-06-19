@@ -782,6 +782,39 @@
       \field{title}{Grokking Artificial Intelligence Algorithms}
       \field{year}{2020}
     \endentry
+    \entry{ws_inkawhich2024dcganpytorch}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
+           family={Inkawhich},
+           familyi={I\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DCGAN Tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+    \endentry
     \entry{ws_izco2018bdcp}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
@@ -1911,6 +1944,77 @@
       \verb{doi}
       \verb 10.1002/jbio.202200227
       \endverb
+    \endentry
+    \entry{pr_vaswani2017attentionisallneed}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{fullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorbibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorfullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attention is all you need}
+      \field{year}{2017}
+      \field{pages}{5999\bibrangedash 6009}
+      \range{pages}{11}
     \endentry
     \entry{pr_wang2020autodiag}{article}{}{}
       \name{author}{5}{}{%
@@ -2904,6 +3008,39 @@
       \field{title}{Grokking Artificial Intelligence Algorithms}
       \field{year}{2020}
     \endentry
+    \entry{ws_inkawhich2024dcganpytorch}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
+           family={Inkawhich},
+           familyi={I\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{fullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
+      \strng{authorfullhashraw}{3dfa15572a032ea943dceaaba755046b}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DCGAN Tutorial}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+      \verb{url}
+      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+      \endverb
+    \endentry
     \entry{ws_izco2018bdcp}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
@@ -4033,6 +4170,77 @@
       \verb{doi}
       \verb 10.1002/jbio.202200227
       \endverb
+    \endentry
+    \entry{pr_vaswani2017attentionisallneed}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{fullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorbibnamehash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorfullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Attention is all you need}
+      \field{year}{2017}
+      \field{pages}{5999\bibrangedash 6009}
+      \range{pages}{11}
     \endentry
     \entry{pr_wang2020autodiag}{article}{}{}
       \name{author}{5}{}{%

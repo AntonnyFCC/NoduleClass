@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber tesis"] 1718391131.66059 "tesis.bcf" "tesis.bbl" "tesis" 1718669493.97884 0
+["biber tesis"] 1718764506.77129 "tesis.bcf" "tesis.bbl" "tesis" 1718764541.31024 0
   "biblio/references.bib" 1718001467 60089 16f0567e6e738e76bd221f25e1797311 ""
-  "tesis.bcf" 1718669491 149407 cd1ea25b62c401b406324fb34e5ed318 "pdflatex"
+  "tesis.bcf" 1718764540 149407 cd1ea25b62c401b406324fb34e5ed318 "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
   (rewritten before read)
-["pdflatex"] 1718669476.82863 "c:/Users/Antonny/TESIS/EXPERIMENTOS/NoduleClass/tesis.tex" "tesis.pdf" "tesis" 1718669493.98011 0
+["pdflatex"] 1718764526.56452 "c:/Users/Antonny/TESIS/EXPERIMENTOS/NoduleClass/tesis.tex" "tesis.pdf" "tesis" 1718764541.31145 0
   "0/agradecimientos.tex" 1717989971 193 5ea4bd88ab5c3aeaa01f6fdab83e9a36 ""
   "0/aprobacion.tex" 1717989971 572 ef5cd668260e196e8c96b1c3c5cf5c8f ""
   "0/introduccion.tex" 1717989971 3305 aff682148e555356a12fff93afb252df ""
@@ -92,6 +92,7 @@
   "4/figures/tn3k_examp.png" 1717999166 199680 7330d6814c2a7248063f2875fcf7d03f ""
   "4/figures/train_circular.png" 1717999960 18464 57dfe9f52e19ecc68463148c4d358546 ""
   "4/figures/xmlfile.png" 1717998168 24124 e4047f30d00db2daefa17cab73c5ca20 ""
+  "5/resultados.tex" 1718764420 6627 5a2235f3a6c11e459ce3028c611a2d2a ""
   "C:/Users/Antonny/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718669452 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Antonny/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1712438742 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Antonny/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1712438259 24236990 4841a7be6341d05d8a498ceb9c34ca0a ""
@@ -293,18 +294,18 @@
   "anexos/anexo.tex" 1717989972 3141 2142d8c8d6df4d9a4cd85ca888c7e4f5 ""
   "anexos/arb_objetivos.jpg" 1717989972 112603 f8088329572005a157ce9004a917ae60 ""
   "anexos/arb_problemas.jpg" 1717989972 107817 c21b2c3e79d2648517ae4c89861359e3 ""
-  "c:/Users/Antonny/TESIS/EXPERIMENTOS/NoduleClass/tesis.tex" 1718668902 13716 f62553a4fb539126c5ee676064cf499f ""
+  "c:/Users/Antonny/TESIS/EXPERIMENTOS/NoduleClass/tesis.tex" 1718764458 13715 a39f365b568565aed247620b126c47b1 ""
   "images_repo/esanlogomin.png" 1717989972 44054 5686aaa912c5c911c9912422804fbdf6 ""
-  "tesis.aux" 1718669491 102066 382c6789878bb5fa98638bb5b9207c52 "pdflatex"
-  "tesis.bbl" 1718015834 190695 94fcf7075293b8817cde406f7cdb0235 "biber tesis"
-  "tesis.equ" 1718669492 320 c274f410387e30fa9cd1aa850c36039b "pdflatex"
-  "tesis.loa" 1718669492 264 1e1442c8df46cf78628870c195f1a752 "pdflatex"
-  "tesis.lof" 1718669492 9292 31485fc7fa3381070dbc42824f9a3301 "pdflatex"
-  "tesis.lot" 1718669492 7959 9ccac287f3a46f227e0eced07e9ac3eb "pdflatex"
-  "tesis.out" 1718669491 9680 e89e7214c474dbed005471e2e4a32a9e "pdflatex"
-  "tesis.run.xml" 1718669492 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
-  "tesis.tex" 1718668902 13716 f62553a4fb539126c5ee676064cf499f ""
-  "tesis.toc" 1718669492 4917 8d537ac7c38311813b54c31ec2e12061 "pdflatex"
+  "tesis.aux" 1718764540 102230 afba304925329ce065c827b336db1d91 "pdflatex"
+  "tesis.bbl" 1718764511 190695 94fcf7075293b8817cde406f7cdb0235 "biber tesis"
+  "tesis.equ" 1718764540 320 c274f410387e30fa9cd1aa850c36039b "pdflatex"
+  "tesis.loa" 1718764540 264 1e1442c8df46cf78628870c195f1a752 "pdflatex"
+  "tesis.lof" 1718764540 9292 31485fc7fa3381070dbc42824f9a3301 "pdflatex"
+  "tesis.lot" 1718764540 7959 9ccac287f3a46f227e0eced07e9ac3eb "pdflatex"
+  "tesis.out" 1718764540 9880 7feec82e1edda8735b1b698f03634ff8 "pdflatex"
+  "tesis.run.xml" 1718764540 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
+  "tesis.tex" 1718764458 13715 a39f365b568565aed247620b126c47b1 ""
+  "tesis.toc" 1718764540 5005 851a006e76cb6ef90caaf8871f4ac4e1 "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.bcf"
