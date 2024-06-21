@@ -111,7 +111,7 @@ Finalmente, cada uno de estos modelo será puesto a prueba en el conjunto de dat
 \\
 Se desarrollarán modelos híbridos entre CNN y ViT. En cada uno de estos, la arquitectura CNN funcionará como backbone o modelo base que recibirá las imágenes y posteriormente alimentará al modelo ViT.
 
-Debido a la limitación de tiempo y poder computacional al que se puede acceder, solamente se seleccionará los dos modelo CNN de mejor desempeño para elaborar un dos modelos híbrido.
+Debido a la limitación de tiempo y poder computacional al que se puede acceder, solamente se seleccionará dos modelo CNN de mejor desempeño como backbone para elaborar dos híbridos. Adicionalmente, también se utilizará un modelo híbrido totalmente preentrenado.
 
 \textbf{Entregable:} Modelos híbridos CNN + ViT.
 \\
@@ -494,7 +494,7 @@ Ya con la data preprocesada, se inició con la etapa de Aplicación de Deep Lear
 
 \textbf{Actividad 1: Seleccionar algoritmos a entrenar según usos y resultados de las investigaciones presentadas en los antecedentes}
 \\
-Según los datos analizados en las investigaciones presentadas en el Capítulo 2, el modelo con mayor presencia de los CNN es el ResNet 50, mientras que por el lado de los modelos ViT, los más usados son los ViT-Base con tamaño de patch de 16 x 16.
+Según los datos analizados en las investigaciones presentadas en el Capítulo 2, el modelo con mayor presencia de los CNN es el ResNet50, mientras que por el lado de los modelos ViT, los más usados son los ViT-Base con tamaño de patch de 16 x 16.
 
 Además, debido al tipo de problema de clasificación presente en esta investigación, y la similitud con el trabajo de \cite{pr_JERBI2023autoclassViTGAN}, se decidió por probar con las redes VGG16, ya que ha demostrado ser capaz de obtener un alto desempeño.
 
@@ -502,7 +502,7 @@ En resumen, se ha optado por utilizar las arquitecturas CNN de ResNet50 y VGG16.
 
 \textbf{Actividad 2: Entrenar y probar los modelos de Deep Learning previamente definidos}
 \\
-Para todos los modelos en esta actividad se usó la capacidad de la GPU NVIDIA A100-SXM4-40GB obtenido a través de Google Colab para lograr un rápido y eficiente entrenamiento. Además, se determinó una semilla de 2024 para permitir la reproducibilidad de los resultados.
+Para todas las arquitecturas de Deep Learning en esta investigación, se definió como función de activación el sigmoide. De igual manera, para el entrenamiento se usó la capacidad de la GPU NVIDIA A100-SXM4-40GB obtenido a través de Google Colab para lograr un rápido y eficiente entrenamiento. Además, se determinó una semilla de 2024 para permitir la reproducibilidad de los resultados. 
 
 En este primer grupo, no se utilizará el conjunto de datos con imágenes generadas.
 
@@ -514,7 +514,7 @@ En este primer modelo, se usó la técnica de entrenamiento de Fine Tuning junto
 
 La función de pérdida aplicada fue el BCEWithLogitsLoss que evita el uso manual de la sigmoide y aplica lo aplica directamente con la entropía cruzada. Nuevamente, esta función será utilizada en cada uno de los modelos en esta actividad.
 
-Para lograr una clasificación binaria, las últimas capas de estas arquitecturas debió ser reemplazada por un MLP simple que recibe todos los features del modelo y produce una única salida. La configuración del MLP se definió de la forma (256, 1), donde el primer valor es el número de neuronas en la capas oculta que tuvo la función de activación ReLU, y el segundo valor es el número de neuronas en la capa de salida. Esta configuración de MLP se aplicó a todos los modelos ViT y CNN, a excepción de VGG16, donde se usó una configuración por defecto, únicamente modificando a 1 el número de neuronas en la capa de salida. En el caso del modelo híbrido, solamente se etableció el bloque clasificador a una capa de salida con 1 neurona, debido a las limitaciones de disponibilidad de recursos computacionales.
+Para lograr una clasificación binaria, las últimas capas de estas arquitecturas debió ser reemplazada por un MLP simple que recibe todos los features del modelo y produce una única salida. La configuración del MLP se definió de la forma (256, 1), donde el primer valor es el número de neuronas en la capas oculta que tuvo la función de activación ReLU, y el segundo valor es el número de neuronas en la capa de salida. Esta configuración de MLP se aplicó a todos los modelos ViT y CNN, a excepción de VGG16, donde se usó una configuración por defecto, únicamente modificando a 1 el número de neuronas en la capa de salida. En el caso de los modelos híbridos, solamente se etableció el bloque clasificador a una capa de salida con 1 neurona, debido a las limitaciones de disponibilidad de recursos computacionales.
 
 Finalmente, la función de optimización utilizada fue Adam con una tasa de aprendizaje de 0.0001, y se definió para el entrenamiento 20 épocas. Las demás configuraciones se dejaron por defecto.
 
@@ -1500,15 +1500,19 @@ A continuación se presentan las siguientes Figuras y Tablas donde se muestran t
 \\
 Luego del entrenamiento y un análisis rápido de resultados de los modelos CNN y ViT, se determinó que la arquitectura de mejor desempeño fue ResNet50 con los pesos de IMAGENET1KV1 entrenado con la técnica de Fine Tuning y sin la data aumentada, pues su métrica Accuracy superó a los demás modelos. En segundo lugar se ubica el modelo VGG16 con los pesos de IMAGENET1KV1 entrenado con la técnica de Fine Tuning y sin la data aumentada.
 
-Se decidió tomar ambos modelos CNN para la construcción de un modelo híbrido con ViT. Para lograr esto, se usó la librería “transformers” de Python que se encuentra actualmente mantenida por Hugging Face. Esta librería permitió personalizar un modelo ViT híbrido base a diferencia de las incluidas en Pytorch, donde los modelos similares venían de forma predefinida y dificultaban su personalización de acuerdo a las necesidades de esta investigación.
+Se decidió tomar ambos modelos CNN para la construcción de modelos híbridos con ViT. Para lograr esto, se usó la librería “transformers” de Python que se encuentra actualmente mantenida por Hugging Face. Esta librería permitió personalizar un modelo ViT híbrido base, lo cuál facilitó la construcción su construcción, a diferencia de las herramientas incluidas en mismo Pytorch, específicamente Torchvision, donde los modelos ViT venían de forma predefinida y dificultaban su personalización de acuerdo a las necesidades de esta investigación.
 
-Es así que, para lograr un correcta integración del modelo ResNet50 y VGG16, fue necesario configurar todos los ViT híbrido con un nuevo tamaño de features que recibirá la arquitectura ViT dependiendo del tipo de backbone, además, el tamaño de la imagen de entrada fue establecida a 128 x 128. El tamaño de patch se estableció en 1 (valor por defecto en la creación del modelo) de igual forma a cómo se define el paper de \cite{pr_JERBI2023autoclassViTGAN} que fue fuente original y de inspiración para esta investigación. Finalmente, se configuró el bloque clasificador del ViT a una sola capa lineal de una neurona para permitir la clasificación binaria.
+Es así que, para lograr un correcta integración de los modelos ResNet50 y VGG16 con ViT, fue necesario configurar todos los híbridos con un nuevo tamaño de features que recibirá la arquitectura ViT dependiendo del tipo de backbone, además, el tamaño de la imagen de entrada fue establecida a 128 x 128. El tamaño de patch se estableció en 1 (valor por defecto en la creación del modelo) de igual forma a cómo se define el paper de \cite{pr_JERBI2023autoclassViTGAN} que fue fuente original y de inspiración para esta investigación. Finalmente, se configuró el bloque clasificador del ViT a un MLP con dos capas de configuración (256, 1) y con una función de activación ReLU en la primera de estas.
+
+De forma adicional, se usó el modelo híbrido desarrollado por Google y preentrando con el conjunto de datos IMAGENET21K: ViT-hybrid-base-bit-384. Este modelo usa como backbone una versión modificada de las arquitecturas ResNet. Para lograr adaptarlo a la tarea de esta investigación, se modificó su bloque clasificador a un MLP con una sola capa de una neurona.
 
 \textbf{Actividad 4: Entrenar y probar modelos híbridos CNN + ViT}
 \\
-Ya con el modelo híbrido construido se pasó a la etapa de entrenamiento.
+Ya con los modelos híbridos construidos se pasó a la etapa de entrenamiento.
 
-Debido a que los modelos CNN ResNet50 y VGG16 de mayor desempeño se entrenaron con los pesos de IMAGENET1KV1 con Fine Tuning y sin la data aumentada, se usó esta misma configuración para los modelo híbrido. De igual forma, la función de pérdida y de optimización se mantuvieron como los anteriores modelos.
+Debido a que los modelos CNN ResNet50 y VGG16 de mayor desempeño se entrenaron con los pesos de IMAGENET1KV1 con Fine Tuning y sin la data aumentada, se usó esta misma configuración para los modelos híbridos. De igual forma, la función de pérdida y de optimización se mantuvieron como los anteriores modelos.
+
+En el caso del modelo híbrido de Google, la única diferencia fue que se estableció el tamaño de lote a 32 debido a las limitaciones de hardware.
 
 Con todas esta especificaciones, se inició el entrenamiento de los modelos híbridos con 20 épocas. 
 
@@ -1516,23 +1520,13 @@ A continuación, en la Figura \ref{4:fig168} se presenta el proceso de entrenami
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{4/figures/modelH_train.PNG}
+		\includegraphics[width=0.85\textwidth]{4/figures/modelH_resnet_train.PNG}
 		\caption[Proceso de entrenamiento del modelo híbrido ViT + ResNet50]{Proceso de entrenamiento del modelo híbrido ViT + ResNet50. \\
 		Fuente: Elaboración propia.}
 		\label{4:fig168}
 	\end{center}
 \end{figure}
 
-\begin{comment}
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.55\textwidth]{4/figures/modelH_train.PNG}
-		\caption[Proceso de entrenamiento del modelo híbrido]{Proceso de entrenamiento del modelo híbrido. \\
-		Fuente: Elaboración propia.}
-		\label{4:fig168}
-	\end{center}
-\end{figure}
-\end{comment}
 
 Además, también se presenta las métricas de Accuracy, Recall y Precision en la Tabla \ref{4:table26}.
 
@@ -1545,49 +1539,19 @@ Además, también se presenta las métricas de Accuracy, Recall y Precision en l
 		\specialrule{.1em}{.05em}{.05em}
 		{Métrica} & {Accuracy} & {Recall} & {Precision} \\
 		\hline
-		{Valor} & {00.00\%} & {00.00\%} & {00.00\%} \\
+		{Valor} & {57.00\%} & {48.73\%} & {44.57\%} \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\begin{flushleft}	
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
 \end{table}
-
-\begin{comment}
-\begin{table}[H]
-	\caption[Accuracy, Recall y Precision del modelo híbrido]{Accuracy, Recall y Precision del modelo híbrido.}
-	\label{4:table26}
-	\centering
-	\small
-	\begin{tabular}{c|ccc}
-		\specialrule{.1em}{.05em}{.05em}
-		{Métrica} & {Accuracy} & {Recall} & {Precision} \\
-		\hline
-		{Valor} & {67.92\%} & {78.81\%} & {55.86\%} \\
-		\specialrule{.1em}{.05em}{.05em}
-	\end{tabular}
-	\begin{flushleft}	
-		\small Fuente: Elaboración propia.
-	\end{flushleft}
-\end{table}
-\end{comment}
-
-\begin{comment}
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.83\textwidth]{4/figures/modelH_rp.PNG}
-		\caption[Recall y Precision del modelo híbrido]{Recall y Precision del modelo híbrido. \\
-		Fuente: Elaboración propia.}
-		\label{4:fig169}
-	\end{center}
-\end{figure}
-\end{comment}
 
 De igual manera, en la Figura \ref{4:fig172} se presenta el proceso de entrenamiento del modelo híbrido ViT + VGG16 con los pesos pre-entrenados de IMAGENET1KV1 y el tipo de entrenamiento Fine Tuning.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{4/figures/modelH_train.PNG}
+		\includegraphics[width=0.85\textwidth]{4/figures/modelH_vgg_train.PNG}
 		\caption[Proceso de entrenamiento del modelo híbrido ViT + VGG16]{Proceso de entrenamiento del modelo híbrido ViT + VGG16. \\
 		Fuente: Elaboración propia.}
 		\label{4:fig172}
@@ -1605,7 +1569,7 @@ Se presenta las métricas de Accuracy, Recall y Precision en la Tabla \ref{4:tab
 		\specialrule{.1em}{.05em}{.05em}
 		{Métrica} & {Accuracy} & {Recall} & {Precision} \\
 		\hline
-		{Valor} & {00.00\%} & {00.00\%} & {00.00\%} \\
+		{Valor} & {55.37\%} & {44.49\%} & {42.34\%} \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\begin{flushleft}	
@@ -1613,11 +1577,40 @@ Se presenta las métricas de Accuracy, Recall y Precision en la Tabla \ref{4:tab
 	\end{flushleft}
 \end{table}
 
+Finalmente, en la Figura \ref{4:fig173} se presenta el proceso de entrenamiento del modelo híbrido de Google con los pesos pre-entrenados de IMAGENET21k y el tipo de entrenamiento Fine Tuning.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{4/figures/modelH_google_train.PNG}
+		\caption[Proceso de entrenamiento del modelo híbrido de Google]{Proceso de entrenamiento del modelo híbrido de Google. \\
+		Fuente: Elaboración propia.}
+		\label{4:fig173}
+	\end{center}
+\end{figure}
+
+Se presenta las métricas de Accuracy, Recall y Precision en la Tabla \ref{4:table31}.
+
+\begin{table}[H]
+	\caption[Accuracy, Recall y Precision del modelo híbrido de Google]{Accuracy, Recall y Precision del modelo híbrido de Google.}
+	\label{4:table31}
+	\centering
+	\small
+	\begin{tabular}{c|ccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Métrica} & {Accuracy} & {Recall} & {Precision} \\
+		\hline
+		{Valor} & {77.20\%} & {77.97\%} & {67.65\%} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: Elaboración propia.
+	\end{flushleft}
+\end{table}
 
 \section{Medición de la solución}
 
 \subsection{Análisis de Indicadores cuantitativo}
-Los indicadores a analizar en esta sección son los obtenidos en el entrenamiento de todos los modelos CNN y ViT, incluyendo además el modelo híbrido. Cada uno de estos dio como resultado principal tres indicadores: Accuracy, Recall y Precision. El primero de estos permitió determinar la capacidad de predicción para ambas clases. El segundo y tercer indicador ayudan a evaluar el modelo en cuestión de capacidad de predicción para la clase positiva. En el caso de esta investigación, la clase positiva es maligno (1).
+Los indicadores a analizar en esta sección son los obtenidos en el entrenamiento de todos los modelos CNN y ViT, incluyendo además los modelos híbridos. Cada uno de estos dio como resultado principal tres indicadores: Accuracy, Recall y Precision. El primero de estos permitió determinar la capacidad de predicción para ambas clases. El segundo y tercer indicador ayudan a evaluar el modelo en cuestión de capacidad de predicción para la clase positiva. En el caso de esta investigación, la clase positiva es maligno (1).
 
 En la Tabla \ref{4:table1} se presentan los resultados de los modelos.
 
@@ -1657,8 +1650,9 @@ En la Tabla \ref{4:table1} se presentan los resultados de los modelos.
 		{} & {} & {} & {TL} & {62.87\%} & {47.03\%} & {51.87\%} \\
 		\specialrule{.1em}{.05em}{.05em}
 		%{No} & {Híbrido} & {I-NET1K V1} & {FT} & {67.92\%} & {78.81\%} & {55.86\%} \\
-		{No} & {ViT + ResNet50} & {I-NET1K V1} & {FT} & {00.00\%} & {00.00\%} & {00.00\%} \\
-		{No} & {ViT + VGG16} & {I-NET1K V1} & {FT} & {00.00\%} & {00.00\%} & {00.00\%} \\
+		{No} & {ViT + ResNet50} & {I-NET1K V1} & {FT} & {57.00\%} & {48.73\%} & {44.57\%} \\
+		{No} & {ViT + VGG16} & {I-NET1K V1} & {FT} & {55.37\%} & {44.49\%} & {42.34\%} \\
+		{No} & {Híbrido Google} & {I-NET 21k} & {FT} & {\textbf{77.20\%}} & {\textbf{77.97\%}} & {\textbf{67.65\%}} \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\begin{flushleft}	
@@ -1666,19 +1660,30 @@ En la Tabla \ref{4:table1} se presentan los resultados de los modelos.
 	\end{flushleft}
 \end{table}
 
-En relación al indicador Accuracy, el modelo de mejor desempeño fue el ResNet 50 con los pesos IMAGENET1KV1 y la técnica de entrenamiento Fine Tuning, junto con el uso del conjunto de datos original, alcanzado un valor de 72.48\%. En este mismo modelo, el Recall y Precision, aunque no destacables, pueden considerarse como relativamente altos pues están por encima del valor promedio de las métricas.
+En relación al indicador Accuracy, el modelo de mejor desempeño fue el modelo híbrido de Google con los pesos IMAGENET21k y la técnica de entrenamiento Fine Tuning, junto con el uso del conjunto de datos original, alcanzado un valor de 77.20\%. En este mismo modelo, las otras dos métricas también fueron los más altos, siendo el caso del Recall (77.97\%) el valor más alto y con un gran margen respecto al Recall de los demás modelos, mientras que el Precision (67.65\%) superó, aunque por menor margen, al segundo mejor modelo en esta métrica.
 
-Algo que destacar sobre los demás modelos es el Recall del ViT CNN híbrido, pues superó en gran medida a los demás con un valor de 78.81\%, demostrando a primera vista una relativamente alta capacidad de predicción sobre todos los reales positivos; sin embargo, debido a la naturaleza del problema de esta investigación, se considera que ambas métricas (Recall y Precision) deben ser relativamente altas para lograr seleccionar el modelo, de igual manera, el Accuracy, que mide la capacidad de predicción para ambar clases, también debe ser alta, ya que es importante determinar no solo si un nódulo es malingo, sino también benigno, ya que esto determinará el tipo de tratamiento posterior que se recomendará a los pacientes. Por este motivo, se decidió elegir el modelo ResNet 50 con los pesos IMAGENET1KV1 y la técnica de entrenamiento Fine Tuning como el modelo para la simulación ya que posee un Accuracy y Precision superior a los demás modelos, y un Recall por encima de la media.
+Algo que mecionar sobre los demás modelos no híbridos es que no hubo una gran diferencia entre los resultados de usar la data aumentada y la origianl, pues el DCGAN no logró capturar al distribución de los imágenes originales, por que su impacto en el entrenamiento no fue tan alto. Esto es debido principalmente a que esta arquitectura fue entrenada con pocos datos (clase minoritaria), lo cuál desencadenó que finalmente las imágenes generadas no tuvieron gran parecido a las originales. 
+
+Debido a la naturaleza del problema de esta investigación, se considera que las métricas de Recall y Precision deben ser relativamente altas para lograr seleccionar el modelo, de igual manera, el Accuracy, que mide la capacidad de predicción para ambar clases, también debe ser alta, ya que es importante determinar no solo si un nódulo es malingo, sino también benigno, ya que esto determinará el tipo de tratamiento posterior que se recomendará a los pacientes. Por este motivo, se decidió elegir el modelo híbrido de Google con los pesos IMAGENET21K y la técnica de entrenamiento Fine Tuning como el modelo para la simulación, ya que posee un Accuracy, Recall y Precision superior a los demás modelos.
 
 \subsection{Simulación de solución}
 
 Luego del análisis de los indicadores de los modelos, y de la elección final, se decidió realizar una simulación de uso del modelo con imágenes del conjunto de datos de prueba.
 
-Para lograr esto, se usó la librería ipywidgets de python que permitió, a través de un mismo jupyter notebook, subir una imagen e ingresarlo al modelo ya cargado y obtener finalmente el resultado de su predicción. En la Figura \ref{4:fig170} y Figura \ref{4:fig171} se muestra la prueba con dos imágenes de ultrasonido de distintas clases.
+Para lograr esto, se usó la librería ipywidgets de python que permitió, a través de un mismo jupyter notebook, subir una imagen e ingresarlo al modelo ya cargado y obtener finalmente el resultado de su predicción. En la Figura \ref{4:fig174} se muestra el cargado de las imágenes, mientras que en la Figura \ref{4:fig170} y Figura \ref{4:fig171} se muestra la prueba con dos imágenes de ultrasonido de distintas clases.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.58\textwidth]{4/figures/simulacion_modelo_malign.PNG}
+		\includegraphics[width=0.80\textwidth]{4/figures/upload_image.png}
+		\caption[Cargado de imágenes de ultrasonido para prueba del modelo]{Cargado de imágenes de ultrasonido para prueba del modelo. \\
+		Fuente: Elaboración propia.}
+		\label{4:fig174}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.58\textwidth]{4/figures/upload_malign.png}
 		\caption[Prueba de modelo con imágen de ultrasonido de nódulo maligno]{Prueba de modelo con imágen de ultrasonido de nódulo maligno. \\
 		Fuente: Elaboración propia.}
 		\label{4:fig170}
@@ -1687,7 +1692,7 @@ Para lograr esto, se usó la librería ipywidgets de python que permitió, a tra
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.58\textwidth]{4/figures/simulacion_modelo_benign.PNG}
+		\includegraphics[width=0.58\textwidth]{4/figures/upload_benign.png}
 		\caption[Prueba de modelo con imágen de ultrasonido de nódulo benigno]{Prueba de modelo con imágen de ultrasonido de nódulo benigno. \\
 		Fuente: Elaboración propia.}
 		\label{4:fig171}

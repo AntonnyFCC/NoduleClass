@@ -54,4 +54,5 @@
 \contentsline {table}{\numberline {53}{\ignorespaces Accuracy, Recall y Precision del modelo n°24}}{119}{table.caption.134}%
 \contentsline {table}{\numberline {54}{\ignorespaces Accuracy, Recall y Precision del modelo híbrido ViT + ResNet50}}{121}{table.caption.136}%
 \contentsline {table}{\numberline {55}{\ignorespaces Accuracy, Recall y Precision del modelo híbrido ViT + VGG16}}{122}{table.caption.138}%
-\contentsline {table}{\numberline {56}{\ignorespaces Resultados de los modelos entrenados con los dos conjuntos de datos, técnicas de entrenamiento y pesos}}{123}{table.caption.139}%
+\contentsline {table}{\numberline {56}{\ignorespaces Accuracy, Recall y Precision del modelo híbrido de Google}}{123}{table.caption.140}%
+\contentsline {table}{\numberline {57}{\ignorespaces Resultados de los modelos entrenados con los dos conjuntos de datos, técnicas de entrenamiento y pesos}}{124}{table.caption.141}%
