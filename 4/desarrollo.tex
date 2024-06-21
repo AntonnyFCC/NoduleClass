@@ -21,7 +21,7 @@ Finalmente, el último modelo presente en la investigación es uno que combina l
 
 Este modelo utiliza al CNN como backbone que alimentará los features extraídos en forma de patch de tamaño 1 x 1 al modelo ViT. Para lograr esto se es necesario quitar el cabezal clasificador de la arquitectura CNN, pues esta tarea ya será desarrollada por el propio ViT.
 
-Debido a las limitaciones de tiempo y recursos, solamente se desarrollará un modelo híbrido con el CNN de mejor desempeño en los entrenamientos iniciales.
+Debido a las limitaciones de tiempo y recursos, solamente se desarrollará dos modelos híbridos con aquellos CNN de mejor desempeño en los entrenamientos iniciales.
 
 Cabe destacar que este modelo híbrido fue inspirado por el trabajo presentado por \cite{pr_JERBI2023autoclassViTGAN}. A continuación se presenta la Figura \ref{4:fig101}, donde se muestra la arquitectura híbrida.
 
@@ -107,26 +107,26 @@ Finalmente, cada uno de estos modelo será puesto a prueba en el conjunto de dat
 \textbf{Entregable:} Modelos CNN y ViT entrenados. Métricas de cada uno de los modelos.
 \\
 
-\textbf{Actividad 3:  Elaborar un modelo híbrido entre ViT y CNN}
+\textbf{Actividad 3:  Definir modelos híbridos entre ViT y CNN}
 \\
-Se desarrollará un modelo híbrido entre CNN y ViT. El modelo CNN funcionará como backbone o modelo base que recibirá las imágenes y posteriormente alimentará al modelo ViT.
+Se desarrollarán modelos híbridos entre CNN y ViT. En cada uno de estos, la arquitectura CNN funcionará como backbone o modelo base que recibirá las imágenes y posteriormente alimentará al modelo ViT.
 
-Debido a la limitación de tiempo y poder computacional al que se puede acceder, solamente se seleccionará el modelo CNN de mejor desempeño para elaborar un único modelo híbrido.
+Debido a la limitación de tiempo y poder computacional al que se puede acceder, solamente se seleccionará los dos modelo CNN de mejor desempeño para elaborar un dos modelos híbrido.
 
-\textbf{Entregable:} Modelo híbrido CNN + ViT.
+\textbf{Entregable:} Modelos híbridos CNN + ViT.
 \\
 
-\textbf{Actividad 4: Entrenar y probar modelo híbrido CNN + ViT}
+\textbf{Actividad 4: Entrenar y probar modelos híbridos CNN + ViT}
 \\
-Al igual que los anteriores modelos, este nuevo modelo híbrido será entrenado con la data de entrenamiento y con las mismas configuraciones, a excepción de algunas variaciones.
+Al igual que los anteriores modelos, estos nuevos modelos híbridos serán entrenados con la misma data de entrenamiento y con las mismas configuraciones, a excepción de algunas variaciones.
 
 En este caso solo se aplicará la técnica de Fine Tuning debido a la capacidad de procesamiento disponible.
 
 En cada época del entrenamiento, se usará la data de validación para verificar su desempeño en este proceso.
 
-Finalmente, al igual que los otros modelos, el híbrido también será sometido al conjunto de datos de prueba para obtener sus métricas correspondientes.
+Finalmente, al igual que los otros modelos, los híbridos también serán sometidos al conjunto de datos de prueba para obtener sus métricas correspondientes.
 
-\textbf{Entregable:} Mode híbrido CNN + ViT entrenando. Métricas del modelo híbrido.
+\textbf{Entregable:} Modelos híbridos CNN + ViT entrenandos. Métricas de los modelos híbridos.
 \\
 
 \subsection{Desarrollo de actividades}
@@ -1496,22 +1496,34 @@ A continuación se presentan las siguientes Figuras y Tablas donde se muestran t
 \end{figure}
 \end{comment}
 
-\textbf{Actividad 3:  Elaborar un modelo híbrido entre ViT y CNN}
+\textbf{Actividad 3:  Definir modelos híbridos entre ViT y CNN}
 \\
-Luego del entrenamiento y un análisis rápido de resultados de los modelos CNN y ViT, se determinó que la arquitectura de mejor desempeño fue ResNet 50 con los pesos de IMAGENET1KV1 entrenado con la técnica de Fine Tuning y sin la data aumentada, pues su métrica Accuracy superó a los demás modelos.
+Luego del entrenamiento y un análisis rápido de resultados de los modelos CNN y ViT, se determinó que la arquitectura de mejor desempeño fue ResNet50 con los pesos de IMAGENET1KV1 entrenado con la técnica de Fine Tuning y sin la data aumentada, pues su métrica Accuracy superó a los demás modelos. En segundo lugar se ubica el modelo VGG16 con los pesos de IMAGENET1KV1 entrenado con la técnica de Fine Tuning y sin la data aumentada.
 
-Se decidió tomar este modelo CNN para la construcción de un modelo híbrido con ViT. Para lograr esto, se usó la librería “transformers” de Python que se encuentra actualmente mantenida por Hugging Face. Esta librería permitió personalizar un modelo ViT base a diferencia de las incluidas en Pytorch, donde los modelos similares venían de forma predefinida y dificultaban su personalización de acuerdo a las necesidades de esta investigación.
+Se decidió tomar ambos modelos CNN para la construcción de un modelo híbrido con ViT. Para lograr esto, se usó la librería “transformers” de Python que se encuentra actualmente mantenida por Hugging Face. Esta librería permitió personalizar un modelo ViT híbrido base a diferencia de las incluidas en Pytorch, donde los modelos similares venían de forma predefinida y dificultaban su personalización de acuerdo a las necesidades de esta investigación.
 
-Es así que, para lograr un correcta integración del modelo ResNet 50, fue necesario configurar el ViT con un nuevo tamaño de patch, número de canales de entrada y el tamaño de la imagen de entrada que, al ser en este caso los vectores característicos extraídos por la arquitectura CNN, tuvieron la forma de 1 x 2048. En el caso número de canales, este se estableció en 1 debido nuevamente a la forma del vector característico. El tamaño de patch se estableció en 1 de igual forma a cómo se define el paper de \cite{pr_JERBI2023autoclassViTGAN}, fuente original y de inspiración para esta investigación.
+Es así que, para lograr un correcta integración del modelo ResNet50 y VGG16, fue necesario configurar todos los ViT híbrido con un nuevo tamaño de features que recibirá la arquitectura ViT dependiendo del tipo de backbone, además, el tamaño de la imagen de entrada fue establecida a 128 x 128. El tamaño de patch se estableció en 1 (valor por defecto en la creación del modelo) de igual forma a cómo se define el paper de \cite{pr_JERBI2023autoclassViTGAN} que fue fuente original y de inspiración para esta investigación. Finalmente, se configuró el bloque clasificador del ViT a una sola capa lineal de una neurona para permitir la clasificación binaria.
 
-\textbf{Actividad 4: Entrenar y probar modelo híbrido CNN + ViT}
+\textbf{Actividad 4: Entrenar y probar modelos híbridos CNN + ViT}
 \\
 Ya con el modelo híbrido construido se pasó a la etapa de entrenamiento.
 
-Debido a que el modelo CNN ResNet 50 de mayor desempeño se entrenó con los pesos de IMAGENET1KV1 con Fine Tuning y sin la data aumentada, se usó esta misma configuración para el modelo híbrido. De igual forma, la función de pérdida y de optimización se mantuvieron como los anteriores modelos.
+Debido a que los modelos CNN ResNet50 y VGG16 de mayor desempeño se entrenaron con los pesos de IMAGENET1KV1 con Fine Tuning y sin la data aumentada, se usó esta misma configuración para los modelo híbrido. De igual forma, la función de pérdida y de optimización se mantuvieron como los anteriores modelos.
 
-Con todas esta especificaciones, se inició el entrenamiento del modelo híbrido con 20 épocas. A continuación, en la Figura \ref{4:fig168} presenta la parte final del entrenamiento del modelo.
+Con todas esta especificaciones, se inició el entrenamiento de los modelos híbridos con 20 épocas. 
 
+A continuación, en la Figura \ref{4:fig168} se presenta el proceso de entrenamiento del modelo híbrido ViT + ResNet50 con los pesos pre-entrenados de IMAGENET1KV1 y el tipo de entrenamiento Fine Tuning.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.55\textwidth]{4/figures/modelH_train.PNG}
+		\caption[Proceso de entrenamiento del modelo híbrido ViT + ResNet50]{Proceso de entrenamiento del modelo híbrido ViT + ResNet50. \\
+		Fuente: Elaboración propia.}
+		\label{4:fig168}
+	\end{center}
+\end{figure}
+
+\begin{comment}
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{4/figures/modelH_train.PNG}
@@ -1520,9 +1532,28 @@ Con todas esta especificaciones, se inició el entrenamiento del modelo híbrido
 		\label{4:fig168}
 	\end{center}
 \end{figure}
+\end{comment}
 
-Además, también se presenta las métricas de Recall y Precision en la Figura \ref{4:table26}.
+Además, también se presenta las métricas de Accuracy, Recall y Precision en la Tabla \ref{4:table26}.
 
+\begin{table}[H]
+	\caption[Accuracy, Recall y Precision del modelo híbrido ViT + ResNet50]{Accuracy, Recall y Precision del modelo híbrido ViT + ResNet50.}
+	\label{4:table26}
+	\centering
+	\small
+	\begin{tabular}{c|ccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Métrica} & {Accuracy} & {Recall} & {Precision} \\
+		\hline
+		{Valor} & {00.00\%} & {00.00\%} & {00.00\%} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: Elaboración propia.
+	\end{flushleft}
+\end{table}
+
+\begin{comment}
 \begin{table}[H]
 	\caption[Accuracy, Recall y Precision del modelo híbrido]{Accuracy, Recall y Precision del modelo híbrido.}
 	\label{4:table26}
@@ -1539,6 +1570,7 @@ Además, también se presenta las métricas de Recall y Precision en la Figura \
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
 \end{table}
+\end{comment}
 
 \begin{comment}
 \begin{figure}[H]
@@ -1550,6 +1582,37 @@ Además, también se presenta las métricas de Recall y Precision en la Figura \
 	\end{center}
 \end{figure}
 \end{comment}
+
+De igual manera, en la Figura \ref{4:fig172} se presenta el proceso de entrenamiento del modelo híbrido ViT + VGG16 con los pesos pre-entrenados de IMAGENET1KV1 y el tipo de entrenamiento Fine Tuning.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.55\textwidth]{4/figures/modelH_train.PNG}
+		\caption[Proceso de entrenamiento del modelo híbrido ViT + VGG16]{Proceso de entrenamiento del modelo híbrido ViT + VGG16. \\
+		Fuente: Elaboración propia.}
+		\label{4:fig172}
+	\end{center}
+\end{figure}
+
+Se presenta las métricas de Accuracy, Recall y Precision en la Tabla \ref{4:table30}.
+
+\begin{table}[H]
+	\caption[Accuracy, Recall y Precision del modelo híbrido ViT + VGG16]{Accuracy, Recall y Precision del modelo híbrido ViT + VGG16.}
+	\label{4:table30}
+	\centering
+	\small
+	\begin{tabular}{c|ccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Métrica} & {Accuracy} & {Recall} & {Precision} \\
+		\hline
+		{Valor} & {00.00\%} & {00.00\%} & {00.00\%} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: Elaboración propia.
+	\end{flushleft}
+\end{table}
+
 
 \section{Medición de la solución}
 
@@ -1593,7 +1656,9 @@ En la Tabla \ref{4:table1} se presentan los resultados de los modelos.
 		{} & {} & \multirow{2}{4cm}{I-NET1K V2} & {FT} & {67.92\%} & {55.51\%} & {58.74\%} \\
 		{} & {} & {} & {TL} & {62.87\%} & {47.03\%} & {51.87\%} \\
 		\specialrule{.1em}{.05em}{.05em}
-		{No} & {Híbrido} & {I-NET1K V1} & {FT} & {67.92\%} & {78.81\%} & {55.86\%} \\
+		%{No} & {Híbrido} & {I-NET1K V1} & {FT} & {67.92\%} & {78.81\%} & {55.86\%} \\
+		{No} & {ViT + ResNet50} & {I-NET1K V1} & {FT} & {00.00\%} & {00.00\%} & {00.00\%} \\
+		{No} & {ViT + VGG16} & {I-NET1K V1} & {FT} & {00.00\%} & {00.00\%} & {00.00\%} \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\begin{flushleft}	

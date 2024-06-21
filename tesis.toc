@@ -47,12 +47,12 @@
 \contentsline {section}{\numberline {4.2}Propuesta solución}{77}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{77}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{80}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Medición de la solución}{121}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{121}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Simulación de solución}{123}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{125}{chapter.5}%
-\contentsline {chapter}{Referencias}{128}{chapter*.140}%
-\contentsline {chapter}{Anexos}{132}{section*.141}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{133}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{134}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{135}{section.Alph0.3}%
+\contentsline {section}{\numberline {4.3}Medición de la solución}{122}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{122}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Simulación de solución}{124}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{127}{chapter.5}%
+\contentsline {chapter}{Referencias}{130}{chapter*.142}%
+\contentsline {chapter}{Anexos}{134}{section*.143}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{135}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{136}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{137}{section.Alph0.3}%

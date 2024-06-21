@@ -68,6 +68,7 @@
 \contentsline {figure}{\numberline {67}{\ignorespaces Proceso de entrenamiento del modelo n°22}}{117}{figure.caption.129}%
 \contentsline {figure}{\numberline {68}{\ignorespaces Proceso de entrenamiento del modelo n°23}}{118}{figure.caption.131}%
 \contentsline {figure}{\numberline {69}{\ignorespaces Proceso de entrenamiento del modelo n°24}}{119}{figure.caption.133}%
-\contentsline {figure}{\numberline {70}{\ignorespaces Proceso de entrenamiento del modelo híbrido}}{120}{figure.caption.135}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Prueba de modelo con imágen de ultrasonido de nódulo maligno}}{123}{figure.caption.138}%
-\contentsline {figure}{\numberline {72}{\ignorespaces Prueba de modelo con imágen de ultrasonido de nódulo benigno}}{124}{figure.caption.139}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Proceso de entrenamiento del modelo híbrido ViT + ResNet50}}{121}{figure.caption.135}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Proceso de entrenamiento del modelo híbrido ViT + VGG16}}{122}{figure.caption.137}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Prueba de modelo con imágen de ultrasonido de nódulo maligno}}{125}{figure.caption.140}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Prueba de modelo con imágen de ultrasonido de nódulo benigno}}{126}{figure.caption.141}%
