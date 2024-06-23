@@ -487,6 +487,76 @@
       \field{title}{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}
       \field{year}{2022}
     \endentry
+    \entry{pr_gong2022ACL}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ae38fedd0b32d2faddbe0cb41944e300}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Haifan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9e1c29b6a7e4f9564f4805ce9463804}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=917fa239d186a9433399ea8d55d963e6}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79e6b09ab9cbfe608439ad4172afb726}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Shuangyi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7909f0f0920046958efde5fa65237de}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Guanqi},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa91db7fe68f65a4947983b89f69fd65}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00f201682f1cc8652ca55f95e7bf15dd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guanbin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af1aad1fa00205307b2b49cd7fff08d5}
+      \strng{fullhash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{fullhashraw}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{bibnamehash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{authorbibnamehash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{authornamehash}{af1aad1fa00205307b2b49cd7fff08d5}
+      \strng{authorfullhash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{authorfullhashraw}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}
+      \field{title}{Less is More: Adaptive Curriculum Learning for Thyroid Nodule Diagnosis}
+      \field{volume}{13434 LNCS}
+      \field{year}{2022}
+      \field{pages}{248\bibrangedash 257}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-031-16440-8_24
+      \endverb
+    \endentry
     \entry{pr_haugen2016amethy}{article}{}{}
       \name{author}{16}{}{%
         {{un=0,uniquepart=base,hash=9e1d0d46848136bc49aab733ad029116}{%
@@ -2712,6 +2782,76 @@
       \field{edition}{2}
       \field{title}{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}
       \field{year}{2022}
+    \endentry
+    \entry{pr_gong2022ACL}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ae38fedd0b32d2faddbe0cb41944e300}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Haifan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9e1c29b6a7e4f9564f4805ce9463804}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=917fa239d186a9433399ea8d55d963e6}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79e6b09ab9cbfe608439ad4172afb726}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Shuangyi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7909f0f0920046958efde5fa65237de}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Guanqi},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa91db7fe68f65a4947983b89f69fd65}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00f201682f1cc8652ca55f95e7bf15dd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guanbin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af1aad1fa00205307b2b49cd7fff08d5}
+      \strng{fullhash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{fullhashraw}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{bibnamehash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{authorbibnamehash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{authornamehash}{af1aad1fa00205307b2b49cd7fff08d5}
+      \strng{authorfullhash}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \strng{authorfullhashraw}{a0589c7b98f1cde9e5005c620a64dbfc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}
+      \field{title}{Less is More: Adaptive Curriculum Learning for Thyroid Nodule Diagnosis}
+      \field{volume}{13434 LNCS}
+      \field{year}{2022}
+      \field{pages}{248\bibrangedash 257}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-031-16440-8_24
+      \endverb
     \endentry
     \entry{pr_haugen2016amethy}{article}{}{}
       \name{author}{16}{}{%

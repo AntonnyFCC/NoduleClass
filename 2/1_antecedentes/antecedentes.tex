@@ -1096,3 +1096,62 @@ Los resultados se muestran en la Tabla \ref{2:table28}.
 
 En relación a los modelos CNN, se pudo observar que el de mayor desempeño fue el RestNet50 con el clasificador SVM, alcanzando un accuracy de 97.32\%. Este hallazgo permitió determinar el CNN a usar en el modelo híbrido propuesto (ResNet50-ViTB16) que obtuvo finalmente el mejor desempeño general con un accuracy de 97.63\%.
 
+Según \cite{pr_gong2022ACL} encontrar un nódulo tiroideo es relativamente común en varios casos clínicos, pues tiene una tasa de incidencia del 19\% al 68\%, de los cuales un 5\% al 15\% son malignos. Además, existe una gran variedad de imágenes médicas que puede pueden ser usadas para su diagnóstico, siendo las imágenes de ultrasonido la de mayor uso al momento de diagnósticas si un nódulo tiroideo es benigno o maligno. Sin embargo, este tipo de imágenes tiene un gran problema, es que no existe un estándar definido para tomar este tipo de imágenes a diferencia de otros tipos de imágenes como lo son las imágenes tomográficas. Esto conlleva a que las imágenes de ultrasonido sean muy variantes, de distintas resoluciones y con diferentes niveles de ruido. Es por todo esto que se menciona la alta necesidad de desarrollar un siste CAD capaz de aumentar la precisión en el proceso de diagóstico de nódulo tiroideos.
+
+Para el desarrollo de este tipo de sistema, en la investigación se propuso el uso de un nuevo marco de trabajo denominado Adaptative Curriculum Learning (ACL), utilizado en el proceso de entrenamiento y que es capaz de abordar el problema de etiquetas inconsistentes presente en la tarea de clasificación de nódulos tiroideos.
+
+El framework ACL tiene la capacidad de forzar al modelo entrenado a enfocarse en primera instancia en las imágenes más fácilas de clasificar y, posteriormente, en las más difíciles de forma gradual. Aquellas imágenes con etiquetas inconsistentes son descartadas del proceso de entrenamiento otorgándoles una pérdida de cero.
+
+En el proceso de entrenamiento, con cada mini lote de imágenes, el modelo realiza predicciones y el nivel de confianza sobre cada una de las muestras. Luego, en la cola de muestras difíciles, se añaden aquellas muestras que el modelo clasificó de forma incorrecta, mientras que en la cosa de certeza, se añaden las confianzas máximas calculadas de cada predicción realizada en el lote. Ya con estas dos colas pobladas, se procede a calcular el umbral adaptativo (T-ada) a través de ambas colas. Este umbral es usado para determinar la forma de cálculo de las pérdidas: si la confianza de predicción es superior al umbral, se calcula la pérdida a través de la entropía cruzada, en caso contrario, la muestra es descartada y se le asigna una pérdida de cero. Finalmente, la pérdida total del lote es calculada a través de la suma de todas las pérdidas de aquellas muestras que no han sido descartadas. Esta pérdida total calculada es usada para el proceso de retropropagación del modelo.
+
+Todo este proceso de entrenamiento con el ACL se puede observar en la Figura \ref{2:fig123}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.80\textwidth]{2/figures/acl_process.png}
+		\caption[Proceso de entrenamiento con ACL]{Proceso de entrenamiento con ACL. \\
+		Fuente: \cite{pr_gong2022ACL}. \textit{Less is More: Adaptive Curriculum Learning for Thyroid Nodule Diagnosis}.}
+		\label{2:fig123}
+	\end{center}
+\end{figure}
+
+Para realizar el entrenamiento de sus modelos con ACL, en la investigación se propone el uso del conjunto de datos TNCD (Thyroid Nodule Classification Dataset) que consiste de 3 493 imágenes de ultrasonido de nódulos tiroideos de 2 421 pacientes, y dividido en subconjuntos de entrenamiento y prueba, con el primero que consta de 2 879 imágenes (1 905 benignos y 974 malignos) y el segundo de 614 imágenes (378 benignos y 236 malignos). Este conjunto de datos es otorgado por el mismo repositorio online y de acceso libre de los investigadores, con el fin de facilitar futuras investigaciones en el área.
+
+Los backbone utilizados para el proceso de entrenamiento junto con el ACL fueron las arquitecturas de ResNet18, DenseNet121 y ConvNeXt-Tiny. Estos modelos fueron comparados con otras funciones de pérdida basadas en el aprendizaje curricular avanzado (Curriculum Loss y SuperLoss) y aplicadas con los mismos backbone.
+
+Todos los modelos fueron entrenados con el NVIDIA 3090 GPU y Pytorch. Los pesos iniciales fueron fueron sacados de las arquitecturas preentrenadas con ImageNet. El optimizador fue el Stochastic Gradient Descent (SGD) y una tasa de aprendizaje de 0.001. Las imágenes fueron redimensionadas a 224 x 224 píxeles, y se aplicó un aumento a través de un giro horizontal. Este proceso de Aumento de datos se aplicó a la clase minoritaria (imágenes de nódulos benignos). Finalmente, se definió a 16 el tamaño de lote y cantidad de épocas.
+
+Los resultados del entrenamiento se presentan en la Tabla \ref{2:table29}.
+
+\begin{table}[H]
+	\caption[Resultados del entrenamiento de los modelos con ACL]{Resultados del entrenamiento de los modelos con ACL.}
+	\label{2:table29}
+	\centering
+	\small
+	\begin{tabular}{p{2.8cm}cccccc}
+		\specialrule{.1em}{.05em}{.05em}
+		{Est. de Aprendizaje} & {Backbone} & {Accuracy} & {Precision} & {Recall} & {F1-score} & {AUC} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multirow{3}{4cm}{Cross Entropy} & {ResNet18} & {70.75\%} & {61.71\%} & {68.05\%} & {64.47\%} & {77.31\%} \\
+		{} & {DenseNet121} & {70.36\%} & {63.92\%} & {63.31\%} & {63.31\%} & {78.05\%} \\
+		{} & {ConvNeXt-Tiny} & {72.29\%} & {62.94\%} & {71.19\%} & {66.36\%} & {78.38\%} \\
+		\hline
+		\multirow{3}{4cm}{CL} & {ResNet18} & {70.54\%} & {62.87\%} & {65.85\%} & {64.04\%} & {76.98\%} \\
+		{} & {DenseNet121} & {70.03\%} & {62.44\%} & {65.25\%} & {63.31\%} & {77.27\%} \\
+		{} & {ConvNeXt-Tiny} & {72.14\%} & {60.21\%} & {75.76\%} & {67.00\%} & {74.37\%} \\
+		\hline
+		\multirow{3}{4cm}{SL} & {ResNet18} & {71.26\%} & {64.97\%} & {64.15\%} & {64.46\%} & {78.50\%} \\
+		{} & {DenseNet121} & {71.82\%} & {64.38\%} & {66.86\%} & {65.42\%} & {78.98\%} \\
+		{} & {ConvNeXt-Tiny} & {71.47\%} & {62.66\%} & {68.39\%} & {65.36\%} & {77.87\%} \\
+		\hline
+		\multirow{3}{4cm}{ACL} & {ResNet18} & {73.28\%} & {63.02\%} & {73.64\%} & {67.87\%} & {79.89\%} \\
+		{} & {DenseNet121} & {72.92\%} & {60.74\%} & {77.80\%} & {67.99\%} & {79.84\%} \\
+		{} & {ConvNeXt-Tiny} & {72.50\%} & {61.19\%} & {74.75\%} & {67.21\%} & {78.85\%} \\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	\begin{flushleft}	
+		\small Fuente: \cite{pr_gong2022ACL}. \textit{Less is More: Adaptive Curriculum Learning for Thyroid Nodule Diagnosis}.
+	\end{flushleft}
+\end{table}
+
+Los resultados muestran la superioridad de la estrategia de aprendizaje con ACL en comparación con las otras estrategias de aprendizaje, superando en las métricas de Accuracy, F1-score y AUC a los demás modelos.

@@ -3186,88 +3186,94 @@
     <bcf:citekey order="114" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
     <bcf:citekey order="115" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
     <bcf:citekey order="116" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="117" intorder="1">bk_hurbans2020grokking</bcf:citekey>
-    <bcf:citekey order="118" intorder="1">bk_moroney2020aiandml</bcf:citekey>
-    <bcf:citekey order="119" intorder="1">bk_moroney2020aiandml</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">bk_moroney2020aiandml</bcf:citekey>
-    <bcf:citekey order="121" intorder="1">bk_moroney2020aiandml</bcf:citekey>
-    <bcf:citekey order="122" intorder="1">bk_moroney2020aiandml</bcf:citekey>
-    <bcf:citekey order="123" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">pr_gong2022ACL</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">pr_gong2022ACL</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">pr_gong2022ACL</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">pr_gong2022ACL</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">pr_gong2022ACL</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">pr_gong2022ACL</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">bk_hurbans2020grokking</bcf:citekey>
     <bcf:citekey order="124" intorder="1">bk_moroney2020aiandml</bcf:citekey>
     <bcf:citekey order="125" intorder="1">bk_moroney2020aiandml</bcf:citekey>
     <bcf:citekey order="126" intorder="1">bk_moroney2020aiandml</bcf:citekey>
     <bcf:citekey order="127" intorder="1">bk_moroney2020aiandml</bcf:citekey>
     <bcf:citekey order="128" intorder="1">bk_moroney2020aiandml</bcf:citekey>
     <bcf:citekey order="129" intorder="1">bk_moroney2020aiandml</bcf:citekey>
-    <bcf:citekey order="130" intorder="1">pr_simonyan2015vdcn</bcf:citekey>
-    <bcf:citekey order="131" intorder="1">pr_he2016deepres</bcf:citekey>
-    <bcf:citekey order="132" intorder="1">pr_szegedy2015goingdwc</bcf:citekey>
-    <bcf:citekey order="133" intorder="1">pr_huang2016densconn</bcf:citekey>
-    <bcf:citekey order="134" intorder="1">pr_huang2016densconn</bcf:citekey>
-    <bcf:citekey order="135" intorder="1">pr_huang2016densconn</bcf:citekey>
-    <bcf:citekey order="136" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
-    <bcf:citekey order="137" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
-    <bcf:citekey order="138" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
-    <bcf:citekey order="139" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
-    <bcf:citekey order="140" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
-    <bcf:citekey order="141" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">bk_moroney2020aiandml</bcf:citekey>
+    <bcf:citekey order="136" intorder="1">pr_simonyan2015vdcn</bcf:citekey>
+    <bcf:citekey order="137" intorder="1">pr_he2016deepres</bcf:citekey>
+    <bcf:citekey order="138" intorder="1">pr_szegedy2015goingdwc</bcf:citekey>
+    <bcf:citekey order="139" intorder="1">pr_huang2016densconn</bcf:citekey>
+    <bcf:citekey order="140" intorder="1">pr_huang2016densconn</bcf:citekey>
+    <bcf:citekey order="141" intorder="1">pr_huang2016densconn</bcf:citekey>
     <bcf:citekey order="142" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
     <bcf:citekey order="143" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
-    <bcf:citekey order="144" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
-    <bcf:citekey order="145" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
-    <bcf:citekey order="146" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="147" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="148" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="149" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="150" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="151" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="144" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
+    <bcf:citekey order="145" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
+    <bcf:citekey order="146" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
+    <bcf:citekey order="147" intorder="1">pr_vaswani2017attentionisallneed</bcf:citekey>
+    <bcf:citekey order="148" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
+    <bcf:citekey order="149" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
+    <bcf:citekey order="150" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
+    <bcf:citekey order="151" intorder="1">pr_dosovitskiy2021animageisworth</bcf:citekey>
     <bcf:citekey order="152" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="153" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="154" intorder="1">pr_deng2022autclass</bcf:citekey>
-    <bcf:citekey order="155" intorder="1">pr_binboga2019thyroid</bcf:citekey>
-    <bcf:citekey order="156" intorder="1">pr_binboga2019thyroid</bcf:citekey>
-    <bcf:citekey order="157" intorder="1">pr_shin2016ultradiag</bcf:citekey>
-    <bcf:citekey order="158" intorder="1">pr_shin2016ultradiag</bcf:citekey>
-    <bcf:citekey order="159" intorder="1">pr_herrera2017diseimp</bcf:citekey>
-    <bcf:citekey order="160" intorder="1">pr_herrera2017diseimp</bcf:citekey>
-    <bcf:citekey order="161" intorder="1">pr_camacho2022ultrasonicimg</bcf:citekey>
-    <bcf:citekey order="162" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="163" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="164" intorder="1">bk_hurbans2020grokking</bcf:citekey>
-    <bcf:citekey order="165" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="166" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="167" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="168" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="169" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="170" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="154" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="155" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="156" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="157" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="158" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="159" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="160" intorder="1">pr_deng2022autclass</bcf:citekey>
+    <bcf:citekey order="161" intorder="1">pr_binboga2019thyroid</bcf:citekey>
+    <bcf:citekey order="162" intorder="1">pr_binboga2019thyroid</bcf:citekey>
+    <bcf:citekey order="163" intorder="1">pr_shin2016ultradiag</bcf:citekey>
+    <bcf:citekey order="164" intorder="1">pr_shin2016ultradiag</bcf:citekey>
+    <bcf:citekey order="165" intorder="1">pr_herrera2017diseimp</bcf:citekey>
+    <bcf:citekey order="166" intorder="1">pr_herrera2017diseimp</bcf:citekey>
+    <bcf:citekey order="167" intorder="1">pr_camacho2022ultrasonicimg</bcf:citekey>
+    <bcf:citekey order="168" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="169" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="170" intorder="1">bk_hurbans2020grokking</bcf:citekey>
     <bcf:citekey order="171" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="172" intorder="1">bk_geron2022handml</bcf:citekey>
     <bcf:citekey order="173" intorder="1">bk_geron2022handml</bcf:citekey>
-    <bcf:citekey order="174" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
-    <bcf:citekey order="175" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
-    <bcf:citekey order="176" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
-    <bcf:citekey order="177" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
-    <bcf:citekey order="178" intorder="1">pr_monroy2021disvc</bcf:citekey>
-    <bcf:citekey order="179" intorder="1">pr_monroy2021disvc</bcf:citekey>
-    <bcf:citekey order="180" intorder="1">ws_izco2018bdcp</bcf:citekey>
-    <bcf:citekey order="181" intorder="1">ws_izco2018bdcp</bcf:citekey>
-    <bcf:citekey order="182" intorder="1">ws_izco2018bdcp</bcf:citekey>
-    <bcf:citekey order="183" intorder="1">ws_izco2018bdcp</bcf:citekey>
-    <bcf:citekey order="184" intorder="1">ws_izco2018bdcp</bcf:citekey>
-    <bcf:citekey order="185" intorder="1">pr_simonyan2015vdcn</bcf:citekey>
-    <bcf:citekey order="186" intorder="1">pr_he2016deepres</bcf:citekey>
-    <bcf:citekey order="187" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="188" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="189" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="190" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="191" intorder="1">ws_inkawhich2024dcganpytorch</bcf:citekey>
-    <bcf:citekey order="192" intorder="1">ws_inkawhich2024dcganpytorch</bcf:citekey>
+    <bcf:citekey order="174" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="175" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="176" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="177" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="178" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="179" intorder="1">bk_geron2022handml</bcf:citekey>
+    <bcf:citekey order="180" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="181" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="182" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="183" intorder="1">bk_sampieri2014metodologia</bcf:citekey>
+    <bcf:citekey order="184" intorder="1">pr_monroy2021disvc</bcf:citekey>
+    <bcf:citekey order="185" intorder="1">pr_monroy2021disvc</bcf:citekey>
+    <bcf:citekey order="186" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="187" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="188" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="189" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="190" intorder="1">ws_izco2018bdcp</bcf:citekey>
+    <bcf:citekey order="191" intorder="1">pr_simonyan2015vdcn</bcf:citekey>
+    <bcf:citekey order="192" intorder="1">pr_he2016deepres</bcf:citekey>
     <bcf:citekey order="193" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
     <bcf:citekey order="194" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
     <bcf:citekey order="195" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
     <bcf:citekey order="196" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="197" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
-    <bcf:citekey order="198" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="197" intorder="1">ws_inkawhich2024dcganpytorch</bcf:citekey>
+    <bcf:citekey order="198" intorder="1">ws_inkawhich2024dcganpytorch</bcf:citekey>
+    <bcf:citekey order="199" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="200" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="201" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="202" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="203" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
+    <bcf:citekey order="204" intorder="1">pr_JERBI2023autoclassViTGAN</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
