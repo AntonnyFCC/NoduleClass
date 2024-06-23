@@ -1048,9 +1048,9 @@ La investigación propone que en lugar de alimentar con patches al modelo transf
 
 Los modelos CNN y ViT fueron entrenados con los mismos hiper-parámetros (optimizador SGD, tasa de aprendizaje de 0.0001, tamaño de lote de 32, 20 épocas e imágenes de 128 x 128).
 
-En el caso del modelo híbrido de mayor desempeño, se usó la función de activación Softmax y la función de pérdida binary-cross entropy. El clasificador fue un modelo SVM con kernel l2, función de activación lineal y función de pérdida hinge.
+En el caso específico de los modelos ViT se usó la función de activación Softmax con la función de pérdida Binary-Cross Entropy. En el caso del clasificador SVM, se usó el kernel l2, función de activación lineal y función de pérdida hinge.
 
-Las métricas usadas para evaluar los modelos entrenados fueron el accuracy, precision, recall y f1-score.
+Las métricas usadas para evaluar los modelos entrenados fueron el Accuracy, Precision, Recall y F1-score.
 
 Los resultados se muestran en la Tabla \ref{2:table28}.
 
@@ -1094,5 +1094,5 @@ Los resultados se muestran en la Tabla \ref{2:table28}.
 	\end{flushleft}
 \end{table}
 
-En relación a los modelos CNN, se pudo observar que el de mayor desempeño fue el RestNet50 con el clasificador SVM, alcanzando un accuracy de 97.63\%. Este hallazgo permitió determinar el CNN a usar en el modelo híbrido propuesto (ResNet50-ViTB16) que obtuvo finalmente el mejor desempeño general con un accuracy de 97.63\%.
+En relación a los modelos CNN, se pudo observar que el de mayor desempeño fue el RestNet50 con el clasificador SVM, alcanzando un accuracy de 97.32\%. Este hallazgo permitió determinar el CNN a usar en el modelo híbrido propuesto (ResNet50-ViTB16) que obtuvo finalmente el mejor desempeño general con un accuracy de 97.63\%.
 
